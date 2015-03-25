@@ -12,5 +12,6 @@
 		<Rectangle Fill="#FF0606F5" HorizontalAlignment="Left" Height="113.603" Margin="75.736,285.544,0,0" Stroke="Black" VerticalAlignment="Top" Width="69.594"/>
 		<Ellipse Fill="#FF0606F5" HorizontalAlignment="Left" Height="264.051" Margin="359.232,154.542,0,0" Stroke="Black" VerticalAlignment="Top" Width="262.005"/>
 		<Ellipse Fill="#FFF50606" HorizontalAlignment="Left" Height="122.814" Margin="206.738,285.544,0,0" Stroke="Black" VerticalAlignment="Top" Width="108.486"/>
+		<Ellipse Fill="#FFF4F5F4" HorizontalAlignment="Left" Height="78.806" Margin="515.821,28.657,0,0" Stroke="Black" VerticalAlignment="Top" Width="47.079"/>
 	</Grid>
 </UserControl>
