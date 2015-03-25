@@ -19,14 +19,22 @@
 				<TransformGroup>
 					<ScaleTransform/>
 					<SkewTransform/>
-					<RotateTransform Angle="28.41"/>
+					<RotateTransform Angle="59.531"/>
 					<TranslateTransform/>
 				</TransformGroup>
 			</Rectangle.RenderTransform>
 		</Rectangle>
-		<Rectangle Fill="#FF0606F5" HorizontalAlignment="Left" Height="113.603" Margin="372.831,366.397,0,0" Stroke="Black" VerticalAlignment="Top" Width="69.594"/>
-		<Ellipse Fill="#FFF50606" HorizontalAlignment="Left" Height="122.814" Margin="118.822,193.586,0,0" Stroke="Black" VerticalAlignment="Top" Width="108.486"/>
-		<Ellipse Fill="#FFF4F5F4" HorizontalAlignment="Left" Height="78.806" Margin="374.348,82.215,0,0" Stroke="Black" VerticalAlignment="Top" Width="47.079" RenderTransformOrigin="0.5,0.5">
+		<Ellipse Fill="#FFF50606" HorizontalAlignment="Left" Height="240.814" Margin="255.822,111.586,0,0" Stroke="Black" VerticalAlignment="Top" Width="171.486" RenderTransformOrigin="0.5,0.5">
+			<Ellipse.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-114.165"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Ellipse.RenderTransform>
+		</Ellipse>
+		<Ellipse Fill="#FFF4F5F4" HorizontalAlignment="Left" Height="78.806" Margin="18.348,6.215,0,0" Stroke="Black" VerticalAlignment="Top" Width="47.079" RenderTransformOrigin="0.5,0.5">
 			<Ellipse.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -36,7 +44,12 @@
 				</TransformGroup>
 			</Ellipse.RenderTransform>
 		</Ellipse>
-		<Ellipse Fill="#FFF11BE8" HorizontalAlignment="Left" Height="90.064" Margin="391.983,50.149,0,0" Stroke="Black" VerticalAlignment="Top" Width="88.017"/>
+		<Ellipse Fill="#FFF11BE8" HorizontalAlignment="Left" Height="90.064" Margin="541.983,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="88.017"/>
+		<Path Data="M141,166 C146,215 167.5,259.5 123.5,265.5 79.5,271.5 32.500157,291.5 86.500064,307.5 140.49997,323.5 148.49996,332.5 167.49986,357.5 186.49977,382.5 303.49915,392.5 219.49959,397.5 135.50003,402.5 14.500665,493.5 148.49996,432.5 282.49926,371.5 635.49742,409.49989 471.49827,420.49989 307.49913,431.49988 337.49883,601.49981 440.49824,413.49989 543.49765,225.49997 323.49892,19.500214&#xD;&#xA;236.49941,189.49997 149.49991,359.49972 -130.49848,613.49921 133.50001,388.49981 397.49849,163.50042 905.49561,-147.49875 518.4978,74.500657 131.49998,296.50006 482.49768,847.49864 239.49922,428.49969 -3.4992345,9.5007451 -165.49821,-250.49867 125.49995,82.500585" Fill="#FF2BF02B" HorizontalAlignment="Left" Height="651.681" Margin="-30.413,-69.239,-19.876,-102.442" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="690.289"/>
+		<TextBlock HorizontalAlignment="Left" Height="199" Margin="136,10,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Width="388"><Run Language="en-gb" Text="I WAS HEREEEEEEEE"/><InlineUIContainer>
+				<Grid Height="18" Width="5"/>
+			</InlineUIContainer></TextBlock>
+		<Grid HorizontalAlignment="Left" Height="150" Margin="28,200,0,0" VerticalAlignment="Top" Width="164"/>
 		<TextBlock HorizontalAlignment="Left" Height="100.533" Margin="505.928,320.107,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Width="124.072"><Run Language="en-gb" Text="Andrew was here"/><InlineUIContainer>
 				<Rectangle Fill="#FFF4F4F5" Height="100" Stroke="Black" Width="100"/>
 			</InlineUIContainer></TextBlock>
