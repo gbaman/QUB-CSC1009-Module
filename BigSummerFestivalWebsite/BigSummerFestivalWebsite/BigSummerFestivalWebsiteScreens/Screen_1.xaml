@@ -25,7 +25,7 @@
 					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalWebsiteScreens.Screen_3"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers></Button>
-		<Rectangle Fill="#FF0606F5" HorizontalAlignment="Left" Height="294" Margin="403.5,315,0,0" Stroke="Black" VerticalAlignment="Top" Width="376.5"/>
+		<Rectangle Fill="#000" HorizontalAlignment="Left" Height="294" Margin="403.5,315,0,0" Stroke="Black" VerticalAlignment="Top" Width="376.5"/>
 	
 	</Grid>
 </UserControl>
