@@ -50,12 +50,19 @@
 				<Grid Height="18" Width="5"/>
 			</InlineUIContainer></TextBlock>
 		<Grid HorizontalAlignment="Left" Height="150" Margin="28,200,0,0" VerticalAlignment="Top" Width="164"/>
+<<<<<<< .mine
+		<Label Content="Hi Bob" HorizontalAlignment="Left" Height="199.574" Margin="70.618,72.665,0,0" VerticalAlignment="Top" Width="371.807"/>
+=======
 		<TextBlock HorizontalAlignment="Left" Height="100.533" Margin="505.928,320.107,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Width="124.072"><Run Language="en-gb" Text="Andrew was here"/><InlineUIContainer>
 				<Rectangle Fill="#FFF4F4F5" Height="100" Stroke="Black" Width="100"/>
 			</InlineUIContainer></TextBlock>
 		<Ellipse Fill="#FF20B200" HorizontalAlignment="Left" Height="108.487" Margin="46.055,68.571,0,0" Stroke="Black" VerticalAlignment="Top" Width="133.049"/>
 		<Ellipse Fill="#FF20B200" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="100"/>
 		<Rectangle Fill="#FFB2AA00" HorizontalAlignment="Left" Height="119.744" Margin="59.36,335.693,0,0" Stroke="Black" VerticalAlignment="Top" Width="214.926"/>
+<<<<<<< .mine
+>>>>>>> .r23
+=======
 		<Label Content="DANIEL " HorizontalAlignment="Left" Height="61.407" Margin="480,78.806,0,0" VerticalAlignment="Top" Width="76.759"/>
+>>>>>>> .r24
 	</Grid>
 </UserControl>
