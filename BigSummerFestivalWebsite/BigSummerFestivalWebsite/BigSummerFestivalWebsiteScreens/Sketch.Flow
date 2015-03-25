@@ -10,8 +10,8 @@
       <FileName>Screen_1.xaml</FileName>
       <Annotations />
       <Position>
-        <X>0</X>
-        <Y>0</Y>
+        <X>2</X>
+        <Y>32</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -22,8 +22,8 @@
       <FileName>Screen_2.xaml</FileName>
       <Annotations />
       <Position>
-        <X>0</X>
-        <Y>104</Y>
+        <X>2</X>
+        <Y>139</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>

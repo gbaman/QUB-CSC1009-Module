@@ -4,17 +4,33 @@
 library
 C#
 .cs
+<<<<<<< .mine
+C:\Users\40127279\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\BigSummerFestivalWebsiteScreens\obj\Debug\
+=======
 C:\Users\40126214\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\BigSummerFestivalWebsiteScreens\obj\Debug\
+>>>>>>> .r13
 BigSummerFestivalWebsiteScreens
 none
 false
 DEBUG;TRACE
 
+<<<<<<< .mine
+3-183831449
+=======
 41929794043
+>>>>>>> .r13
 
+<<<<<<< .mine
+4-1439052905
+=======
 51309668036
+>>>>>>> .r13
 17917180773
+<<<<<<< .mine
+Screen_1.xaml;Screen_2.xaml;SketchStyles.xaml;
+=======
 Screen_1.xaml;Screen_2.xaml;Screen_3.xaml;SketchStyles.xaml;
+>>>>>>> .r13
 
 False
 
