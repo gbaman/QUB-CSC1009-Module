@@ -106,3 +106,5 @@ G:\Dev\C#\BigSummerFestival\BigSummerFestivalWebsite_Copy1\BigSummerFestivalWebs
 G:\Dev\C#\BigSummerFestival\BigSummerFestivalWebsite_Copy1\BigSummerFestivalWebsite\obj\Debug\App.g.cs
 G:\Dev\C#\BigSummerFestival\BigSummerFestivalWebsite_Copy1\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite_MarkupCompile.cache
 G:\Dev\C#\BigSummerFestival\BigSummerFestivalWebsite_Copy1\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite.g.resources
+C:\Users\40126214\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite.exe
+C:\Users\40126214\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite.pdb
