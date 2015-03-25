@@ -43,5 +43,6 @@
 		<Ellipse Fill="#FF20B200" HorizontalAlignment="Left" Height="108.487" Margin="46.055,68.571,0,0" Stroke="Black" VerticalAlignment="Top" Width="133.049"/>
 		<Ellipse Fill="#FF20B200" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="100"/>
 		<Rectangle Fill="#FFB2AA00" HorizontalAlignment="Left" Height="119.744" Margin="59.36,335.693,0,0" Stroke="Black" VerticalAlignment="Top" Width="214.926"/>
+		<Label Content="DANIEL " HorizontalAlignment="Left" Height="61.407" Margin="480,78.806,0,0" VerticalAlignment="Top" Width="76.759"/>
 	</Grid>
 </UserControl>

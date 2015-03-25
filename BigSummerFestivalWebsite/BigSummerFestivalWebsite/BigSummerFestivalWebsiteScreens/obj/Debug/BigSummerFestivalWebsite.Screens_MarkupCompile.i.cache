@@ -4,7 +4,11 @@
 library
 C#
 .cs
+<<<<<<< .mine
+I:\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\BigSummerFestivalWebsiteScreens\obj\Debug\
+=======
 C:\Users\40126214\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\BigSummerFestivalWebsiteScreens\obj\Debug\
+>>>>>>> .r22
 BigSummerFestivalWebsiteScreens
 none
 false

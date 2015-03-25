@@ -107,6 +107,10 @@ G:\Dev\C#\BigSummerFestival\BigSummerFestivalWebsite_Copy1\BigSummerFestivalWebs
 G:\Dev\C#\BigSummerFestival\BigSummerFestivalWebsite_Copy1\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite_MarkupCompile.cache
 G:\Dev\C#\BigSummerFestival\BigSummerFestivalWebsite_Copy1\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite.g.resources
 <<<<<<< .mine
+I:\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite.exe
+I:\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite.pdb
+=======
+<<<<<<< .mine
 C:\Users\40127279\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\bin\Debug\sitebackground.jpg
 C:\Users\40127279\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\bin\Debug\BigSummerFestivalWebsite.exe
 C:\Users\40127279\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\bin\Debug\BigSummerFestivalWebsite.pdb
@@ -217,3 +221,4 @@ C:\Users\40126214\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFesti
 C:\Users\40126214\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite_MarkupCompile.cache
 C:\Users\40126214\Documents\csc1009mike1\BigSummerFestivalWebsite\BigSummerFestivalWebsite\obj\Debug\BigSummerFestivalWebsite.g.resources
 >>>>>>> .r13
+>>>>>>> .r22
