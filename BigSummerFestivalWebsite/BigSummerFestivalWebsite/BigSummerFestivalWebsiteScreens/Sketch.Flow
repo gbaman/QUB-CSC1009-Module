@@ -27,37 +27,11 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
-    <Screen>
-      <Type>Navigation</Type>
-      <ClassName>BigSummerFestivalWebsiteScreens.Screen_3</ClassName>
-      <DisplayName>Bob</DisplayName>
-      <FileName>Screen_3.xaml</FileName>
-      <Annotations />
-      <Position>
-        <X>187</X>
-        <Y>-2</Y>
-      </Position>
-      <VisualTag>0</VisualTag>
-    </Screen>
   </Screens>
   <Connections>
     <Connection>
       <Source>BigSummerFestivalWebsiteScreens.Screen_1</Source>
       <Target>BigSummerFestivalWebsiteScreens.Screen_2</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BigSummerFestivalWebsiteScreens.Screen_3</Source>
-      <Target>BigSummerFestivalWebsiteScreens.Screen_1</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BigSummerFestivalWebsiteScreens.Screen_1</Source>
-      <Target>BigSummerFestivalWebsiteScreens.Screen_3</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>

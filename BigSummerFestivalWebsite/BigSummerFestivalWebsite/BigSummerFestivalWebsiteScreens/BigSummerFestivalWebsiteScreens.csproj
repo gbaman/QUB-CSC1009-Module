@@ -66,18 +66,11 @@
     <Compile Include="Screen_2.xaml.cs">
       <DependentUpon>Screen_2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Screen_3.xaml.cs">
-      <DependentUpon>Screen_3.xaml</DependentUpon>
-    </Compile>
     <Page Include="Screen_1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Screen_2.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Screen_3.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

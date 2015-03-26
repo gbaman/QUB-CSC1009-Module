@@ -19,12 +19,7 @@
 					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalWebsiteScreens.Screen_2"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers></Button>
-		<Button Content="GALLERY" HorizontalAlignment="Left" Margin="600,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" Style="{DynamicResource Button-Nav-Bar}" x:Name="btn3">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="Click">
-					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalWebsiteScreens.Screen_3"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers></Button>
+		<Button Content="GALLERY" HorizontalAlignment="Left" Margin="600,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" Style="{DynamicResource Button-Nav-Bar}" x:Name="btn3"/>
 		<Rectangle Fill="#000" HorizontalAlignment="Left" Height="294" Margin="403.5,315,0,0" Stroke="Black" VerticalAlignment="Top" Width="376.5"/>
 	
 	</Grid>
