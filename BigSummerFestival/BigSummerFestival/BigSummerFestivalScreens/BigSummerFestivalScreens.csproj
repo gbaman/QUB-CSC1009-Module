@@ -206,6 +206,11 @@
     </Compile>
     <Resource Include="Sketch.Flow" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	     Other similar extension points exist, see Microsoft.Common.targets.

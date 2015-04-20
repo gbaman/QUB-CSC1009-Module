@@ -5,7 +5,11 @@
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="BigSummerFestivalScreens_Screen_1_Name"
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Screen_1"
-	Width="640" Height="480">
+	Style="{StaticResource WindowStyles}"
+	Template="{StaticResource Template}">
 
-	<Grid x:Name="LayoutRoot" Background="White"/>
+	<Grid x:Name="LayoutRoot" Background="White">
+
+
+	</Grid>
 </UserControl>
