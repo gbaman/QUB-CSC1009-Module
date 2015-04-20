@@ -204,6 +204,7 @@
     <Compile Include="..\Properties\Version.cs">
       <Link>Properties\Version.cs</Link>
     </Compile>
+    <Resource Include="sitelogo.png" />
     <Resource Include="Sketch.Flow" />
   </ItemGroup>
   <ItemGroup>

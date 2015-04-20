@@ -1254,7 +1254,16 @@
 	</Style>
 
 	<ControlTemplate x:Key="Template" TargetType="UserControl">
-		<Image Source="pack://siteoforigin:,,,/bg.jpg"/>
+		<Grid x:Name="LayoutRoot" Background="White">
+			<Image Source="pack://siteoforigin:,,,/bg.jpg" Stretch="Fill"/>
+			<Rectangle Fill="#454545" Height="75" Margin="238,131,238,0" Stroke="Black" VerticalAlignment="Top" RadiusX="20" RadiusY="20" Opacity="0.8" StrokeThickness="0"/>
+			<Image Margin="795,56,796,819" Source="sitelogo.png" Stretch="Fill"/>
+			<Button Content="Home" HorizontalAlignment="Left" Margin="300,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn1">
+				<!-- Trying to add a click listener here and failing :( -->
+			</Button>
+			<Button Content="Events" HorizontalAlignment="Left" Margin="470,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn2"></Button>
+			<Button Content="Gallery" HorizontalAlignment="Left" Margin="640,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3"></Button>
+		</Grid>
 </ControlTemplate>
 
 </ResourceDictionary>
