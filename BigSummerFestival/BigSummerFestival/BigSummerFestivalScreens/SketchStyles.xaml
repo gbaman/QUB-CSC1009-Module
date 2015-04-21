@@ -1248,6 +1248,8 @@
 		<Setter Property="TextAlignment" Value="Right"/>
 	</Style>
 
+	<!-- Our Custom Big Summer Festival Code -->
+
 	<Style x:Key="WindowStyles" TargetType="UserControl" >
 		<Setter Property="Width" Value="1920" />
 		<Setter Property="Height" Value="1080"/>
@@ -1265,5 +1267,23 @@
 			<Button Content="Gallery" HorizontalAlignment="Left" Margin="640,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3"></Button>
 		</Grid>
 </ControlTemplate>
+
+	<Style TargetType="{x:Type Button}" x:Key="NavButton">
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type Button}">
+					<Border Background="{TemplateBinding Background}">
+						<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+					</Border>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+		<Style.Triggers>
+			<Trigger Property="IsMouseOver" Value="True">
+				<Setter Property="Background" Value="blue"/>
+			</Trigger>
+		</Style.Triggers>
+	</Style>
 
 </ResourceDictionary>

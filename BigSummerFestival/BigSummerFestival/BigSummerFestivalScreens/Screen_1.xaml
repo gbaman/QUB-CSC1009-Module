@@ -5,11 +5,27 @@
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="BigSummerFestivalScreens_Screen_1_Name"
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Screen_1"
-	Style="{StaticResource WindowStyles}"
-	Template="{StaticResource Template}">
+	Style="{StaticResource WindowStyles}">
 
 	<Grid x:Name="LayoutRoot" Background="White">
-
-
+		<Image Source="pack://siteoforigin:,,,/bg.jpg" Stretch="Fill"/>
+  <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+    <Grid x:Name="MainContainer" Width="1920">
+			<Rectangle Fill="#454545" Height="75" Margin="238,131,238,0" Stroke="Black" VerticalAlignment="Top" RadiusX="20" RadiusY="20" Opacity="0.8" StrokeThickness="0"/>
+			<Image Margin="781,40,810,835" Source="sitelogo.png" Stretch="Fill"/>
+			<Button Content="Home" HorizontalAlignment="Left" Margin="300,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn1" Style="{StaticResource NavButton}">
+				<!-- Trying to add a click listener here and failing :( -->
+			</Button>
+			<Button Content="Events" HorizontalAlignment="Left" Margin="470,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn2"></Button>
+			<Button Content="Gallery" HorizontalAlignment="Left" Margin="640,149,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3"></Button>
+			<Image Margin="1505.333,138.526,294.333,885.474" Source="view-cart-button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"></Image>
+			<Grid x:Name="MainPanel" Width="900" Margin="485,233,535,-27" Background="White">
+				<TextBlock Margin="0,0,138,0" TextWrapping="Wrap" FontSize="30">
+				
+				</TextBlock>
+			</Grid>
+			<TextBox HorizontalAlignment="Left" Height="46.526" Margin="1174,148,0,0" TextWrapping="Wrap" Text="Search Bar" VerticalAlignment="Top" Width="229"/>
+	    </Grid>
+  </ScrollViewer>
 	</Grid>
 </UserControl>

@@ -206,6 +206,7 @@
     </Compile>
     <Resource Include="sitelogo.png" />
     <Resource Include="Sketch.Flow" />
+    <Resource Include="view-cart-button.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bg.jpg">
