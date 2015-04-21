@@ -44,3 +44,4 @@ I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Bi
 I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.dll
 I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.pdb
 I:\svn\BigSummerFestival\BigSummerFestival\bin\Debug\bg.jpg
+I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
