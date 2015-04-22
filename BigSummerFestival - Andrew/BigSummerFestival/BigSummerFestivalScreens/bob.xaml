@@ -1,0 +1,40 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	mc:Ignorable="d"
+	x:Class="BigSummerFestivalScreens.bob"
+	x:Name="UserControl"
+	d:DesignWidth="1920" d:DesignHeight="1080" Height="1080" Width="1920">
+
+	<Grid x:Name="LayoutRoot">
+		<Rectangle Fill="#454545" Height="75" Margin="238,0,238,880" Stroke="Black" VerticalAlignment="Bottom" RadiusX="20" RadiusY="20" Opacity="0.8" StrokeThickness="0"/>
+		<Image Margin="10,10,10,860" Source="sitelogo.png" Stretch="Uniform"/>
+		<Button Content="Home" HorizontalAlignment="Left" Margin="300, 145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn1" Style="{StaticResource NavButton}">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+			<!-- Trying to add a click listener here and failing :( -->
+		</Button>
+		<Button Content="Events" HorizontalAlignment="Left" Margin="470,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn2" Style="{StaticResource NavButton}">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_2"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Gallery" HorizontalAlignment="Left" Margin="640,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3" Style="{StaticResource NavButton}">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Josh"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Image Margin="1505.333,138.526,294.333,941.474" Source="view-cart-button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
+		<TextBox HorizontalAlignment="Left" Height="46.526" Margin="1174,148,0,0" TextWrapping="Wrap" Text="Search Bar" VerticalAlignment="Top" Width="229"/>
+	</Grid>
+</UserControl>
