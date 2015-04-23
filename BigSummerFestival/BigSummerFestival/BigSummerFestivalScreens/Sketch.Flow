@@ -231,6 +231,30 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Composition</Type>
+      <ClassName>BigSummerFestivalScreens.NavBarComponent</ClassName>
+      <DisplayName>NavBarComponent</DisplayName>
+      <FileName>NavBarComponent.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>66</X>
+        <Y>103</Y>
+      </Position>
+      <VisualTag>1</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Composition</Type>
+      <ClassName>BigSummerFestivalScreens.Footer</ClassName>
+      <DisplayName>Footer</DisplayName>
+      <FileName>Footer.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>66</X>
+        <Y>138</Y>
+      </Position>
+      <VisualTag>1</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -359,6 +383,34 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_1</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.NavBarComponent</Source>
+      <Target>BigSummerFestivalScreens.Screen_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.NavBarComponent</Source>
+      <Target>BigSummerFestivalScreens.Josh</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_1</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -406,7 +458,7 @@
   <ViewState>
     <Zoom>1</Zoom>
     <Center>
-      <X>1128.2958633093522</X>
+      <X>65.821679958456883</X>
       <Y>58</Y>
     </Center>
   </ViewState>

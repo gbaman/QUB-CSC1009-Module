@@ -21,6 +21,18 @@ namespace BigSummerFestivalScreens
 		public Screen_1()
 		{
 			this.InitializeComponent();
+			this.SizeChanged += OnWindowSizeChanged;
+			this.Width = System.Windows.SystemParameters.PrimaryScreenWidth;
+			this.Height = System.Windows.SystemParameters.PrimaryScreenHeight;
+		}
+		
+		protected void OnWindowSizeChanged(object sender, SizeChangedEventArgs e)
+		{
+			double newWindowHeight = e.NewSize.Height;
+			double newWindowWidth = e.NewSize.Width;
+			double prevWindowHeight = e.PreviousSize.Height;
+			double prevWindowWidth = e.PreviousSize.Width;
+			System.Diagnostics.Debug.WriteLine(newWindowWidth);
 		}
 	}
 }

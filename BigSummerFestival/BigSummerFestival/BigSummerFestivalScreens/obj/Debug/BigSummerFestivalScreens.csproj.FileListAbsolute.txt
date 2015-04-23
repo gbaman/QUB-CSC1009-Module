@@ -45,3 +45,8 @@ I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Bi
 I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.pdb
 I:\svn\BigSummerFestival\BigSummerFestival\bin\Debug\bg.jpg
 I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\NavBarComponent.baml
+I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\NavBarComponent.g.cs
+I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens_MarkupCompile.lref
+I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Footer.baml
+I:\svn\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Footer.g.cs
