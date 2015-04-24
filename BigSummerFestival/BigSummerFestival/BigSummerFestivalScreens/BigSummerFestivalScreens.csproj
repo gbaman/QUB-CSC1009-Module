@@ -75,8 +75,8 @@
     <Compile Include="Early_Access_Tickets.xaml.cs">
       <DependentUpon>Early_Access_Tickets.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Finacial_Information.xaml.cs">
-      <DependentUpon>Finacial_Information.xaml</DependentUpon>
+    <Compile Include="Financial_Information.xaml.cs">
+      <DependentUpon>Financial_Information.xaml</DependentUpon>
     </Compile>
     <Compile Include="Footer.xaml.cs">
       <DependentUpon>Footer.xaml</DependentUpon>
@@ -143,7 +143,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Finacial_Information.xaml">
+    <Page Include="Financial_Information.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

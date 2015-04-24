@@ -12,13 +12,11 @@
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
-					<StackPanel Width="1200" Background="White" >
-					<TextBlock TextWrapping="Wrap" FontSize="30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie lobortis velit vel viverra. Curabitur placerat urna non nunc facilisis vehicula. Sed eget facilisis enim, eget tristique lectus. Cras molestie, lectus id ullamcorper fringilla, orci turpis ultricies lacus, a eleifend velit felis eget neque. Aenean malesuada tellus interdum, faucibus neque a, condimentum massa. Curabitur pharetra consequat eros, non faucibus arcu pulvinar at. Ut elementum dolor gravida dapibus tincidunt. Maecenas et tortor vitae turpis pellentesque hendrerit vel eu ante. Nullam sit amet mauris urna. Proin elementum vulputate erat et faucibus. Duis eget est euismod, feugiat justo ullamcorper, commodo tortor. Donec dignissim, ante ut iaculis vestibulum, augue sapien aliquet quam, pretium tempor metus lacus ac orci. Ut convallis justo massa.
+					<StackPanel Width="1200" Background="White">
+						<!-- Add Your Page Content Between these top Comments -->
 
-Maecenas non felis in tellus pharetra bibendum in ac odio. Sed interdum in nibh at viverra. Aliquam finibus sollicitudin ultricies. Proin non odio orci. Curabitur ornare mi turpis, eget vestibulum felis congue nec. Suspendisse sit amet tristique orci. Nullam sed augue non metus auctor malesuada. Proin lobortis urna neque, et sodales mi rhoncus ac. Nunc varius placerat varius.
-
-Phasellus nec placerat est. Aenean convallis eu purus ut imperdiet. Etiam eu congue magna. Curabitur egestas, nisi sed porttitor finibus, est nibh sollicitudin odio, quis dignissim magna lacus id magna. Aliquam augue nisi, blandit vitae elementum vitae, volutpat vitae justo. Donec dictum dui sit amet massa accumsan, sed ullamcorper felis dictum. Phasellus tincidunt nec neque ut dapibus. Vestibulum malesuada faucibus risus. Proin id ex non ex pharetra fermentum. Donec non metus id diam venenatis maximus quis quis odio.</TextBlock>
-					<local:Footer d:IsPrototypingComposition="True"/>
+						<!-- End of Section -->
+						<local:Footer d:IsPrototypingComposition="True"/>			
 					</StackPanel>
 					</Border>
 				</Grid>
@@ -26,4 +24,5 @@ Phasellus nec placerat est. Aenean convallis eu purus ut imperdiet. Etiam eu con
 				</Grid>
 		</ScrollViewer>
 	</Grid>
+	
 </UserControl>
