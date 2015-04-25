@@ -16,9 +16,9 @@ namespace BigSummerFestivalScreens
 	/// <summary>
 	/// Interaction logic for Finacial_Information.xaml
 	/// </summary>
-	public partial class Finacial_Information : UserControl
+	public partial class Financial_Information : UserControl
 	{
-		public Finacial_Information()
+        public Financial_Information()
 		{
 			this.InitializeComponent();
 		}

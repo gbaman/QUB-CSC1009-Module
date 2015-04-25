@@ -149,7 +149,7 @@
     </Screen>
     <Screen>
       <Type>Navigation</Type>
-      <ClassName>BigSummerFestivalScreens.Finacial_Information</ClassName>
+      <ClassName>BigSummerFestivalScreens.Financial_Information</ClassName>
       <DisplayName>Financial Information</DisplayName>
       <FileName>Financial_Information.xaml</FileName>
       <Annotations />
@@ -336,7 +336,7 @@
     </Connection>
     <Connection>
       <Source>BigSummerFestivalScreens.Management</Source>
-      <Target>BigSummerFestivalScreens.Finacial_Information</Target>
+      <Target>BigSummerFestivalScreens.Financial_Information</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
