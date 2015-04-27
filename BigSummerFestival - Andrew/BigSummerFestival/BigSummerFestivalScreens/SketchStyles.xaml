@@ -1332,4 +1332,8 @@
 			</Trigger>
 		</Style.Triggers>
 	</Style>
+	
+	<Style TargetType="StackPanel" x:Key="pageContent">
+		<Setter Property="Height" Value="1000"/>
+	</Style>
 </ResourceDictionary>
