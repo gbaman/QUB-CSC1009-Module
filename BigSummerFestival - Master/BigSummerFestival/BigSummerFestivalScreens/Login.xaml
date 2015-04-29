@@ -15,7 +15,8 @@
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
-							
+							<Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+							<Button Content="Button" HorizontalAlignment="Left" Margin="235.5,166,0,0" VerticalAlignment="Top" Width="75"/>
 						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			
