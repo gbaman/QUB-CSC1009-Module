@@ -217,6 +217,7 @@
     </Page>
     <Resource Include="2641129-rolling-stones-617-409.jpg" />
     <Resource Include="Event Page.jpg" />
+    <Resource Include="facebook.jpg" />
     <Resource Include="facebook_button.png" />
     <Resource Include="fb_event_button.png" />
     <Resource Include="Fonts\BuxtonSketch.ttf" />
@@ -243,6 +244,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="jayz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="photoslider.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="the-rolling-stones-wallpaper_154075-1920x1080.jpg">
