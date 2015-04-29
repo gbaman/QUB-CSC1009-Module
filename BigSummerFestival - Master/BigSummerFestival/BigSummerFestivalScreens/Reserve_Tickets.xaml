@@ -64,9 +64,19 @@
 									</TabControl>
 									<Grid Margin="863,319.003,184.5,38.013" Background="#EEE">
 										<TextBlock HorizontalAlignment="Center" FontSize="20" Margin="45.631,10,48.631,-10">£15.00</TextBlock>
-									<Button Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987"/>
+									<Button Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987">
+									</Button>
 									</Grid>
-									<Button Content="ScrollDown" x:Name="btn1" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+									<Button Content="ScrollDown" x:Name="btn1" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+										<Button.Background>
+											<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+												<GradientStop Color="#FFF3F3F3" Offset="0"/>
+												<GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+												<GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+												<GradientStop Color="#FFCDCDCD" Offset="1"/>
+											</LinearGradientBrush>
+										</Button.Background>
+									</Button>
 									<!-- Second Section ( Event Information )-->
 								</Grid>
 								<Grid Background="#FF2E93E8" Height="1030" Margin="0,0,0,0">
