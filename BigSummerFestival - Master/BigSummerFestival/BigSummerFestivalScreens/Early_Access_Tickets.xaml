@@ -12,13 +12,25 @@
 				<Setter.Value>
 					<ControlTemplate TargetType="{x:Type Button}">
 						<Grid>
-							<Rectangle StrokeThickness="5" Stroke="#FF999999" RadiusX="20" RadiusY="20" Fill="White"/>
+							<Rectangle x:Name="rectangle" StrokeThickness="5" Stroke="#FF999999" RadiusX="20" RadiusY="20" Fill="White"/>
 							<ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
 						</Grid>
 						<ControlTemplate.Triggers>
 							<Trigger Property="IsFocused" Value="True"/>
 							<Trigger Property="IsDefaulted" Value="True"/>
-							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Background">
+									<Setter.Value>
+										<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+											<GradientStop Color="#FFF3F3F3" Offset="0"/>
+											<GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+											<GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+											<GradientStop Color="White" Offset="1"/>
+										</LinearGradientBrush>
+									</Setter.Value>
+								</Setter>
+								<Setter Property="Fill" TargetName="rectangle" Value="#FFE6E6E6"/>
+							</Trigger>
 							<Trigger Property="IsPressed" Value="True"/>
 							<Trigger Property="IsEnabled" Value="False"/>
 						</ControlTemplate.Triggers>
@@ -29,7 +41,7 @@
 	</UserControl.Resources>
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="10,0,-10,0">
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
@@ -41,7 +53,7 @@
 							<Button Content="Management Interface" Height="77.612" Margin="0,4,11.089,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="307.463" FontSize="29.333" HorizontalAlignment="Right">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="Click">
-										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Early_Access_Tickets"/>
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Management"/>
 									</i:EventTrigger>
 								</i:Interaction.Triggers>
 							</Button>
@@ -51,15 +63,20 @@
 						<Label Content="Create New Early Access Tickets" FontSize="22"/>
 						<Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1180" Margin="10,0,0,0">
 							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="6,0,0,0"/>
-							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="239.021,0,0,0"/>
-							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="471.014,0,0,0"/>
-							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="704.007,0,0,0"/>
-							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="935.5,0,0,0"/>
+							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="239.021,0,0,0"/>
+							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="471.014,0,0,0"/>
+							<Label Content="Tickets Total" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="704.007,0,0,0"/>
+							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="935.5,0,0,0"/>
+							<ComboBox HorizontalAlignment="Left" Margin="6,43.967,0,0" VerticalAlignment="Top" Width="235" Height="44.54" Background="White" BorderThickness="3" BorderBrush="#FFB2DB8D"/>
+							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="239.021,44.79,0,0"/>
+							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="471.014,44.79,0,0"/>
+							<Label Content="Tickets Total" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="704.007,44.79,0,0"/>
+							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="935.5,44.79,0,0"/>
 						</Grid>	
 
 						<Label Content="List of Currently Ongoing Sales" FontSize="22"/>
-<!-- End of Section -->
-						<local:Footer d:IsPrototypingComposition="True"/>	
+						<local:Footer d:IsPrototypingComposition="True"/>
+<!-- End of Section -->	
 					</StackPanel>
 					</Border>
 				</Grid>
