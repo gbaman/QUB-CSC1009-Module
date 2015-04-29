@@ -2,8 +2,9 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="BigSummerFestivalScreens_Management_Name"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	xmlns:local="clr-namespace:BigSummerFestivalScreens"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="BigSummerFestivalScreens_Management_Name"
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Screen_2"
 	Style="{StaticResource WindowStyles}">
@@ -13,16 +14,60 @@
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
-					<StackPanel Width="1200" Background="White" >
-						<!-- Add Your Page Content Between these top Comments -->
-						<TextBlock>Events</TextBlock>
-						<!-- End of Section -->
-						<local:Footer d:IsPrototypingComposition="True"/>			
-					</StackPanel>
+						<StackPanel Width="1200" Background="White" >
+							<!-- Add Your Page Content Between these top Comments -->
+							<StackPanel Margin="0,10,0,30">
+								<TextBlock HorizontalAlignment="center" FontSize="25"><Run Text="Events"/></TextBlock>
+								<Grid  Width="800" HorizontalAlignment="Center" Margin="0,20,0,0">
+									<i:Interaction.Triggers>
+										<i:EventTrigger EventName="MouseLeftButtonDown">
+											<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Reserve_Tickets"/>
+										</i:EventTrigger>
+									</i:Interaction.Triggers>
+									<Image Width="550" Source="pack://siteoforigin:,,,/the-rolling-stones-wallpaper_154075-1920x1080.jpg" HorizontalAlignment="Left"/>
+									<Grid Background="#454545" Width="300" HorizontalAlignment="Right">
+										<TextBlock HorizontalAlignment="Center" FontSize="28" Foreground="white" Height="100" VerticalAlignment="Top" Margin="0,10,0,0"><Run Text="The Rolling Stones"/></TextBlock>
+										<TextBlock HorizontalAlignment="Left" FontSize="23" Foreground="white" Height="100" VerticalAlignment="Top" Margin="35,40,0,0"><Run Text="14th August"/></TextBlock>
+										<TextBlock HorizontalAlignment="Left" FontSize="15" Foreground="white" Height="47.761" VerticalAlignment="Bottom" Margin="35,0,-3.344,0"><Run Text="Click for More Information"/></TextBlock>
+								
+									</Grid>
+								</Grid>	
+								<Grid  Width="800" HorizontalAlignment="Center" Margin="0,20,0,0">
+									<i:Interaction.Triggers>
+										<i:EventTrigger EventName="MouseLeftButtonDown">
+											<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Detailed_Event_Page"/>
+										</i:EventTrigger>
+									</i:Interaction.Triggers>
+									<Image Width="550" Source="pack://siteoforigin:,,,/jayz.png" HorizontalAlignment="Right"/>
+									<Grid Background="#454545" Width="300" HorizontalAlignment="left">
+										<TextBlock HorizontalAlignment="Left" FontSize="28" Foreground="white" Height="100" VerticalAlignment="Top" Margin="35,10,0,0"><Run Text="Jay Z &amp; Beyonce"/></TextBlock>
+										<TextBlock HorizontalAlignment="Left" FontSize="23" Foreground="white" Height="100" VerticalAlignment="Top" Margin="35,40,0,0"><Run Text="15th August"/></TextBlock>
+										<TextBlock HorizontalAlignment="Left" FontSize="15" Foreground="white" Height="47.761" VerticalAlignment="Bottom" Margin="35,0,-3.344,0"><Run Text="Click for More Information"/></TextBlock>
+								
+									</Grid>
+								</Grid>
+								<Grid  Width="800" HorizontalAlignment="Center" Margin="0,20,0,0">
+									<i:Interaction.Triggers>
+										<i:EventTrigger EventName="MouseLeftButtonDown">
+											<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Detailed_Event_Page"/>
+										</i:EventTrigger>
+									</i:Interaction.Triggers>
+									<Image Width="550" Source="image.jpg" HorizontalAlignment="left"/>
+									<Grid Background="#454545" Width="300" HorizontalAlignment="right">
+										<TextBlock HorizontalAlignment="Left" FontSize="28" Foreground="white" Height="100" VerticalAlignment="Top" Margin="35,10,0,0"><Run Text="Ed Sheeran"/></TextBlock>
+										<TextBlock HorizontalAlignment="Left" FontSize="23" Foreground="white" Height="100" VerticalAlignment="Top" Margin="35,40,0,0"><Run Text="16th August"/></TextBlock>
+										<TextBlock HorizontalAlignment="Left" FontSize="15" Foreground="white" Height="47.761" VerticalAlignment="Bottom" Margin="35,0,-3.344,0"><Run Text="Click for More Information"/></TextBlock>
+								
+									</Grid>
+								</Grid>
+							</StackPanel>
+							<!-- End of Section -->
+							<local:Footer d:IsPrototypingComposition="True"/>		
+						</StackPanel>
 					</Border>
 				</Grid>
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
-				</Grid>
+			</Grid>
 		</ScrollViewer>
 	</Grid>
 </UserControl>

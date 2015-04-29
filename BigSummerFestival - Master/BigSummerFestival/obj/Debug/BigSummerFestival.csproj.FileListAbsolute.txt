@@ -106,3 +106,171 @@ H:\Software Eng Module\BigSummerFestival\BigSummerFestival\obj\Debug\BigSummerFe
 H:\Software Eng Module\BigSummerFestival\BigSummerFestival\obj\Debug\BigSummerFestival.g.resources
 H:\Software Eng Module\BigSummerFestival\BigSummerFestival\obj\Debug\BigSummerFestival.exe
 H:\Software Eng Module\BigSummerFestival\BigSummerFestival\obj\Debug\BigSummerFestival.pdb
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\bg.jpg
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\the-rolling-stones-wallpaper_154075-1920x1080.jpg
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.exe
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.pdb
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Interactions.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.Interactivity.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.Runtime.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.SketchControls.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\System.Windows.Interactivity.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.pdb
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\System.Windows.Interactivity.xml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Interactions.xml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Runtime.resources.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.csprojResolveAssemblyReference.cache
+I:\svn\BigSummerFestival - Master\BigSummerFestival\obj\Debug\App.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\obj\Debug\App.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival_MarkupCompile.cache
+I:\svn\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.g.resources
+I:\svn\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.exe
+I:\svn\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.pdb
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\jayz.png
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\bg.jpg
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\jayz.png
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\the-rolling-stones-wallpaper_154075-1920x1080.jpg
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.exe
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.pdb
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Interactions.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.Interactivity.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.Runtime.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.SketchControls.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\System.Windows.Interactivity.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.pdb
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\System.Windows.Interactivity.xml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Interactions.xml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Runtime.resources.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.csprojResolveAssemblyReference.cache
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\obj\Debug\App.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\obj\Debug\App.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival_MarkupCompile.cache
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.g.resources
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.exe
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.pdb
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\bg.jpg
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\jayz.png
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\the-rolling-stones-wallpaper_154075-1920x1080.jpg
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.exe
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.pdb
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Interactions.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.Interactivity.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.Runtime.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Prototyping.SketchControls.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\System.Windows.Interactivity.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.pdb
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\System.Windows.Interactivity.xml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\Microsoft.Expression.Interactions.xml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\de\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\en\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\es\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\fr\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\it\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ja\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\ko\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Runtime.resources.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\obj\Debug\App.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\obj\Debug\App.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival_MarkupCompile.cache
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.g.resources
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.exe
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\obj\Debug\BigSummerFestival.pdb

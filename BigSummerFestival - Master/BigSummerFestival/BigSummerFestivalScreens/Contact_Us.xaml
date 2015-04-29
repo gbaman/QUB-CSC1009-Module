@@ -13,14 +13,26 @@
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 					<StackPanel Width="1200" Background="White">
+<!-- End of Section -->
+						<local:Footer d:IsPrototypingComposition="True" Height="875.223"/>
+<!-- End of Section -->
+<!-- End of Section -->
+<!-- End of Section -->
 						<!-- Add Your Page Content Between these top Comments -->
 
-						<!-- End of Section -->
-						<local:Footer d:IsPrototypingComposition="True"/>			
+						<!-- End of Section -->			
 					</StackPanel>
 					</Border>
 				</Grid>
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+				<TextBox HorizontalAlignment="Left" Height="23" Margin="620.895,407.463,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348.358" BorderBrush="Black"/>
+				<TextBox HorizontalAlignment="Left" Height="23" Margin="620.895,459.701,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348.358" BorderBrush="Black"/>
+				<TextBox HorizontalAlignment="Left" Height="266.284" Margin="620.895,520.895,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348.358" BorderBrush="Black"/>
+				<Button Content="Submit " HorizontalAlignment="Left" Margin="710.671,825.372,0,0" VerticalAlignment="Top" Width="185.448" Height="39.363" FontWeight="Bold" FontSize="16" BorderBrush="#FF878787" Background="#FFB2D20C"/>
+				<Label Content="E-mail:" HorizontalAlignment="Left" Margin="516.417,404.503,0,0" VerticalAlignment="Top" Width="83.993" FontSize="18.667" FontWeight="Bold"/>
+				<Label Content="Name:" HorizontalAlignment="Left" Margin="516.417,459.701,0,0" VerticalAlignment="Top" Width="83.993" FontWeight="Bold" FontSize="18.667"/>
+				<Label Content="Issue:" HorizontalAlignment="Left" Margin="516.417,520.895,0,0" VerticalAlignment="Top" Width="69.993" FontWeight="Bold" FontSize="18.667"/>
+				<Label Content="Have any questions or concerns? Just fill out the form below and we'll get back to you!&#xA;Please Allow 24 hours for a reply.&#xA;" HorizontalAlignment="Left" Margin="695,271,0,0" VerticalAlignment="Top" Height="72.96" Width="568.993" FontWeight="Bold" FontSize="13.333"/>
 				</Grid>
 		</ScrollViewer>
 	</Grid>

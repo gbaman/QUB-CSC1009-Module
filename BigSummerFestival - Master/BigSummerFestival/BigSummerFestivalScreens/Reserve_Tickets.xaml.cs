@@ -21,6 +21,13 @@ namespace BigSummerFestivalScreens
 		public Reserve_Tickets()
 		{
 			this.InitializeComponent();
+			btn1.Click += click;
+			btn2.Click += click;
+		}
+		
+		public void click(Object sender, EventArgs e) {
+			//scrollView.ScrollToVerticalOffset(scroller.HorizontalOffset + 10);
+			scrollView.ScrollToVerticalOffset(scrollView.VerticalOffset + 1030);
 		}
 	}
 }

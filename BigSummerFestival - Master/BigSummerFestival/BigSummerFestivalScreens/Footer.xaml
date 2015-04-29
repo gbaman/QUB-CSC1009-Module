@@ -3,6 +3,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Footer"
 	x:Name="UserControl"
@@ -18,7 +19,13 @@
 			<Image Margin="197.75,37.25,773.25,116.25" Source="signup.png" Stretch="Fill"/>
 			<Button Content="Terms of Use" HorizontalAlignment="Left" Margin="441,48,0,0" VerticalAlignment="Top" Width="125" Style="{StaticResource TransparentButton}"/>
 			<Button Content="Privacy Policy" HorizontalAlignment="Left" Margin="571,48,0,0" VerticalAlignment="Top" Width="142" Style="{StaticResource TransparentButton}"/>
-			<Button Content="Contact Us" HorizontalAlignment="Left" Margin="736,48,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource TransparentButton}"/>
+			<Button Content="Contact Us" HorizontalAlignment="Left" Margin="736,48,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource TransparentButton}">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Contact_Us"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
 		</Grid>
 	</Grid>
 </UserControl>

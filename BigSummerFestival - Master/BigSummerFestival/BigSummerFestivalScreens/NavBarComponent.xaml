@@ -39,6 +39,10 @@
 			<Image Margin="1505.333,138.526,294.333,885.474" Source="view-cart-button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
 			<Image Margin="1426.167,140.359,265.666,11.5" Source="searchbar.png" Stretch="Fill"/>
 			<TextBox HorizontalAlignment="Left" Height="33.5" Margin="1432.667,145,0,0" TextWrapping="Wrap" Text="Search Bar" VerticalAlignment="Top" Width="170" Style="{StaticResource Search}"/>
+			<ComboBox HorizontalAlignment="Left" Margin="1205,156.54,0,0" Style="{DynamicResource SimpleComboBox}" VerticalAlignment="Top" Width="120">
+				<ComboBoxItem Content="Item 1" Style="{DynamicResource SimpleComboBoxItem}"/>
+				
+			</ComboBox>
 			
 		</Grid>
 	</Grid>

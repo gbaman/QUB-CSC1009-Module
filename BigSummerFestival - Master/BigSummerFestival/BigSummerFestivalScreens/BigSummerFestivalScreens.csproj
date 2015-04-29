@@ -207,10 +207,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Simple Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="SketchStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Resource Include="2641129-rolling-stones-617-409.jpg" />
+    <Resource Include="Event Page.jpg" />
+    <Resource Include="facebook_button.png" />
+    <Resource Include="fb_event_button.png" />
     <Resource Include="Fonts\BuxtonSketch.ttf" />
     <Resource Include="Fonts\SketchFlow Print.ttf" />
     <Resource Include="Fonts\SegoeMarker.ttf" />
@@ -218,17 +226,26 @@
     <Compile Include="..\Properties\Version.cs">
       <Link>Properties\Version.cs</Link>
     </Compile>
+    <Resource Include="image.jpg" />
     <Resource Include="login.jpg" />
+    <Resource Include="logo.png" />
     <Resource Include="searchbar.png" />
     <Resource Include="signup.png" />
     <Resource Include="sitelogo.png" />
     <Resource Include="Sketch.Flow" />
     <Resource Include="socialmedia .png" />
     <Resource Include="socialmedia.png" />
+    <Resource Include="std.png" />
     <Resource Include="view-cart-button.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="jayz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="the-rolling-stones-wallpaper_154075-1920x1080.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

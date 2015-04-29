@@ -1,0 +1,28 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:local="clr-namespace:BigSummerFestivalScreens" x:Name="BigSummerFestivalScreens_Screen_1_Name"
+	mc:Ignorable="d"
+	x:Class="BigSummerFestivalScreens.Payment"
+	Style="{StaticResource WindowStyles}">
+
+	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+			<Grid x:Name="MainContainer">
+				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
+					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
+					<StackPanel Width="1200" Background="White">
+						<!-- Add Your Page Content Between these top Comments -->
+
+						<!-- End of Section -->
+						<local:Footer d:IsPrototypingComposition="True"/>			
+					</StackPanel>
+					</Border>
+				</Grid>
+				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+				</Grid>
+		</ScrollViewer>
+	</Grid>
+	
+</UserControl>

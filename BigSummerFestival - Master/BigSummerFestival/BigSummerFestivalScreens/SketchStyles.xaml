@@ -1310,6 +1310,10 @@
 		</Style.Triggers>
 	</Style>
 
+		<Style TargetType="StackPanel" x:Key="pageContent">
+		<Setter Property="Height" Value="1000"/>
+		</Style>
+
 	<!-- Template for a button with no background -->
 	<Style TargetType="{x:Type Button}" x:Key="TransparentButton">
 		<Setter Property="Background" Value="Transparent"/>

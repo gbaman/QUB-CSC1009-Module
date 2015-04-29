@@ -6,17 +6,60 @@
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Early_Access_Tickets"
 	Style="{StaticResource WindowStyles}">
+	<UserControl.Resources>
+		<Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Rectangle StrokeThickness="5" Stroke="#FF999999" RadiusX="20" RadiusY="20" Fill="White"/>
+							<ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</UserControl.Resources>
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
 		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
-					<StackPanel Width="1200" Background="White">
-						<!-- Add Your Page Content Between these top Comments -->
+					<StackPanel Width="1200" Background="White" HorizontalAlignment="Center">
+						<!-- Add Your Page Content Between these top Comments -->	
 
-						<!-- End of Section -->
-						<local:Footer d:IsPrototypingComposition="True"/>			
+<!-- Add Your Page Content Between these top Comments -->
+						<Grid Height="100">
+							<Button Content="Management Interface" Height="77.612" Margin="0,4,11.089,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="307.463" FontSize="29.333" HorizontalAlignment="Right">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="Click">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Early_Access_Tickets"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Button>
+							<Label Content="Early Access Tickets" FontSize="36" HorizontalContentAlignment="Center" Margin="386.571,17.612,385.712,24.504"/>
+						</Grid>	
+
+						<Label Content="Create New Early Access Tickets" FontSize="22"/>
+						<Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1180" Margin="10,0,0,0">
+							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="6,0,0,0"/>
+							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="239.021,0,0,0"/>
+							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="471.014,0,0,0"/>
+							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="704.007,0,0,0"/>
+							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="935.5,0,0,0"/>
+						</Grid>	
+
+						<Label Content="List of Currently Ongoing Sales" FontSize="22"/>
+<!-- End of Section -->
+						<local:Footer d:IsPrototypingComposition="True"/>	
 					</StackPanel>
 					</Border>
 				</Grid>

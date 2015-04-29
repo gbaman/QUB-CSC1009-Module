@@ -103,3 +103,171 @@ H:\Software Eng Module\BigSummerFestival\BigSummerFestival\BigSummerFestivalScre
 H:\Software Eng Module\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.pdb
 H:\Software Eng Module\BigSummerFestival\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.pdb
 H:\Software Eng Module\BigSummerFestival\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestivalScreens.csprojResolveAssemblyReference.cache
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\bg.jpg
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\the-rolling-stones-wallpaper_154075-1920x1080.jpg
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.pdb
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestivalScreens.csprojResolveAssemblyReference.cache
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Footer.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\NavBarComponent.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Simple Styles.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\SketchStyles.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Artist.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Basket.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Contact_Us.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Detailed_Event_Page.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Early_Access_Tickets.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Financial_Information.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Footer.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery1.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery2.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery3.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Josh.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Login.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Management.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\NavBarComponent.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Payment.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Performance_Information.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Register.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Reserve_Tickets.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_1.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_2.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Search.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens_MarkupCompile.cache
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens_MarkupCompile.lref
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Artist.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Basket.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Contact_Us.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Detailed_Event_Page.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Early_Access_Tickets.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Financial_Information.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery1.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery2.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery3.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Josh.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Login.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Management.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Payment.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Performance_Information.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Register.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Reserve_Tickets.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_1.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_2.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Search.baml
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.g.resources
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.dll
+I:\svn\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.pdb
+I:\svn\BigSummerFestival - Master\BigSummerFestival\bin\Debug\jayz.png
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestivalScreens.csprojResolveAssemblyReference.cache
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Footer.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\NavBarComponent.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Simple Styles.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\SketchStyles.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Artist.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Basket.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Contact_Us.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Detailed_Event_Page.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Early_Access_Tickets.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Financial_Information.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Footer.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery1.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery2.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery3.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Josh.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Login.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Management.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\NavBarComponent.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Payment.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Performance_Information.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Register.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Reserve_Tickets.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_1.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_2.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Search.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens_MarkupCompile.cache
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens_MarkupCompile.lref
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\bg.jpg
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\jayz.png
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\the-rolling-stones-wallpaper_154075-1920x1080.jpg
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.pdb
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Artist.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Basket.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Contact_Us.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Detailed_Event_Page.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Early_Access_Tickets.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Financial_Information.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery1.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery2.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery3.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Josh.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Login.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Management.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Payment.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Performance_Information.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Register.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Reserve_Tickets.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_1.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_2.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Search.baml
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.g.resources
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.dll
+H:\Software Eng Module\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.pdb
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\bg.jpg
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\jayz.png
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\the-rolling-stones-wallpaper_154075-1920x1080.jpg
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\bin\Debug\BigSummerFestival.Screens.pdb
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestivalScreens.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Footer.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\NavBarComponent.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Simple Styles.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\SketchStyles.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Artist.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Basket.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Contact_Us.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Detailed_Event_Page.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Early_Access_Tickets.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Financial_Information.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Footer.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery1.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery2.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery3.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Josh.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Login.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Management.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\NavBarComponent.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Payment.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Performance_Information.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Register.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Reserve_Tickets.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_1.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_2.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Search.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens_MarkupCompile.cache
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens_MarkupCompile.lref
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Artist.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Basket.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Contact_Us.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Detailed_Event_Page.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Early_Access_Tickets.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Financial_Information.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery1.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery2.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Gallery3.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Josh.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Login.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Management.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Payment.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Performance_Information.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Register.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Reserve_Tickets.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_1.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Screen_2.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\Search.baml
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.g.resources
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.dll
+\\psf\Home\Desktop\csc1009\BigSummerFestival - Master\BigSummerFestival\BigSummerFestivalScreens\obj\Debug\BigSummerFestival.Screens.pdb

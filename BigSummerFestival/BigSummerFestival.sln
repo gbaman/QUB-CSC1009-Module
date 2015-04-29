@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigSummerFestival", "BigSummerFestival\BigSummerFestival.csproj", "{b28f0a4e-f7fa-4104-bd8d-11fb419e76f4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigSummerFestivalScreens", "BigSummerFestival\BigSummerFestivalScreens\BigSummerFestivalScreens.csproj", "{76689a5d-0831-48b7-b3f4-32a4fc7a74cd}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76689A5D-0831-48B7-B3F4-32A4FC7A74CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76689A5D-0831-48B7-B3F4-32A4FC7A74CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76689A5D-0831-48B7-B3F4-32A4FC7A74CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76689A5D-0831-48B7-B3F4-32A4FC7A74CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28F0A4E-F7FA-4104-BD8D-11FB419E76F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28F0A4E-F7FA-4104-BD8D-11FB419E76F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28F0A4E-F7FA-4104-BD8D-11FB419E76F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28F0A4E-F7FA-4104-BD8D-11FB419E76F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
