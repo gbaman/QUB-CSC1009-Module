@@ -30,21 +30,6 @@ namespace BigSummerFestivalScreens
 			for (int i=0; i<1030; i++) {
 				scrollView.ScrollToVerticalOffset(scrollView.VerticalOffset + 1030);
 			}
-			
-			
-			//
-			DoubleAnimation verticalAnimation = new DoubleAnimation();
-			
-			verticalAnimation.From = scrollViewer.VerticalOffset;
-			verticalAnimation.To = 100;
-			verticalAnimation.Duration = new Duration(1000);
-			
-			Storyboard storyboard = new Storyboard();
-			
-			storyboard.Children.Add(verticalAnimation);
-			Storyboard.SetTarget(verticalAnimation, scrollViewer);
-			Storyboard.SetTargetProperty(verticalAnimation, new PropertyPath(ScrollAnimationBehavior.VerticalOffsetProperty)); // Attached dependency property
-			storyboard.Begin();
 		}
 	}
 }
