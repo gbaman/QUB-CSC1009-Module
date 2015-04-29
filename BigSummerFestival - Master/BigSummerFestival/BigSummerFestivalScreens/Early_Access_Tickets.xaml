@@ -67,11 +67,13 @@
 							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="471.014,0,0,0"/>
 							<Label Content="Tickets Total" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="704.007,0,0,0"/>
 							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="935.5,0,0,0"/>
-							<ComboBox HorizontalAlignment="Left" Margin="6,43.967,0,0" VerticalAlignment="Top" Width="235" Height="44.54" Background="White" BorderThickness="3" BorderBrush="#FFB2DB8D"/>
-							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="239.021,44.79,0,0"/>
-							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="471.014,44.79,0,0"/>
-							<Label Content="Tickets Total" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="704.007,44.79,0,0"/>
-							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="935.5,44.79,0,0"/>
+							<ComboBox HorizontalAlignment="Left" Margin="6,43.967,0,0" VerticalAlignment="Top" Width="235" Height="44.54" Background="White" BorderThickness="3" BorderBrush="#FFB2DB8D">
+								<Button/>
+							</ComboBox>
+							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3,2,3,3" Margin="239.021,43.29,0,0"/>
+							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3,2,3,3" Margin="471.014,43.29,0,0"/>
+							<Label Content="Tickets Total" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3,2,3,3" Margin="704.007,43.29,0,0"/>
+							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3,2,3,3" Margin="935.5,43.29,0,0"/>
 						</Grid>	
 
 						<Label Content="List of Currently Ongoing Sales" FontSize="22"/>
