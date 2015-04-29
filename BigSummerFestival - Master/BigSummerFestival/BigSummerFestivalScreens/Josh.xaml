@@ -14,7 +14,9 @@
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
-						<TextBlock><Run Text="Gallery"/><Run Language="en-gb" Text=" - Git Tester"/></TextBlock>
+						<Grid Style="{StaticResource pageContent}">
+							
+						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			
 					</StackPanel>

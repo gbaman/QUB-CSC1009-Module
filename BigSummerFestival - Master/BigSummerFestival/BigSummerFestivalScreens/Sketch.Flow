@@ -474,6 +474,62 @@
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Early_Access_Tickets</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Early_Access_Tickets</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Financial_Information</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Financial_Information</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Performance_Information</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Performance_Information</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Login</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Login</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
