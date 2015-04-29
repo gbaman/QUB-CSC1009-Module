@@ -27,6 +27,8 @@
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 				</Grid>
 		</ScrollViewer>
+		<Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="1149.254,300,0,0"/>
+		<Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="1083.582,382.089,0,0"/>
 	</Grid>
 	
 </UserControl>
