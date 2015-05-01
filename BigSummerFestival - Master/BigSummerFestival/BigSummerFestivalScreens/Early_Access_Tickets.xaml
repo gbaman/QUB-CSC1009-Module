@@ -38,6 +38,7 @@
 				</Setter.Value>
 			</Setter>
 		</Style>
+		<Storyboard x:Key="OnLoaded1"/>
 	</UserControl.Resources>
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
@@ -60,23 +61,36 @@
 							<Label Content="Early Access Tickets" FontSize="36" HorizontalContentAlignment="Center" Margin="386.571,17.612,385.712,24.504"/>
 						</Grid>	
 
-						<Label Content="Create New Early Access Tickets" FontSize="22"/>
+						<Label Content="Create New Early Access Tickets" FontSize="22" Margin="18,0,-18,0"/>
 						<Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1180" Margin="10,0,0,0">
-							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="6,0,0,0"/>
-							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="239.021,0,0,0"/>
-							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="471.014,0,0,0"/>
-							<Label Content="Tickets Total" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="704.007,0,0,0"/>
-							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3" Margin="935.5,0,0,0"/>
-							<ComboBox HorizontalAlignment="Left" Margin="6,43.967,0,0" VerticalAlignment="Top" Width="235" Height="44.54" Background="White" BorderThickness="3" BorderBrush="#FFB2DB8D">
-								<Button/>
+							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="6,0,0,0"/>
+							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="239.021,0,0,0"/>
+							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="471.681,0,0,0"/>
+							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="704.007,0,0,0"/>
+							<Label Content="Tickets for Sale&#xD;&#xA;Tickets for Sale" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="936.834,0,0,0"/>
+							<ComboBox HorizontalAlignment="Left" Margin="6,43.3,0,0" VerticalAlignment="Top" Width="235" Height="44.54" Background="White" BorderThickness="2" BorderBrush="#FFB2DB8D" FontSize="14.667" IsReadOnly="True" IsEditable="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+								<ComboBoxItem Content="Jay Z &amp; Beyonce" Cursor="Hand" FontSize="14.667" HorizontalAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="0" Width="234.6" MaxWidth="235" MaxHeight="235" MinWidth="235" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+								<ComboBoxItem Content="The Rolling Stones" Cursor="Hand" FontSize="14.667" HorizontalAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="0,2" MaxWidth="235" MinWidth="235" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+								<ComboBoxItem Content="Ed Sheeran" Cursor="Hand" FontSize="14.667" HorizontalAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="0" MaxWidth="235" MinWidth="235" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 							</ComboBox>
-							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3,2,3,3" Margin="239.021,43.29,0,0"/>
-							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3,2,3,3" Margin="471.014,43.29,0,0"/>
-							<Label Content="Tickets Total" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3,2,3,3" Margin="704.007,43.29,0,0"/>
-							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="3,2,3,3" Margin="935.5,43.29,0,0"/>
-						</Grid>	
+							<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Margin="239.688,45.46,0,0" Height="43.047" Width="231.993" FontSize="14.667" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+							<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="43.047" Width="233.996" FontSize="14.667" Margin="471.014,45.301,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+							<TextBox HorizontalAlignment="Left" Height="45.41" TextWrapping="Wrap" VerticalAlignment="Top" Width="234.994" Margin="936.84,43.354,0,0" BorderThickness="2" BorderBrush="#FFB2DB8D" MaxLength="4" IsReadOnly="True" Text="Enter Amount of Tickets for Sale" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14.667"/>
+							<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="704.007,43.354,0,0" VerticalContentAlignment="Center"/>
+						</Grid>
+						<Grid Height="100">
+							<Button Content="Confirm" Height="50" Margin="799.5,0,0,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="150" FontSize="18.667" Cursor="Hand" HorizontalAlignment="Left"/>
+							<Button Content="Cancel" Height="50" Margin="973.5,0,0,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="150" FontSize="18.667" Cursor="Hand" HorizontalAlignment="Left"/>	
 
-						<Label Content="List of Currently Ongoing Sales" FontSize="22"/>
+							<Label Content="List of Currently Ongoing Sales" FontSize="22" Margin="19.5,60.736,-19.5,0"/>
+						</Grid>
+						<Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1180" Margin="10,0,0,0">
+							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="6,0,0,0"/>
+							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="239.021,0,0,0"/>
+							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="471.681,0,0,0"/>
+							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="704.007,0,0,0"/>
+							<Label Content="Tickets for Sale&#xA;Tickets for Sale" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="936.834,0,0,0"/>
+						</Grid>
 						<local:Footer d:IsPrototypingComposition="True"/>
 <!-- End of Section -->	
 					</StackPanel>
