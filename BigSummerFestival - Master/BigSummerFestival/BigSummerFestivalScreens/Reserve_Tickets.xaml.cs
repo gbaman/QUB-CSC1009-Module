@@ -27,7 +27,9 @@ namespace BigSummerFestivalScreens
 		
 		public void click(Object sender, EventArgs e) {
 			//scrollView.ScrollToVerticalOffset(scroller.HorizontalOffset + 10);
-			scrollView.ScrollToVerticalOffset(scrollView.VerticalOffset + 1030);
+			for (int i=0; i<1030; i++) {
+				scrollView.ScrollToVerticalOffset(scrollView.VerticalOffset + 1030);
+			}
 		}
 	}
 }
