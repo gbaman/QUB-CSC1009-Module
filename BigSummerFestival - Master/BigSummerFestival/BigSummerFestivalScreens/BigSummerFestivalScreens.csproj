@@ -33,7 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="PresentationFramework.Aero" />
+=======
+    <Reference Include="Microsoft.Expression.Drawing" />
+>>>>>>> 1ee7e1ad6f1cd419dba51ba8fb3d638c8a4a5856
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -102,6 +106,9 @@
     </Compile>
     <Compile Include="NavBarComponent.xaml.cs">
       <DependentUpon>NavBarComponent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageDesign.xaml.cs">
+      <DependentUpon>PageDesign.xaml</DependentUpon>
     </Compile>
     <Compile Include="Payment.xaml.cs">
       <DependentUpon>Payment.xaml</DependentUpon>
@@ -180,6 +187,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="NavBarComponent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageDesign.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
