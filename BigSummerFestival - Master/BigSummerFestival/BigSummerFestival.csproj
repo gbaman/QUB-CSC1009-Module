@@ -34,11 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Reference Include="PresentationFramework.Aero" />
-=======
     <Reference Include="Microsoft.Expression.Drawing" />
->>>>>>> 1ee7e1ad6f1cd419dba51ba8fb3d638c8a4a5856
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
