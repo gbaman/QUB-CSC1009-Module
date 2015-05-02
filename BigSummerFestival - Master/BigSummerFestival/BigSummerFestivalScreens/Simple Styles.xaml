@@ -48,7 +48,7 @@
 	<SolidColorBrush x:Key="DisabledBorderBrush" Color="#AAA"/>
 
 	<!-- Used for background of ScrollViewer, TreeView, ListBox, Expander, TextBox, Tab Control -->
-	<SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFF"/>
+	<SolidColorBrush x:Key="WindowBackgroundBrush" Color="White" Opacity="0"/>
 	
 	<!-- DefaultedBorderBrush is used to show KeyBoardFocus -->
 	<LinearGradientBrush x:Key="DefaultedBorderBrush" EndPoint="0,1" StartPoint="0,0">
@@ -56,7 +56,7 @@
 		<GradientStop Color="#000" Offset="1.0"/>
 	</LinearGradientBrush>
 
-	<SolidColorBrush x:Key="SolidBorderBrush" Color="#888"/>
+	<SolidColorBrush x:Key="SolidBorderBrush" Color="White" Opacity="0"/>
 	<SolidColorBrush x:Key="LightBorderBrush" Color="#AAA"/>
 	<SolidColorBrush x:Key="LightColorBrush" Color="#DDD"/>
 	
@@ -635,7 +635,7 @@
 					
 						<!-- Change IsHighlighted SelectedBackgroundBrush to set the selection color for the items -->
 						<Trigger Property="IsHighlighted" Value="true">
-							<Setter Property="Background" Value="{DynamicResource SelectedBackgroundBrush}" TargetName="Border"/>
+							
 						</Trigger>
 						
 						<Trigger Property="IsEnabled" Value="false">

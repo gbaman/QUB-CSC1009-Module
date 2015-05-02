@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -120,6 +121,9 @@
     <Compile Include="Screen_2.xaml.cs">
       <DependentUpon>Screen_2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Search Bar.xaml.cs">
+      <DependentUpon>Search Bar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Search.xaml.cs">
       <DependentUpon>Search.xaml</DependentUpon>
     </Compile>
@@ -203,6 +207,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Search Bar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Search.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -216,6 +224,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Resource Include="2641129-rolling-stones-617-409.jpg" />
+    <Resource Include="dropdown.png" />
     <Resource Include="Event Page.jpg" />
     <Resource Include="facebook.jpg" />
     <Resource Include="facebook_button.png" />
@@ -230,6 +239,7 @@
     <Resource Include="image.jpg" />
     <Resource Include="login.jpg" />
     <Resource Include="logo.png" />
+    <Resource Include="search.png" />
     <Resource Include="searchbar.png" />
     <Resource Include="signup.png" />
     <Resource Include="sitelogo.png" />
