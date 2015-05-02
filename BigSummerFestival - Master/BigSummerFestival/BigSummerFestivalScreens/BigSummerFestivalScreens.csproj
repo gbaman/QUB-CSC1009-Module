@@ -102,6 +102,9 @@
     <Compile Include="NavBarComponent.xaml.cs">
       <DependentUpon>NavBarComponent.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PageDesign.xaml.cs">
+      <DependentUpon>PageDesign.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Payment.xaml.cs">
       <DependentUpon>Payment.xaml</DependentUpon>
     </Compile>
@@ -176,6 +179,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="NavBarComponent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageDesign.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
