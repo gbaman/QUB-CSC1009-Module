@@ -232,6 +232,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Resource Include="2641129-rolling-stones-617-409.jpg" />
+    <Resource Include="search.png" />
     <Resource Include="dropdown.png" />
     <Resource Include="Event Page.jpg" />
     <Resource Include="facebook.jpg" />
@@ -247,7 +248,7 @@
     <Resource Include="image.jpg" />
     <Resource Include="login.jpg" />
     <Resource Include="logo.png" />
-    <Resource Include="search.png" />
+    <Resource Include="search_black.png" />
     <Resource Include="searchbar.png" />
     <Resource Include="signup.png" />
     <Resource Include="sitelogo.png" />
