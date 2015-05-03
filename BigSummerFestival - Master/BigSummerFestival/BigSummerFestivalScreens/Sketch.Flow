@@ -640,6 +640,13 @@
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Login</Source>
+      <Target>BigSummerFestivalScreens.Register</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -687,7 +694,7 @@
   <ViewState>
     <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>725.93198327615687</X>
+      <X>95.270440251572225</X>
       <Y>-60.635135135135187</Y>
     </Center>
   </ViewState>
