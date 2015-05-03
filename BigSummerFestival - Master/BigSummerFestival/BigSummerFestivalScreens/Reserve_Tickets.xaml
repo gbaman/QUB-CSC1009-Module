@@ -8,7 +8,7 @@
 	Style="{StaticResource WindowStyles}">
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled" x:Name="scrollView" Margin="0" >
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" x:Name="scrollView" Margin="0,0,0,-2000" >
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
