@@ -39,7 +39,7 @@
 			</Button>
 			<Image Margin="1505.333,138.526,294.333,885.474" Source="view-cart-button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
 			<local:Search_Bar d:IsPrototypingComposition="True" Margin="-255.333,138.526,255.333,-138.526"/>
-			<TextBox HorizontalAlignment="Left" Height="29.5" Margin="1312.001,149.5,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="273.333" Style="{StaticResource Search}"/>
+			<TextBox HorizontalAlignment="Left" Height="29.5" Margin="1378.001,149.5,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207.333" Style="{StaticResource Search}"/>
 			
 		</Grid>
 	</Grid>
