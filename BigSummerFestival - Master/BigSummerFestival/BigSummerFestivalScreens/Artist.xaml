@@ -8,17 +8,99 @@
 	Style="{StaticResource WindowStyles}">
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" x:Name="scrollView" Margin="0,0,0,-2000" >
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
-						<Grid Style="{StaticResource pageContent}">
-							
-						</Grid>
+						<StackPanel Margin="0,10,0,30">
+								<TextBlock HorizontalAlignment="center" FontSize="40" FontFamily="Roboto"><Run Text="Ed Sheeran"/></TextBlock>
+								<Grid ShowGridLines="false" Margin="0,-20,0,0">
+									<Grid.ColumnDefinitions>
+										  <ColumnDefinition/>
+										  <ColumnDefinition/>
+										  <!-- This column will receive all remaining width -->
+										  <ColumnDefinition Width="*"/>
+									</Grid.ColumnDefinitions>
+									<Grid.RowDefinitions>
+										<RowDefinition />
+										<RowDefinition Height="*"/>
+									</Grid.RowDefinitions>
+								<Image Margin="0,63.731,10,53.22" Source="ed-sheeran.jpg" Stretch="Fill"/>
+								<Image Margin="390,46.591,10,36.802" Source="ed-sheeran_2.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+								<Image Margin="390,63.731,10,53.22" Source="ed-sheeran.jpg" Stretch="Fill" Grid.ColumnSpan="2" Grid.Column="1"/>
+								</Grid>
+								
+								<Grid Background="White" Margin="0,-30,0,0" Height="452.006">
+									<TextBlock FontSize="40" FontFamily="Roboto" Margin="44,38,0,0" Foreground="Black">Tickets</TextBlock>
+									<TextBlock FontSize="30" FontFamily="Roboto" Margin="44,89,0, 0" Foreground="#222222" Height="280.006" VerticalAlignment="Top">Select a Ticket Type</TextBlock>
+									<TabControl HorizontalAlignment="Left" Height="262" Margin="44,143.993,0,0" Style="{DynamicResource CustomTabControl}" VerticalAlignment="Top" Width="791.5">
+										
+										<TabItem Header="Standard Tickets" Style="{DynamicResource SimpleTabItem}" FontSize="19" Cursor="Hand" HorizontalAlignment="Left" Width="225.023" Margin="0,0,-49,0">
+											<Grid Background="White" Style="{DynamicResource Background}">
+												<TextBlock Margin="23.5,79.96,465.5,79.04">16th August - 8:00pm</TextBlock>
+												<TextBlock Margin="23.5,27.73,465.5,131.27" FontSize="25" ><Run Language="en-gb" Text="Ed Sheeran "/><LineBreak/><Run Language="en-gb"/></TextBlock>
+												<Image Margin="590,133.73,10,10" Source="logo.png" Stretch="Fill"/>
+												<TextBlock Margin="23.5,117.23,540.5,41.77"><Run Language="en-gb" Text="Ticket Type"/></TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="23.5,149.96,0,0" VerticalAlignment="Top" Width="232.5">
+													<ComboBoxItem>Standard</ComboBoxItem>
+													<ComboBoxItem>Disabled Access</ComboBoxItem>
+													<ComboBoxItem>VIP</ComboBoxItem>
+												</ComboBox>
+												<TextBlock Margin="296.5,117.23,267.5,41.77">Quantity</TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="296.5,149.96,0,0" VerticalAlignment="Top" Width="87" Text="1">
+													<ComboBoxItem>1</ComboBoxItem>
+													<ComboBoxItem>2</ComboBoxItem>
+													<ComboBoxItem>3</ComboBoxItem>
+													<ComboBoxItem>4</ComboBoxItem>
+												</ComboBox>
+											</Grid>
+										</TabItem>
+										<TabItem Header="Camping" Style="{DynamicResource SimpleTabItem}" FontSize="19" Margin="-19,0,4,0">
+											<Grid Background="#FFE5E5E5" Style="{DynamicResource Background}">
+												<TextBlock FontFamily="Roboto" VerticalAlignment="Bottom" HorizontalAlignment="Right">*Concert is included in the price of the camping ticket.</TextBlock>
+											</Grid>
+										</TabItem>
+									</TabControl>
+									<Grid Margin="878,311.003,169.5,46.013" Background="#EEE">
+										<TextBlock HorizontalAlignment="Center" FontSize="20" Margin="45.631,10,48.631,-10">£15.00</TextBlock>
+									<Button Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987">
+									</Button>
+									</Grid>
+									<Button Content="ScrollDown" x:Name="btn1" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+										<Button.Background>
+											<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+												<GradientStop Color="#FFF3F3F3" Offset="0"/>
+												<GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+												<GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+												<GradientStop Color="#FFCDCDCD" Offset="1"/>
+											</LinearGradientBrush>
+										</Button.Background>
+									</Button>
+									<!-- Second Section ( Event Information )-->
+								</Grid>
+								<Grid Background="#FF2E93E8" Height="1030" Margin="0,0,0,0">
+									<TextBlock HorizontalAlignment="center" FontSize="40" FontFamily="Roboto" Margin="0,35,0,0" Height="50" VerticalAlignment="Top" Foreground="White"><Run Text="Event Information"/></TextBlock>
+									<Button Content="ScrollDown" x:Name="btn2" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+									<TextBlock HorizontalAlignment="Left" Margin="83.5,183.987,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18.667" Foreground="White" FontFamily="Roboto"><Run Language="en-gb" Text="This Event will take place on the Telegragh Stage."/></TextBlock>
+									<TextBlock HorizontalAlignment="Left" Margin="83.5,129.987,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="26.667" Foreground="White" FontFamily="Roboto"><Run Language="en-gb" Text="Stage Information"/></TextBlock>
+									<Image Margin="886,898.487,71,72.513" Source="facebook_button.png" Stretch="Fill"/>
+									<Image Margin="83.5,565.794,714.41,208.206" Source="Event Page.jpg" Stretch="Fill"/>
+									<TextBlock HorizontalAlignment="Left" Margin="83.5,451.973,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="26.667" Foreground="White" FontFamily="Roboto"><Run Language="en-gb" Text="Location Information"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+									<TextBlock HorizontalAlignment="Left" Margin="83.5,515.987,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18.667" Foreground="White" FontFamily="Roboto"><Run Language="en-gb" Text="Big Summer Festival is easy to find on Google Maps"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+									<TextBlock HorizontalAlignment="Left" Margin="83.5,852.277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18.667" Foreground="White" FontFamily="Roboto"><Run Language="en-gb" Text="Big Summer Festival"/></TextBlock>
+									<TextBlock HorizontalAlignment="Left" Margin="83.5,879.68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18.667" Foreground="White" FontFamily="Roboto"><Run Language="en-gb" Text="2 Festival Road"/></TextBlock>
+									<TextBlock HorizontalAlignment="Left" Margin="83.5,907.083,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18.667" Foreground="White" FontFamily="Roboto"><Run Language="en-gb" Text="Bangor, County Down"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+									<TextBlock HorizontalAlignment="Left" Margin="83.5,935.083,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18.667" Foreground="White" FontFamily="Roboto"><Run Language="en-gb" Text="BT2 9JF"/></TextBlock>
+									<Button Content="Download Map of the Festival" HorizontalAlignment="Left" Margin="83.5,231.987,0,0" VerticalAlignment="Top" Width="210.82" Height="33.96" Background="#FF2C2C2C" Foreground="White"/>
+								</Grid>
+								<Grid Background="#FFB45DD4" Height="1030.006" Margin="0,0,0,0">
+									<TextBlock HorizontalAlignment="Center" FontSize="40" FontFamily="Roboto" Margin="0,35,0,0" Height="50" VerticalAlignment="Top" Foreground="White"><Run Text="Artist Information"/></TextBlock>
+								</Grid>
+						</StackPanel>
 						<!-- End of Section -->
-						<local:Footer d:IsPrototypingComposition="True"/>			
+						<local:Footer d:IsPrototypingComposition="True"/>		
 					</StackPanel>
 					</Border>
 				</Grid>

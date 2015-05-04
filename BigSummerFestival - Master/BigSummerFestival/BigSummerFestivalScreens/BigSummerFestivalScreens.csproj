@@ -254,6 +254,9 @@
       <All>True</All>
       <AutoFill>True</AutoFill>
     </BlendEmbeddedFont>
+    <Resource Include="ed-sheeran.jpg" />
+    <Resource Include="ed-sheeran_2.jpg" />
+    <Resource Include="ed-sheeran_3.jpg" />
     <Resource Include="signin-facebook-large.png" />
     <Resource Include="widesearch.png" />
     <Resource Include="dropdown.png" />
