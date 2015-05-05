@@ -47,6 +47,7 @@
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
+						<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
 							<Button Content="Management Interface" Height="77.612" Margin="0,4,11.089,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="307.463" FontSize="29.333" HorizontalAlignment="Right">
 								<i:Interaction.Triggers>
@@ -56,14 +57,35 @@
 								</i:Interaction.Triggers>
 							</Button>
 							<Label Content="Financial Information" FontSize="36" HorizontalContentAlignment="Center" Margin="386.571,17.612,385.712,724.504"/>
-							<Label Content="Event Information" FontSize="22" Margin="18,85,49.5,675.736"/>
-							<Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1180" Margin="5,125.5,0,0">
-								<Label Content="Profit" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="979.333,0,0,0"/>
+							<Label Content="Event Information" FontSize="22" Margin="18,110.5,49.5,650.236"/>
+							<Grid HorizontalAlignment="Left" Height="251.5" VerticalAlignment="Top" Width="1180" Margin="5,151,0,0">
+								<Label Content="Revenue" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="979.333,0,0,0"/>
 								<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="12.618,0,0,0"/>
 								<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="205.961,0,0,0"/>
 								<Label Content="Total Tickets " HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="399.304,0,0,0"/>
 								<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="592.647,0,0,0"/>
 								<Label Content="Price Per Ticket" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="785.99,0,0,0"/>
+								<Label Content="£617285.64&#xD;&#xA;&#xD;&#xA;£294231.89&#xD;&#xA;&#xD;&#xA;£492205.00" HorizontalAlignment="Left" VerticalAlignment="Top" Height="180.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="979.333,43.5,0,0"/>
+								<Label Content="Rolling Stones&#xD;&#xA;&#xD;&#xA;Jay Z &amp; Beyonce&#xD;&#xA;&#xD;&#xA;Ed Sheeran" HorizontalAlignment="Left" VerticalAlignment="Top" Height="180.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="12.618,43.5,0,0"/>
+								<Label Content="14/08/2016&#xD;&#xA;&#xD;&#xA;15/08/2016&#xD;&#xA;&#xD;&#xA;16/08/2016" HorizontalAlignment="Left" VerticalAlignment="Top" Height="180.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="205.961,43.5,0,0"/>
+								<Label Content="30000&#xD;&#xA;&#xD;&#xA;30000&#xD;&#xA;&#xD;&#xA;30000" HorizontalAlignment="Left" VerticalAlignment="Top" Height="180.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="399.304,43.5,0,0"/>
+								<Label Content="14564&#xD;&#xA;&#xD;&#xA;20189&#xD;&#xA;&#xD;&#xA;15937" HorizontalAlignment="Left" VerticalAlignment="Top" Height="180.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="592.647,43.5,0,0"/>
+								<Label Content="£39.99&#xD;&#xA;&#xD;&#xA;£29.99&#xD;&#xA;&#xD;&#xA;£35.00" HorizontalAlignment="Left" VerticalAlignment="Top" Height="180.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="785.99,43.5,0,0"/>
+							</Grid>
+							<Label Content="Camping Information" FontSize="22" Margin="18,437,49.5,323.736"/>
+							<Grid HorizontalAlignment="Left" Height="265" VerticalAlignment="Top" Width="1180" Margin="5,481.264,0,0">
+								<Label Content="Revenue" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="979.333,0,0,0"/>
+								<Label Content="Camp Number" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="12.618,0,0,0"/>
+								<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="205.961,0,0,0"/>
+								<Label Content="Total Tickets " HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="399.304,0,0,0"/>
+								<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="592.647,0,0,0"/>
+								<Label Content="Price Per Ticket" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="785.99,0,0,0"/>
+								<Label Content="£73362.12&#xD;&#xA;&#xD;&#xA;£72143.01&#xD;&#xA;&#xD;&#xA;£70100.74&#xD;&#xA;&#xD;&#xA;£57324.87" HorizontalAlignment="Left" VerticalAlignment="Top" Height="221.5" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="979.333,43.5,0,0"/>
+								<Label Content="Camp 1&#xA;&#xA;Camp 2&#xA;&#xA;Camp 3&#xD;&#xA;&#xD;&#xA;Camp 4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="221.5" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="12.618,43.5,0,0"/>
+								<Label Content="14/08/2016&#xD;&#xA;&#xD;&#xA;14/08/2016&#xD;&#xA;&#xD;&#xA;14/08/2016&#xD;&#xA;&#xD;&#xA;14/08/2016" HorizontalAlignment="Left" VerticalAlignment="Top" Height="221.5" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="205.961,43.5,0,0"/>
+								<Label Content="5000&#xD;&#xA;&#xD;&#xA;5000&#xD;&#xA;&#xD;&#xA;5000&#xD;&#xA;&#xD;&#xA;5000" HorizontalAlignment="Left" VerticalAlignment="Top" Height="221.5" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="399.304,43.5,0,0"/>
+								<Label Content="412&#xD;&#xA;&#xD;&#xA;1201&#xD;&#xA;&#xD;&#xA;874&#xD;&#xA;&#xD;&#xA;587" HorizontalAlignment="Left" VerticalAlignment="Top" Height="221.5" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="592.647,43.5,0,0"/>
+								<Label Content="£15.99&#xD;&#xA;&#xD;&#xA;£18.99&#xD;&#xA;&#xD;&#xA;£16.99&#xD;&#xA;&#xD;&#xA;£12.99" HorizontalAlignment="Left" VerticalAlignment="Top" Height="221.5" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="785.99,43.5,0,0"/>
 							</Grid>
 							
 						</Grid>

@@ -84,12 +84,17 @@
 
 							<Label Content="List of Currently Ongoing Sales" FontSize="22" Margin="19.5,60.736,-19.5,0"/>
 						</Grid>
-						<Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1180" Margin="10,0,0,0">
+						<Grid HorizontalAlignment="Left" Height="419.425" VerticalAlignment="Top" Width="1180" Margin="10,0,0,0">
 							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="6,0,0,0"/>
 							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="239.021,0,0,0"/>
 							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="471.681,0,0,0"/>
 							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="704.007,0,0,0"/>
-							<Label Content="Tickets for Sale&#xA;Tickets for Sale" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="936.834,0,0,0"/>
+							<Label Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="936.834,0,0,0"/>
+							<Label Content="Jay Z &amp; Beyonce&#xD;&#xA;&#xD;&#xA;Ed Sheeran&#xD;&#xA;&#xD;&#xA;Rolling Stones&#xD;&#xA;&#xD;&#xA;Ed Sheeran" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="6,43.5,0,0"/>
+							<Label Content="24/09/2015&#xD;&#xA;&#xD;&#xA;14/05/2016&#xD;&#xA;&#xD;&#xA;14/05/2016&#xD;&#xA;&#xD;&#xA;1/08/2016" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="239.021,43.5,0,0"/>
+							<Label Content="27/09/2015&#xD;&#xA;&#xD;&#xA;17/05/2016&#xD;&#xA;&#xD;&#xA;20/05/2016&#xD;&#xA;&#xD;&#xA;5/08/2016" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="471.681,43.5,0,0"/>
+							<Label Content="500&#xD;&#xA;&#xD;&#xA;450&#xD;&#xA;&#xD;&#xA;300&#xD;&#xA;&#xD;&#xA;200" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="704.007,43.5,0,0"/>
+							<Label Content="X&#xD;&#xA;&#xD;&#xA;X&#xD;&#xA;&#xD;&#xA;X&#xD;&#xA;&#xD;&#xA;X" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="936.834,43.5,0,0"/>
 						</Grid>
 						<local:Footer d:IsPrototypingComposition="True"/>
 <!-- End of Section -->	
