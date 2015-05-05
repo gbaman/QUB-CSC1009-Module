@@ -233,6 +233,8 @@
     </Page>
     <Resource Include="080188-glossy-black-3d-button-icon-business-basket.png" />
     <Resource Include="2641129-rolling-stones-617-409.jpg" />
+    <Resource Include="bey_jayz.jpg" />
+    <Resource Include="bey_jayz_2.jpg" />
     <Resource Include="buttonBasketblue.png" />
     <BlendEmbeddedFont Include="Fonts\segoeui.ttf">
       <IsSystemFont>True</IsSystemFont>
