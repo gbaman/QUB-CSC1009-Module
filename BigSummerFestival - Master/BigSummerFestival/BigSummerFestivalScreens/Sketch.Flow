@@ -255,6 +255,18 @@
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Composition</Type>
+      <ClassName>BigSummerFestivalScreens.Search_Bar</ClassName>
+      <DisplayName>Search Bar</DisplayName>
+      <FileName>Search Bar.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>726</X>
+        <Y>-61</Y>
+      </Position>
+      <VisualTag>1</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -545,8 +557,120 @@
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
-      <Source>BigSummerFestivalScreens.Performance_Information</Source>
-      <Target>BigSummerFestivalScreens.Management</Target>
+      <Source>BigSummerFestivalScreens.Gallery1</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Gallery1</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Josh</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Josh</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Gallery2</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Gallery2</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Gallery3</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Gallery3</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Detailed_Event_Page</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Detailed_Event_Page</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_2</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.NavBarComponent</Source>
+      <Target>BigSummerFestivalScreens.Search_Bar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Login</Source>
+      <Target>BigSummerFestivalScreens.Register</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Footer</Source>
+      <Target>BigSummerFestivalScreens.Login</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Footer</Source>
+      <Target>BigSummerFestivalScreens.Register</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Footer</Source>
+      <Target>BigSummerFestivalScreens.Josh</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Contact_Us</Source>
+      <Target>BigSummerFestivalScreens.Screen_1</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -598,7 +722,7 @@
   <ViewState>
     <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>538.17852415666073</X>
+      <X>95.270440251572225</X>
       <Y>-60.635135135135187</Y>
     </Center>
   </ViewState>

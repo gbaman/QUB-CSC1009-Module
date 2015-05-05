@@ -6,6 +6,27 @@
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Login"
 	Style="{StaticResource WindowStyles}">
+	<UserControl.Resources>
+		<Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Rectangle StrokeThickness="5" Stroke="#FF999999" RadiusX="20" RadiusY="20" Fill="White"/>
+							<ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</UserControl.Resources>
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
 		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
@@ -14,10 +35,28 @@
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
+						<!-- End of Section -->
+						<!-- Add Your Page Content Between these top Comments -->
+						<!-- End of Section -->
+						<!-- Add Your Page Content Between these top Comments -->
+						<!-- End of Section -->
+						<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
-							<Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-							<Button Content="Button" HorizontalAlignment="Left" Margin="235.5,166,0,0" VerticalAlignment="Top" Width="75"/>
-							<Label Content="Mike" HorizontalAlignment="Left" Margin="771.5,582,0,0" VerticalAlignment="Top"/>
+							<TextBox HorizontalAlignment="Left" Height="46.134" Margin="361.194,273.046,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" BorderBrush="Black"/>
+							<Label Content="Password" HorizontalAlignment="Left" Margin="361.194,229.672,0,0" VerticalAlignment="Top" FontSize="21.333"/>
+							<TextBox HorizontalAlignment="Left" Height="46.134" Margin="361.194,184.986,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" BorderBrush="Black"/>
+							<Label Content="Username" HorizontalAlignment="Left" Margin="361.194,141.612,0,0" VerticalAlignment="Top" FontSize="21.333"/>
+							<Label Content="Login" HorizontalAlignment="Left" Height="112.911" Margin="524.843,22.298,0,0" VerticalAlignment="Top" Width="167.911" FontSize="64"/>
+							<Label Content="Forgotten your password?" HorizontalAlignment="Left" Margin="524.843,421.791,0,0" VerticalAlignment="Top" FontSize="16" FontStyle="Italic"/>
+							<Button Content="Login" HorizontalAlignment="Left" Height="66.866" Margin="361.194,349.925,0,0" VerticalAlignment="Top" Width="500" FontSize="32" FontWeight="Bold"/>
+							<Button Content="Register" HorizontalAlignment="Left" Height="66.866" Margin="361.194,458.071,0,0" VerticalAlignment="Top" Width="500" FontSize="32" FontWeight="Bold">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="Click">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Register"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Button>
+							<Image Margin="463.5,556,450.246,182.89" Source="signin-facebook-large.png" Stretch="Fill"/>
 						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			
@@ -27,8 +66,6 @@
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 				</Grid>
 		</ScrollViewer>
-		<Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="1149.254,300,0,0"/>
-		<Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="1083.582,382.089,0,0"/>
 	</Grid>
 	
 </UserControl>

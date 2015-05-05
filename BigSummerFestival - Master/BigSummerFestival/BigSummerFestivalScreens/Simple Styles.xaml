@@ -48,7 +48,7 @@
 	<SolidColorBrush x:Key="DisabledBorderBrush" Color="#AAA"/>
 
 	<!-- Used for background of ScrollViewer, TreeView, ListBox, Expander, TextBox, Tab Control -->
-	<SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFF"/>
+	<SolidColorBrush x:Key="WindowBackgroundBrush" Color="White" Opacity="0"/>
 	
 	<!-- DefaultedBorderBrush is used to show KeyBoardFocus -->
 	<LinearGradientBrush x:Key="DefaultedBorderBrush" EndPoint="0,1" StartPoint="0,0">
@@ -56,7 +56,7 @@
 		<GradientStop Color="#000" Offset="1.0"/>
 	</LinearGradientBrush>
 
-	<SolidColorBrush x:Key="SolidBorderBrush" Color="#888"/>
+	<SolidColorBrush x:Key="SolidBorderBrush" Color="White" Opacity="0"/>
 	<SolidColorBrush x:Key="LightBorderBrush" Color="#AAA"/>
 	<SolidColorBrush x:Key="LightColorBrush" Color="#DDD"/>
 	
@@ -635,7 +635,7 @@
 					
 						<!-- Change IsHighlighted SelectedBackgroundBrush to set the selection color for the items -->
 						<Trigger Property="IsHighlighted" Value="true">
-							<Setter Property="Background" Value="{DynamicResource SelectedBackgroundBrush}" TargetName="Border"/>
+							
 						</Trigger>
 						
 						<Trigger Property="IsEnabled" Value="false">
@@ -889,7 +889,7 @@
 						The implementation knows to use this control because it is marked IsItemsHost = True -->
 						<TabPanel Grid.Row="0" Margin="0,0,4,-1" x:Name="HeaderPanel" Background="Transparent" IsItemsHost="True" Panel.ZIndex="1" KeyboardNavigation.TabIndex="1"/>
 						
-						<Border Grid.Row="1" x:Name="Border" Background="{DynamicResource WindowBackgroundBrush}" BorderBrush="{DynamicResource SolidBorderBrush}" BorderThickness="1" CornerRadius="2" KeyboardNavigation.DirectionalNavigation="Contained" KeyboardNavigation.TabNavigation="Local" KeyboardNavigation.TabIndex="2">
+						<Border Grid.Row="1" x:Name="Border" Background="{DynamicResource WindowBackgroundBrush}" BorderBrush="{DynamicResource SolidBorderBrush}" BorderThickness="10" CornerRadius="2" KeyboardNavigation.DirectionalNavigation="Contained" KeyboardNavigation.TabNavigation="Local" KeyboardNavigation.TabIndex="2">
 							
 							<!-- The implementation switches the content. This control must be named PART_SelectedContentHost -->
 							<ContentPresenter Margin="4" x:Name="PART_SelectedContentHost" ContentSource="SelectedContent"/>
@@ -910,19 +910,24 @@
 	</Style>
 	
 	<!--Simple TabItem -->
-	<Style x:Key="SimpleTabItem" d:IsControlPart="True" TargetType="{x:Type TabItem}">
+	<Style x:Key="SimpleTabItem" TargetType="{x:Type TabItem}">
 		<Setter Property="Template">
 			<Setter.Value>
 				<ControlTemplate TargetType="{x:Type TabItem}">
 					<Grid>
-						<Border Margin="0,0,-4,0" x:Name="Border" Background="{DynamicResource LightBrush}" BorderBrush="{DynamicResource SolidBorderBrush}" BorderThickness="1,1,1,1" CornerRadius="2,12,0,0">
-							<ContentPresenter HorizontalAlignment="Center" Margin="12,2,12,2" x:Name="ContentSite" VerticalAlignment="Center" RecognizesAccessKey="True" ContentSource="Header"/>
+						<Border Margin="32,0,44,0" x:Name="Border" Background="{DynamicResource LightBrush}" BorderBrush="{DynamicResource SolidBorderBrush}" BorderThickness="1,1,1,1" CornerRadius="2,12,0,0">
+							<ContentPresenter HorizontalAlignment="Center" Margin="12,2,12,2" x:Name="ContentSite" VerticalAlignment="Center" RecognizesAccessKey="True" ContentSource="Header" ClipToBounds="True"/>
+						</Border>
+						<Border CornerRadius="10, 20, 0, 0" Background="#FFEAEAEA" Name="BorderHeader">
+						<TextBlock Name="Header" Text="{TemplateBinding Header}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
 						</Border>
 					</Grid>
 					<ControlTemplate.Triggers>
 						<Trigger Property="IsSelected" Value="True">
 							<Setter Property="Panel.ZIndex" Value="100"/>
-							<Setter Property="Background" Value="{DynamicResource WindowBackgroundBrush}" TargetName="Border"/>
+							<Setter Property="Background" Value="black" TargetName="BorderHeader"/>
+							<Setter Property="Foreground" Value="white" TargetName="Header"/>
+							<Setter Property="Background" Value="black" TargetName="Border"/>
 							<Setter Property="BorderThickness" Value="1,1,1,0" TargetName="Border"/>
 						</Trigger>
 						<Trigger Property="IsEnabled" Value="False">

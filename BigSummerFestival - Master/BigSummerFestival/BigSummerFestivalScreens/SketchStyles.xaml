@@ -1336,4 +1336,64 @@
 			</Trigger>
 		</Style.Triggers>
 	</Style>
+
+	<!--Button on Combo Box-->
+	 <Style x:Key="NoChromeButton" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="10"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="Chrome" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="#ADADAD"/>
+                            <Setter Property="Opacity" TargetName="Chrome" Value="0.5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+	 <Style x:Key="CustomTabControl" TargetType="{x:Type TabControl}">
+	 	<Setter Property="Template">
+	 		<Setter.Value>
+	 			<ControlTemplate TargetType="{x:Type TabControl}">
+	 				<Border BorderBrush="#454545">
+	 				<Grid KeyboardNavigation.TabNavigation="Local">
+	 					<Grid.RowDefinitions>
+	 						<RowDefinition Height="Auto"/>
+	 						<RowDefinition Height="*"/>
+	 					</Grid.RowDefinitions>
+						
+						<!-- TabPanel is a layout container which allows the TabItems to wrap and re-order when selected
+						The implementation knows to use this control because it is marked IsItemsHost = True -->
+
+	 					<TabPanel Grid.Row="0" Margin="0,0,4,-1" x:Name="HeaderPanel" Background="Transparent" IsItemsHost="True" Panel.ZIndex="1" KeyboardNavigation.TabIndex="1"/>
+						
+	 					<Border Grid.Row="1" x:Name="Border" Background="{DynamicResource WindowBackgroundBrush}" BorderBrush="#454545" BorderThickness="1" CornerRadius="2" KeyboardNavigation.DirectionalNavigation="Contained" KeyboardNavigation.TabNavigation="Local" KeyboardNavigation.TabIndex="2">
+							
+							<!-- The implementation switches the content. This control must be named PART_SelectedContentHost -->
+	 						<ContentPresenter Margin="4" x:Name="PART_SelectedContentHost" ContentSource="SelectedContent"/>
+							
+	 					</Border>
+	 				</Grid>
+					</Border>
+	 				<ControlTemplate.Triggers>
+	 					<Trigger Property="IsEnabled" Value="False">
+	 						<Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+	 						<Setter Property="BorderBrush" Value="{DynamicResource DisabledBorderBrush}" TargetName="Border"/>
+	 					</Trigger>
+	 				</ControlTemplate.Triggers>
+				
+	 			</ControlTemplate>
+	 		</Setter.Value>
+	 	</Setter>
+	 </Style>
 </ResourceDictionary>

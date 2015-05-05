@@ -8,7 +8,7 @@
 	Style="{StaticResource WindowStyles}">
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled" x:Name="scrollView" Margin="0" >
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" x:Name="scrollView" Margin="0,0,0,-2000" >
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
@@ -35,9 +35,10 @@
 								<Grid Background="White" Margin="0,-30,0,0" Height="452.006">
 									<TextBlock FontSize="40" FontFamily="Roboto" Margin="44,38,0,0" Foreground="Black">Tickets</TextBlock>
 									<TextBlock FontSize="30" FontFamily="Roboto" Margin="44,89,0, 0" Foreground="#222222" Height="280.006" VerticalAlignment="Top">Select a Ticket Type</TextBlock>
-									<TabControl HorizontalAlignment="Left" Height="262" Margin="44,143.993,0,0" Style="{DynamicResource SimpleTabControl}" VerticalAlignment="Top" Width="791.5">
-										<TabItem Header="Standard Tickets" Style="{DynamicResource SimpleTabItem}" FontSize="19">
-											<Grid Background="#FFF" Style="{DynamicResource Background}">
+									<TabControl HorizontalAlignment="Left" Height="262" Margin="44,143.993,0,0" Style="{DynamicResource CustomTabControl}" VerticalAlignment="Top" Width="791.5">
+										
+										<TabItem Header="Standard Tickets" Style="{DynamicResource SimpleTabItem}" FontSize="19" Cursor="Hand" HorizontalAlignment="Left" Width="225.023" Margin="0,0,-49,0">
+											<Grid Background="White" Style="{DynamicResource Background}">
 												<TextBlock Margin="23.5,79.96,465.5,79.04">14th August - 8:00pm</TextBlock>
 												<TextBlock Margin="23.5,27.73,465.5,131.27" FontSize="25" ><Run Language="en-gb" Text="Rolling Stones "/><LineBreak/><Run Language="en-gb"/></TextBlock>
 												<Image Margin="590,133.73,10,10" Source="logo.png" Stretch="Fill"/>
@@ -56,13 +57,13 @@
 												</ComboBox>
 											</Grid>
 										</TabItem>
-										<TabItem Header="Camping" Style="{DynamicResource SimpleTabItem}" FontSize="19">
+										<TabItem Header="Camping" Style="{DynamicResource SimpleTabItem}" FontSize="19" Margin="-19,0,4,0">
 											<Grid Background="#FFE5E5E5" Style="{DynamicResource Background}">
 												<TextBlock FontFamily="Roboto" VerticalAlignment="Bottom" HorizontalAlignment="Right">*Concert is included in the price of the camping ticket.</TextBlock>
 											</Grid>
 										</TabItem>
 									</TabControl>
-									<Grid Margin="863,319.003,184.5,38.013" Background="#EEE">
+									<Grid Margin="878,311.003,169.5,46.013" Background="#EEE">
 										<TextBlock HorizontalAlignment="Center" FontSize="20" Margin="45.631,10,48.631,-10">£15.00</TextBlock>
 									<Button Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987">
 									</Button>
@@ -95,7 +96,9 @@
 									<Button Content="Download Map of the Festival" HorizontalAlignment="Left" Margin="83.5,231.987,0,0" VerticalAlignment="Top" Width="210.82" Height="33.96" Background="#FF2C2C2C" Foreground="White"/>
 								</Grid>
 								<Grid Background="#FFB45DD4" Height="1030.006" Margin="0,0,0,0">
-									<TextBlock HorizontalAlignment="Center" FontSize="40" FontFamily="Roboto" Margin="0,35,0,0" Height="50" VerticalAlignment="Top" Foreground="White"><Run Text="Artist Information"/></TextBlock>
+									<TextBox HorizontalAlignment="Left" Height="598.437" TextWrapping="Wrap" Text="Throughout their illustrious career, the rolling stones have headlined many venues around the world across five continents. Having them headline the first night of &quot;The Big Summer Festival&quot; is a huge privilege .&#xA;The Rolling Stones are an English rock band formed in London in 1962. The first settled line-up consisted of Brian Jones (guitar, harmonica), Ian Stewart (piano), Mick Jagger (lead vocals, harmonica), Keith Richards (guitar), Bill Wyman (bass), and Charlie Watts (drums). Stewart was removed from the official line-up in 1963 but continued as occasional pianist until his death in 1985. Jones departed the band less than a month prior to his death in 1969, having already been replaced by Mick Taylor, who remained until 1975. Subsequently, Ronnie Wood has been on guitar in tandem with Richards. Following Wyman's departure in 1993, Darryl Jones has been the main bassist.&#xA;&#xA;The Rolling Stones were inducted into the Rock and Roll Hall of Fame in 1989, and the UK Music Hall of Fame in 2004. Rolling Stone magazine ranked them fourth on the &quot;100 Greatest Artists of All Time&quot; list, and their estimated album sales are above 250 million. They have released twenty-nine studio albums, eighteen live albums and numerous compilations. Let It Bleed (1969) was their first of five consecutive number one studio and live albums in the UK. Sticky Fingers (1971) was the first of eight consecutive number one studio albums in the US. In 2008, the band ranked 10th on the Billboard Hot 100 All-Time Top Artists chart. In 2012, the band celebrated its 50th anniversary.&#xA;&#xA;&#xA;&#xA;" VerticalAlignment="Top" Width="751.372" Margin="229.412,421.569,0,0" Background="#FFB45DD4" FontFamily="Roboto" Foreground="White" FontSize="18.667" BorderBrush="#FFB45DD4"/>
+									<TextBlock HorizontalAlignment="Center" FontSize="40" FontFamily="Roboto" Margin="0,35,0,0" Height="50" VerticalAlignment="Top" Foreground="White"><Run Text="Artist I"/><Run Text="nformation"/></TextBlock>
+									<Image Source="2641129-rolling-stones-617-409.jpg" Margin="369.565,35,386.957,586.223"/>
 								</Grid>
 						</StackPanel>
 						<!-- End of Section -->
