@@ -15,7 +15,7 @@
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
-							
+							<Image Margin="135.5,12.25,27.5,10" Source="Paypal - Andrew(1).png" Stretch="Fill"/>
 						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			
