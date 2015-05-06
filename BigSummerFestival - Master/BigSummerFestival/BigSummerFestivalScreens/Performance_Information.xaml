@@ -48,13 +48,6 @@
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
-							<Button Content="Management Interface" Height="77.612" Margin="0,4,11.089,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="307.463" FontSize="29.333" HorizontalAlignment="Right">
-								<i:Interaction.Triggers>
-									<i:EventTrigger EventName="Click">
-										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Management"/>
-									</i:EventTrigger>
-								</i:Interaction.Triggers>
-							</Button>
 							<Label Content="Performance Information" FontSize="36" HorizontalContentAlignment="Center" Margin="386.571,17.612,385.712,724.504"/>
 							<Label Content="Event Information" FontSize="22" Margin="18,110.5,49.5,650.236"/>
 						
@@ -82,6 +75,13 @@
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 				</Grid>
 		</ScrollViewer>
+		<Button Content="Management Interface" HorizontalAlignment="Center" Height="88.015" VerticalAlignment="Top" Width="313.433" FontSize="29.333" Margin="1224.634,223.306,381.933,0">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Management"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
 	</Grid>
 	
 </UserControl>

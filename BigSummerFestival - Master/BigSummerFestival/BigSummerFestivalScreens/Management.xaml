@@ -42,8 +42,7 @@
 						<StackPanel Width="1200" Background="White" >
 							<!-- Add Your Page Content Between these top Comments -->
 							<Label Content="Management Interface" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="48" Margin="354.895,0"/>
-							
-							<Button Content="Early Access Ticket" HorizontalAlignment="Center" Height="100" Margin="350,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="500" FontSize="29.333">
+							<Button Content="Early Access Tickets" HorizontalAlignment="Center" Height="91" VerticalAlignment="Top" Width="500" FontSize="29.333" Margin="350,0">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="Click">
 										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Early_Access_Tickets"/>
@@ -51,7 +50,7 @@
 								</i:Interaction.Triggers>
 							</Button>
 							<Rectangle Fill="White" HorizontalAlignment="Center" Height="100" RadiusY="20" RadiusX="20" Stroke="#00000000" StrokeThickness="5" VerticalAlignment="Top" Width="500" Margin="350,0"/>
-							<Button Content="Performance Information" HorizontalAlignment="Center" Height="100" Margin="350,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="500" FontSize="29.333">
+							<Button Content="Performance Information" HorizontalAlignment="Center" Height="91" VerticalAlignment="Top" Width="500" FontSize="29.333" Margin="350,0">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="Click">
 										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Performance_Information"/>
@@ -59,7 +58,7 @@
 								</i:Interaction.Triggers>
 							</Button>
 							<Rectangle Fill="White" HorizontalAlignment="Center" Height="100" RadiusY="20" RadiusX="20" Stroke="#00000000" StrokeThickness="5" VerticalAlignment="Top" Width="500" Margin="350,0"/>
-							<Button Content="Financial Information" HorizontalAlignment="Center" Height="100" Margin="350,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="500" FontSize="29.333">
+							<Button Content="Financial Information" HorizontalAlignment="Center" Height="91" VerticalAlignment="Top" Width="500" FontSize="29.333" Margin="350,0">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="Click">
 										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Financial_Information"/>
