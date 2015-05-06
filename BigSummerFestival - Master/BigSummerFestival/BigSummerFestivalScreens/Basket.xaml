@@ -29,13 +29,23 @@
 							<Label Content="14th August 2016" HorizontalAlignment="Left" Height="33.071" Margin="287.101,213.512,0,0" VerticalAlignment="Top" Width="192.412" FontWeight="Bold" FontSize="16"/>
 							<Rectangle Fill="White" Margin="0,251.935,238.944,546.007" Stroke="#FF979797"/>
 							<Label Content="£19.99" HorizontalAlignment="Left" Height="34.984" Margin="758.355,148.303,0,0" VerticalAlignment="Top" Width="75.113" FontSize="18.667" FontWeight="Bold"/>
-							<ComboBox HorizontalAlignment="Left" Margin="855.461,156.993,0,0" VerticalAlignment="Top" Width="94.277"/>
+							<ComboBox HorizontalAlignment="Left" Margin="855.461,156.993,0,0" VerticalAlignment="Top" Width="94.277">
+									<ComboBoxItem>1</ComboBoxItem>
+									<ComboBoxItem>2</ComboBoxItem>
+									<ComboBoxItem>3</ComboBoxItem>
+									<ComboBoxItem>4</ComboBoxItem>
+												</ComboBox>
 							<Label Content="Jay-Z and Beyonce" HorizontalAlignment="Left" Height="46.302" Margin="287.101,272.028,0,0" VerticalAlignment="Top" Width="227.396" FontSize="24" FontWeight="Bold"/>
 							<Label Content="VIP ticket" HorizontalAlignment="Left" Height="49.388" Margin="287.101,332.286,0,0" VerticalAlignment="Top" Width="192.412" FontSize="16"/>
 							<Label Content="15th August 2016" HorizontalAlignment="Left" Height="33.071" Margin="287.101,358.845,0,0" VerticalAlignment="Top" Width="192.412" FontWeight="Bold" FontSize="16"/>
 							<Rectangle Fill="White" Margin="0,397.268,238.944,400.674" Stroke="#FF979797"/>
 							<Label Content="£49.99" HorizontalAlignment="Left" Height="34.984" Margin="758.355,293.636,0,0" VerticalAlignment="Top" Width="75.113" FontSize="18.667" FontWeight="Bold"/>
-							<ComboBox HorizontalAlignment="Left" Margin="855.461,302.326,0,0" VerticalAlignment="Top" Width="94.277"/>
+							<ComboBox HorizontalAlignment="Left" Margin="855.461,302.326,0,0" VerticalAlignment="Top" Width="94.277">
+								<ComboBoxItem>1</ComboBoxItem>
+									<ComboBoxItem>2</ComboBoxItem>
+									<ComboBoxItem>3</ComboBoxItem>
+									<ComboBoxItem>4</ComboBoxItem>
+												</ComboBox>
 							<Image Margin="25.266,272.028,983.113,424.638" Source="pack://siteoforigin:,,,/jayz.png" Stretch="Fill"/>
 						</Grid>
 						<!-- End of Section -->
