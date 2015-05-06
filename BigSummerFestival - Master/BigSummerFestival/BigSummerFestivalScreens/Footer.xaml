@@ -16,15 +16,15 @@
 			<TextBlock Margin="50,145,563,-15" FontSize="20"><Run Text="17 Russle Street, Belfast, BT1 7AT."/></TextBlock>
 			<Image Margin="835,109,29,22" Source="socialmedia .png" Stretch="Fill"/>
 			<Image Margin="50,34.75,1002.25,112.5" Source="login.jpg" Stretch="Fill">
-			<i:Interaction.Triggers>
-									<i:EventTrigger EventName="Click">
-										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Login"/>
-									</i:EventTrigger>
-								</i:Interaction.Triggers>
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Login"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
 			</Image>
 			<Image Margin="197.75,37.25,773.25,116.25" Source="signup.png" Stretch="Fill">
 				<i:Interaction.Triggers>
-					<i:EventTrigger EventName="Click">
+					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Register"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
