@@ -49,7 +49,7 @@
 													<ComboBoxItem>VIP</ComboBoxItem>
 												</ComboBox>
 												<TextBlock Margin="296.5,117.23,267.5,41.77">Quantity</TextBlock>
-												<ComboBox HorizontalAlignment="Left" Height="36" Margin="296.5,149.96,0,0" VerticalAlignment="Top" Width="87" Text="1">
+												<ComboBox x:Name="combobox" HorizontalAlignment="Left" Height="36" Margin="296.5,149.96,0,0" VerticalAlignment="Top" Width="87" Text="1">
 													<ComboBoxItem>1</ComboBoxItem>
 													<ComboBoxItem>2</ComboBoxItem>
 													<ComboBoxItem>3</ComboBoxItem>
@@ -65,7 +65,7 @@
 									</TabControl>
 									<Grid Margin="878,311.003,169.5,46.013" Background="#EEE">
 										<TextBlock HorizontalAlignment="Center" FontSize="20" Margin="45.631,10,48.631,-10">£15.00</TextBlock>
-									<Button Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987">
+									<Button x:Name="btnBasket" Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987">
 									</Button>
 									</Grid>
 									<Button Content="ScrollDown" x:Name="btn1" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
@@ -107,6 +107,7 @@
 					</Border>
 				</Grid>
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+				<TextBlock x:Name="basket" HorizontalAlignment="Left" Margin="1255.5,157.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="19.627" Background="White" Height="17.46"/>
 				</Grid>
 		</ScrollViewer>
 	</Grid>

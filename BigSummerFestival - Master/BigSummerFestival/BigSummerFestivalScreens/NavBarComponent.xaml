@@ -40,8 +40,9 @@
 			<Image Margin="1505.333,138.526,294.333,885.474" Source="view-cart-button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
 			<local:Search_Bar d:IsPrototypingComposition="True" Margin="-256.833,138.526,256.833,-138.526"/>
 			<TextBox HorizontalAlignment="Left" Height="31.25" Margin="1376.834,148.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207.333" Style="{StaticResource Search}"/>
-			<Image Margin="1169.666,134.193,604,4.333" Source="buttonBasketblue.png" Stretch="Fill"/>
-			
+			<Border Margin="1218.916,148.333,625.197,17" Background="#FFF" BorderBrush="#252525" BorderThickness="1"></Border>
+			<TextBlock HorizontalAlignment="Left" Margin="1255,157.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19.583" Width="27.137"><Run Language="en-gb" Text="1"/></TextBlock>
+			<Image Margin="1190,137.026,653,10" Source="pack://siteoforigin:,,,/shopping-cart.png" Stretch="Fill"/>
 		</Grid>
 	</Grid>
 </UserControl>

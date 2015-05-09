@@ -18,13 +18,14 @@
 						<!-- End of Section -->
 						<Grid Height="288.06" Margin="10,400,10,10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="519.403">
 							<Image Margin="10,-83.583,-10,-27.358" Source="pack://siteoforigin:,,,/photoslider.png" Height="399"/>
-							<Image Margin="829.851,-50.746,-634.329,20.895" Source="facebook.jpg" Stretch="Fill"/>
+							<Image Margin="873.851,-10.746,-634.329,20.895" Source="facebook.jpg" Stretch="Fill"/>
 						</Grid>
 						<local:Footer d:IsPrototypingComposition="True"/>			
 					</StackPanel>
 					</Border>
 				</Grid>
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+				<Image Margin="918,242,389,836.06" Source="pack://siteoforigin:,,,/Festival-photographer (1).png" Stretch="Fill"/>
 				</Grid>
 		</ScrollViewer>
 	</Grid>
