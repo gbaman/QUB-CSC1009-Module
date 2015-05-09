@@ -56,7 +56,12 @@
 									<Grid Background="#454545" Width="300" HorizontalAlignment="right">
 										<TextBlock HorizontalAlignment="Left" FontSize="28" Foreground="white" Height="100" VerticalAlignment="Top" Margin="35,10,0,0"><Run Text="Ed Sheeran"/></TextBlock>
 										<TextBlock HorizontalAlignment="Left" FontSize="23" Foreground="white" Height="100" VerticalAlignment="Top" Margin="35,40,0,0"><Run Text="16th August"/></TextBlock>
-										<TextBlock HorizontalAlignment="Left" FontSize="15" Foreground="white" Height="47.761" VerticalAlignment="Bottom" Margin="35,0,-3.344,0"><Run Text="Click for More Information"/></TextBlock>
+										<TextBlock HorizontalAlignment="Left" FontSize="15" Foreground="white" Height="47.761" VerticalAlignment="Bottom" Margin="35,0,-3.344,0">
+											<i:Interaction.Triggers>
+												<i:EventTrigger EventName="MouseLeftButtonDown">
+													<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Artist"/>
+												</i:EventTrigger>
+											</i:Interaction.Triggers><Run Text="Click for More Information"/></TextBlock>
 								
 									</Grid>
 								</Grid>

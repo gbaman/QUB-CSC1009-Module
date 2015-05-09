@@ -51,13 +51,6 @@
 
 <!-- Add Your Page Content Between these top Comments -->
 						<Grid Height="100">
-							<Button Content="Management Interface" Height="77.612" Margin="0,4,11.089,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="307.463" FontSize="29.333" HorizontalAlignment="Right">
-								<i:Interaction.Triggers>
-									<i:EventTrigger EventName="Click">
-										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Management"/>
-									</i:EventTrigger>
-								</i:Interaction.Triggers>
-							</Button>
 							<Label Content="Early Access Tickets" FontSize="36" HorizontalContentAlignment="Center" Margin="386.571,17.612,385.712,24.504"/>
 						</Grid>	
 
@@ -78,18 +71,21 @@
 							<TextBox HorizontalAlignment="Left" Height="45.41" TextWrapping="Wrap" VerticalAlignment="Top" Width="234.994" Margin="936.84,43.354,0,0" BorderThickness="2" BorderBrush="#FFB2DB8D" MaxLength="4" IsReadOnly="True" Text="Enter Amount of Tickets for Sale" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14.667"/>
 							<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="704.007,43.354,0,0" VerticalContentAlignment="Center"/>
 						</Grid>
-						<Grid Height="100">
-							<Button Content="Confirm" Height="50" Margin="799.5,0,0,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="150" FontSize="18.667" Cursor="Hand" HorizontalAlignment="Left"/>
-							<Button Content="Cancel" Height="50" Margin="973.5,0,0,0" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Top" Width="150" FontSize="18.667" Cursor="Hand" HorizontalAlignment="Left"/>	
+						<Grid Height="100">	
 
 							<Label Content="List of Currently Ongoing Sales" FontSize="22" Margin="19.5,60.736,-19.5,0"/>
 						</Grid>
-						<Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1180" Margin="10,0,0,0">
+						<Grid HorizontalAlignment="Left" Height="419.425" VerticalAlignment="Top" Width="1180" Margin="10,0,0,0">
 							<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="6,0,0,0"/>
 							<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="239.021,0,0,0"/>
 							<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="471.681,0,0,0"/>
 							<Label Content="Tickets Remaining" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="704.007,0,0,0"/>
-							<Label Content="Tickets for Sale&#xA;Tickets for Sale" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="936.834,0,0,0"/>
+							<Label Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="936.834,0,0,0"/>
+							<Label Content="Jay Z &amp; Beyonce&#xD;&#xA;&#xD;&#xA;Ed Sheeran&#xD;&#xA;&#xD;&#xA;Rolling Stones&#xD;&#xA;&#xD;&#xA;Ed Sheeran" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="6,43.5,0,0"/>
+							<Label Content="24/09/2015&#xD;&#xA;&#xD;&#xA;14/05/2016&#xD;&#xA;&#xD;&#xA;14/05/2016&#xD;&#xA;&#xD;&#xA;1/08/2016" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="239.021,43.5,0,0"/>
+							<Label Content="27/09/2015&#xD;&#xA;&#xD;&#xA;17/05/2016&#xD;&#xA;&#xD;&#xA;20/05/2016&#xD;&#xA;&#xD;&#xA;5/08/2016" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="471.681,43.5,0,0"/>
+							<Label Content="500&#xD;&#xA;&#xD;&#xA;450&#xD;&#xA;&#xD;&#xA;300&#xD;&#xA;&#xD;&#xA;200" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="704.007,43.5,0,0"/>
+							<Label Content="X&#xD;&#xA;&#xD;&#xA;X&#xD;&#xA;&#xD;&#xA;X&#xD;&#xA;&#xD;&#xA;X" HorizontalAlignment="Left" VerticalAlignment="Top" Height="252.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="936.834,43.5,0,0"/>
 						</Grid>
 						<local:Footer d:IsPrototypingComposition="True"/>
 <!-- End of Section -->	
@@ -99,6 +95,15 @@
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 				</Grid>
 		</ScrollViewer>
+		<Button Content="Management Interface" HorizontalAlignment="Center" Height="88.015" VerticalAlignment="Top" Width="313.433" FontSize="29.333" Margin="1224.634,223.306,381.933,0">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Management"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Confirm" HorizontalAlignment="Center" Height="55.015" VerticalAlignment="Top" Width="137.933" FontSize="29.333" Margin="1160.134,455.806,621.933,0"/>
+		<Button Content="Cancel" HorizontalAlignment="Center" Height="55.015" VerticalAlignment="Top" Width="137.933" FontSize="29.333" Margin="1347.634,455.806,434.433,0"/>
 	</Grid>
 	
 </UserControl>
