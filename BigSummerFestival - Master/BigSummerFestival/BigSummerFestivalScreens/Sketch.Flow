@@ -668,8 +668,7 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
-
-<Connection>
+    <Connection>
       <Source>BigSummerFestivalScreens.Contact_Us</Source>
       <Target>BigSummerFestivalScreens.Screen_1</Target>
       <Type>Navigation</Type>
@@ -696,7 +695,22 @@
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
-    </Connection>  </Connections>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Register</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Register</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+  </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
   <RuntimeOptions>
@@ -741,10 +755,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1</Zoom>
+    <Zoom>0.75</Zoom>
     <Center>
-      <X>362.9502943791652</X>
-      <Y>19.666298798798827</Y>
+      <X>867.06073005829728</X>
+      <Y>26.444444444444621</Y>
     </Center>
   </ViewState>
 </Data>
