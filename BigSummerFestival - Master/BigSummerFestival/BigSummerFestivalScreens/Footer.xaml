@@ -29,7 +29,13 @@
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Image>
-			<Button Content="Terms of Use" HorizontalAlignment="Left" Margin="441,48,0,0" VerticalAlignment="Top" Width="125" Style="{StaticResource TransparentButton}"/>
+			<Button Content="Terms of Use" HorizontalAlignment="Left" Margin="441,48,0,0" VerticalAlignment="Top" Width="125" Style="{StaticResource TransparentButton}">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Mobile_Homepage"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
 			<Button Content="Privacy Policy" HorizontalAlignment="Left" Margin="571,48,0,0" VerticalAlignment="Top" Width="142" Style="{StaticResource TransparentButton}"/>
 			<Button Content="Contact Us" HorizontalAlignment="Left" Margin="736,48,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource TransparentButton}">
 				<i:Interaction.Triggers>

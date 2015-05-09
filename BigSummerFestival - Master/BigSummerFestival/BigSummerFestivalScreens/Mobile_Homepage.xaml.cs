@@ -12,7 +12,7 @@ using System.Windows.Shapes;
 
 namespace BigSummerFestivalScreens
 {
-	public partial class Mobile_Homepage
+	public partial class Mobile_Homepage : UserControl
 	{
 		public Mobile_Homepage()
 		{
