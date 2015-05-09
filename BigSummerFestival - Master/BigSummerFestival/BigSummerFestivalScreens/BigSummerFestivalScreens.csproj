@@ -101,6 +101,9 @@
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Mobile_Homepage.xaml.cs">
+      <DependentUpon>Mobile_Homepage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="NavBarComponent.xaml.cs">
       <DependentUpon>NavBarComponent.xaml</DependentUpon>
     </Compile>
@@ -183,6 +186,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Mobile_Homepage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="NavBarComponent.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -259,6 +266,9 @@
     <Resource Include="ed-sheeran.jpg" />
     <Resource Include="ed-sheeran_2.jpg" />
     <Resource Include="ed-sheeran_3.jpg" />
+    <Resource Include="lumia930.png" />
+    <Resource Include="lumia9301.png" />
+    <Resource Include="lumia9302.png" />
     <Resource Include="Paypal - Andrew%281%29.png" />
     <Resource Include="Paypal - Andrew.jpg" />
     <Resource Include="signin-facebook-large.png" />
