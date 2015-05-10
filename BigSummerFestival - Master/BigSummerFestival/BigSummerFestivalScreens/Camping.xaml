@@ -53,8 +53,36 @@
 											</Grid>
 										</TabItem>
 										<TabItem Header=" 1 Night" Style="{DynamicResource SimpleTabItem}" FontSize="19" Margin="-19,0,4,0">
-											<Grid Background="#FFE5E5E5" Style="{DynamicResource Background}">
-												<TextBlock FontFamily="Roboto" VerticalAlignment="Bottom" HorizontalAlignment="Right">*Concert is included in the price of the camping ticket.</TextBlock>
+											<Grid Background="White" Style="{DynamicResource Background}">
+												<TextBlock Margin="23.5,27.73,465.5,179.77" FontSize="25" ><Run Language="en-gb" Text="1 Night at the Festival"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+												<Image Margin="590,149.96,10,10" Source="logo.png" Stretch="Fill"/>
+												<TextBlock Margin="182.667,159,478.833,63"><Run Language="en-gb" Text="Ticket Type"/></TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="182.667,191.73,0,0" VerticalAlignment="Top" Width="167.667">
+													<ComboBoxItem>Standard</ComboBoxItem>
+													<ComboBoxItem>Disabled Access</ComboBoxItem>
+													<ComboBoxItem>VIP</ComboBoxItem>
+												</ComboBox>
+												<TextBlock Margin="484,159,80,0">Quantity</TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="484,191.73,0,0" VerticalAlignment="Top" Width="87" Text="1">
+													<ComboBoxItem>1</ComboBoxItem>
+													<ComboBoxItem>2</ComboBoxItem>
+													<ComboBoxItem>3</ComboBoxItem>
+													<ComboBoxItem>4</ComboBoxItem>
+												</ComboBox>
+												<TextBlock Margin="368,159,287.5,0"><Run Language="en-gb" Text="Camp Site"/></TextBlock>
+												<ComboBox x:Name="combobox1" HorizontalAlignment="Left" Height="36" Margin="368,191.73,0,0" VerticalAlignment="Top" Width="99" Text="1">
+													<ComboBoxItem Content="Camp A"/>
+													<ComboBoxItem Content="Camp B"/>
+													<ComboBoxItem Content="Camp C"/>
+													<ComboBoxItem Content="Camp D"/>
+												</ComboBox>
+												<TextBlock Margin="22,74.96,146,125.27" TextWrapping="Wrap" Text="Includes a Wrist Band allowing Access to the All the Concerts while your camping Ticket is valid"></TextBlock>
+												<TextBlock Margin="23.5,159,638,63"><Run Language="en-gb" Text="Date"/></TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="23.5,191.73,0,0" VerticalAlignment="Top" Width="145.5">
+													<ComboBoxItem Content="14-15th August"/>
+													<ComboBoxItem Content="15-16th August"/>
+													<ComboBoxItem Content="16-17th August"/>
+												</ComboBox>
 											</Grid>
 										</TabItem>
 									</TabControl>
@@ -64,6 +92,7 @@
 									<Button x:Name="btnBasket" Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987">
 									</Button>
 									</Grid>
+								<Image Margin="557.354,52,100.646,277.561" Source="pack://siteoforigin:,,,/map.png" Stretch="Fill"/>
 								</Grid>
 							</StackPanel>
 							<!-- End of Section -->
