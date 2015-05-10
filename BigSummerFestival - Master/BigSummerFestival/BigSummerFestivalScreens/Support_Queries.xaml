@@ -27,7 +27,13 @@
 				<Button Content="Email Reply" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="203.294" FontSize="29.333" Margin="1162.67,607.685,537.036,0"/>
 				<Button Content="Reset Password" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="203.294" FontSize="29.333" Margin="1162.67,687.05,537.036,0"/>
 				<Button Content="Email Reply" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="203.294" FontSize="29.333" Margin="1162.67,732.869,537.036,0"/>
-				<Button Content="Management Interface" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="304.881" FontSize="29.333" Margin="381.718,250.754,1216.401,0"/>
+				<Button Content="Management Interface" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="304.881" FontSize="29.333" Margin="381.718,250.754,1216.401,0">
+					<i:Interaction.Triggers>
+						<i:EventTrigger EventName="Click">
+							<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Management"/>
+						</i:EventTrigger>
+					</i:Interaction.Triggers>
+				</Button>
 				</Grid>
 		</ScrollViewer>
 		<Label Content="Support Queries" FontSize="36" HorizontalContentAlignment="Center" Margin="674.571,254.612,817.712,767.504"/>

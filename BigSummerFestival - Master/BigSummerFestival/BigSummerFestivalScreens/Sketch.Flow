@@ -315,6 +315,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BigSummerFestivalScreens.Support_Queries</ClassName>
+      <DisplayName>Support Queries</DisplayName>
+      <FileName>Support_Queries.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-374</X>
+        <Y>67</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -947,6 +959,20 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Management</Source>
+      <Target>BigSummerFestivalScreens.Support_Queries</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Support_Queries</Source>
+      <Target>BigSummerFestivalScreens.Management</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -992,10 +1018,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.75</Zoom>
+    <Zoom>0.8</Zoom>
     <Center>
-      <X>740.171816518478</X>
-      <Y>-235.93497942386838</Y>
+      <X>-3.7308362865235072</X>
+      <Y>-70.57793209876553</Y>
     </Center>
   </ViewState>
 </Data>
