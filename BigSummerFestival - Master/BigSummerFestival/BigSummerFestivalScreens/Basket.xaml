@@ -19,7 +19,7 @@
 						<Grid Style="{StaticResource pageContent}">
 							<Label Content="Basket" HorizontalAlignment="Left" Height="112.911" Margin="490.888,-5.901,0,0" VerticalAlignment="Top" Width="229.647" FontSize="64"/>
 							<Rectangle Fill="White" Margin="-10.262,130.01,238.944,667.932" Stroke="#FF979797"/>
-							<Rectangle Fill="#FFD8D8D8" HorizontalAlignment="Left" Height="292.316" Margin="966.056,130.01,0,0" Stroke="Black" VerticalAlignment="Top" Width="212.106"/>
+							<Rectangle Fill="#FFD8D8D8" HorizontalAlignment="Left" Height="354.316" Margin="966.056,130.01,0,0" Stroke="Black" VerticalAlignment="Top" Width="212.106"/>
 							<TextBox HorizontalAlignment="Left" Height="230.482" Margin="984.722,149.695,0,0" TextWrapping="Wrap" Text="Subtotal (2 items):&#xD;&#xA;£69.98&#xD;&#xA;&#xD;&#xA;VAT included:&#xD;&#xA;£14.00&#xD;&#xA;&#xD;&#xA;Postage:&#xD;&#xA;£0.00 (included)&#xD;&#xA;&#xD;&#xA;" VerticalAlignment="Top" Width="175.948" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18.667"/>
 							<Button Content="Checkout" HorizontalAlignment="Left" Margin="984.722,369.743,0,0" VerticalAlignment="Top" Width="185.448" Height="39.363" FontWeight="Bold" FontSize="16" BorderBrush="#FF878787" Background="#FFB2D20C"/>
 							<Label Content="Price&#x9;&#x9;Quantity" HorizontalAlignment="Left" Height="32.936" Margin="774.355,92.074,0,0" VerticalAlignment="Top" Width="164.815"/>
@@ -48,6 +48,7 @@
 												</ComboBox>
 							<Image Margin="25.266,295.028,983.113,401.638" Source="pack://siteoforigin:,,,/jayz.png" Stretch="Fill"/>
 							<Image Margin="263,452,325,264" Source="TimeRemaining.png" Stretch="Fill"/>
+							<Image Margin="966.056,427.857,21.838,315.674" Source="hero-recaptcha-demo.gif" Stretch="Fill"/>
 						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			
