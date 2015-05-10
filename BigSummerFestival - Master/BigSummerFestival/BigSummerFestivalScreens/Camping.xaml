@@ -16,11 +16,14 @@
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 						<StackPanel Width="1200" Background="White" >
 							<!-- Add Your Page Content Between these top Comments -->
-							<StackPanel Margin="0,10,0,30">
+							<StackPanel Margin="0,10,10,30" HorizontalAlignment="Right" Width="1190">
 								<TextBlock HorizontalAlignment="Center" FontSize="29"><Run Text="Camping"/></TextBlock>
-								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="30,30,0,0" Height="217.754" Width="615.354" TextWrapping="Wrap" Text="For the first year ever, You are able to choose your Campsite. There is a
-choice of 4 designated campsites that are only a short walk from the heart of the festival, capable of
-accommodating 5,000 tent spaces in total. "></TextBlock>
+								<Grid Height="606.8">
+								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="96,33.046,0,470" Width="997.354" TextWrapping="Wrap"><Run Text="You are able to choose your Campsite. There is a choice of 4 designated campsites that are only a short walk from the heart of the festival"/><Run Language="en-gb" Text="!"/></TextBlock>
+								<Grid Margin="336,0" VerticalAlignment="Top" Width="400">
+									<Image Margin="-356,176,160,-284" Source="pack://siteoforigin:,,,/map16june14.png" Stretch="Fill" HorizontalAlignment="Center" Height="376.8" Width="596" VerticalAlignment="Center"/>
+								</Grid>
+								</Grid>
 							</StackPanel>
 							<!-- End of Section -->
 							<local:Footer d:IsPrototypingComposition="True"/>		

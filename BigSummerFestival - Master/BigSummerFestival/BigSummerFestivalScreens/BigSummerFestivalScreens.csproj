@@ -329,6 +329,9 @@
     <None Include="jayz.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="map16june14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="photoslider.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
