@@ -18,7 +18,6 @@
 						<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
 							<Label Content="Basket" HorizontalAlignment="Left" Height="112.911" Margin="490.888,-5.901,0,0" VerticalAlignment="Top" Width="229.647" FontSize="64"/>
-<<<<<<< HEAD
 							<Rectangle Fill="White" Margin="-10.262,107.01,238.944,690.932" Stroke="#FF979797"/>
 							<Rectangle Fill="#FFD8D8D8" HorizontalAlignment="Left" Height="292.316" Margin="966.056,107.01,0,0" Stroke="Black" VerticalAlignment="Top" Width="212.106"/>
 							<TextBox HorizontalAlignment="Left" Height="230.482" Margin="984.722,126.695,0,0" TextWrapping="Wrap" Text="Subtotal (2 items):&#xD;&#xA;£69.98&#xD;&#xA;&#xD;&#xA;VAT included:&#xD;&#xA;£14.00&#xD;&#xA;&#xD;&#xA;Postage:&#xD;&#xA;£0.00 (included)&#xD;&#xA;&#xD;&#xA;" VerticalAlignment="Top" Width="175.948" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18.667"/>
@@ -37,39 +36,23 @@
 							<Rectangle Fill="White" Margin="0,251.935,238.944,546.007" Stroke="#FF979797"/>
 							<Label Content="£19.99" HorizontalAlignment="Left" Height="34.984" Margin="758.355,148.303,0,0" VerticalAlignment="Top" Width="75.113" FontSize="18.667" FontWeight="Bold"/>
 							<ComboBox HorizontalAlignment="Left" Margin="855.461,156.993,0,0" VerticalAlignment="Top" Width="94.277">
-=======
-							<Rectangle Fill="White" Margin="-10.262,130.01,238.944,667.932" Stroke="#FF979797"/>
-							<Rectangle Fill="#FFD8D8D8" HorizontalAlignment="Left" Height="354.316" Margin="966.056,130.01,0,0" Stroke="Black" VerticalAlignment="Top" Width="212.106"/>
-							<TextBox HorizontalAlignment="Left" Height="230.482" Margin="984.722,149.695,0,0" TextWrapping="Wrap" Text="Subtotal (2 items):&#xD;&#xA;£69.98&#xD;&#xA;&#xD;&#xA;VAT included:&#xD;&#xA;£14.00&#xD;&#xA;&#xD;&#xA;Postage:&#xD;&#xA;£0.00 (included)&#xD;&#xA;&#xD;&#xA;" VerticalAlignment="Top" Width="175.948" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18.667"/>
-							<Button Content="Checkout" HorizontalAlignment="Left" Margin="984.722,369.743,0,0" VerticalAlignment="Top" Width="185.448" Height="39.363" FontWeight="Bold" FontSize="16" BorderBrush="#FF878787" Background="#FFB2D20C"/>
-							<Label Content="Price&#x9;&#x9;Quantity" HorizontalAlignment="Left" Height="32.936" Margin="774.355,92.074,0,0" VerticalAlignment="Top" Width="164.815"/>
-							<Image Margin="25.266,149.695,979.808,540.659" Source="pack://siteoforigin:,,,/the-rolling-stones-wallpaper_154075-1920x1080.jpg" Stretch="Fill"/>
-							<Label Content="The Rolling Stones" HorizontalAlignment="Left" Height="46.302" Margin="287.101,149.695,0,0" VerticalAlignment="Top" Width="227.396" FontSize="24" FontWeight="Bold"/>
-							<Label Content="Standard ticket" HorizontalAlignment="Left" Height="49.388" Margin="287.101,209.953,0,0" VerticalAlignment="Top" Width="192.412" FontSize="16"/>
-							<Label Content="14th August 2016" HorizontalAlignment="Left" Height="33.071" Margin="287.101,236.512,0,0" VerticalAlignment="Top" Width="192.412" FontWeight="Bold" FontSize="16"/>
-							<Rectangle Fill="White" Margin="0,274.935,238.944,523.007" Stroke="#FF979797"/>
-							<Label Content="£19.99" HorizontalAlignment="Left" Height="34.984" Margin="758.355,171.303,0,0" VerticalAlignment="Top" Width="75.113" FontSize="18.667" FontWeight="Bold"/>
-							<ComboBox HorizontalAlignment="Left" Margin="855.461,179.993,0,0" VerticalAlignment="Top" Width="94.277">
->>>>>>> origin/master
 									<ComboBoxItem>1</ComboBoxItem>
 									<ComboBoxItem>2</ComboBoxItem>
 									<ComboBoxItem>3</ComboBoxItem>
 									<ComboBoxItem>4</ComboBoxItem>
 												</ComboBox>
-							<Label Content="Jay-Z and Beyonce" HorizontalAlignment="Left" Height="46.302" Margin="287.101,295.028,0,0" VerticalAlignment="Top" Width="227.396" FontSize="24" FontWeight="Bold"/>
-							<Label Content="VIP ticket" HorizontalAlignment="Left" Height="49.388" Margin="287.101,355.286,0,0" VerticalAlignment="Top" Width="192.412" FontSize="16"/>
-							<Label Content="15th August 2016" HorizontalAlignment="Left" Height="33.071" Margin="287.101,381.845,0,0" VerticalAlignment="Top" Width="192.412" FontWeight="Bold" FontSize="16"/>
-							<Rectangle Fill="White" Margin="0,420.268,238.944,377.674" Stroke="#FF979797"/>
-							<Label Content="£49.99" HorizontalAlignment="Left" Height="34.984" Margin="758.355,316.636,0,0" VerticalAlignment="Top" Width="75.113" FontSize="18.667" FontWeight="Bold"/>
-							<ComboBox HorizontalAlignment="Left" Margin="855.461,325.326,0,0" VerticalAlignment="Top" Width="94.277">
+							<Label Content="Jay-Z and Beyonce" HorizontalAlignment="Left" Height="46.302" Margin="287.101,272.028,0,0" VerticalAlignment="Top" Width="227.396" FontSize="24" FontWeight="Bold"/>
+							<Label Content="VIP ticket" HorizontalAlignment="Left" Height="49.388" Margin="287.101,332.286,0,0" VerticalAlignment="Top" Width="192.412" FontSize="16"/>
+							<Label Content="15th August 2016" HorizontalAlignment="Left" Height="33.071" Margin="287.101,358.845,0,0" VerticalAlignment="Top" Width="192.412" FontWeight="Bold" FontSize="16"/>
+							<Rectangle Fill="White" Margin="0,397.268,238.944,400.674" Stroke="#FF979797"/>
+							<Label Content="£49.99" HorizontalAlignment="Left" Height="34.984" Margin="758.355,293.636,0,0" VerticalAlignment="Top" Width="75.113" FontSize="18.667" FontWeight="Bold"/>
+							<ComboBox HorizontalAlignment="Left" Margin="855.461,302.326,0,0" VerticalAlignment="Top" Width="94.277">
 								<ComboBoxItem>1</ComboBoxItem>
 									<ComboBoxItem>2</ComboBoxItem>
 									<ComboBoxItem>3</ComboBoxItem>
 									<ComboBoxItem>4</ComboBoxItem>
 												</ComboBox>
-							<Image Margin="25.266,295.028,983.113,401.638" Source="pack://siteoforigin:,,,/jayz.png" Stretch="Fill"/>
-							<Image Margin="263,452,325,264" Source="TimeRemaining.png" Stretch="Fill"/>
-							<Image Margin="966.056,427.857,21.838,315.674" Source="hero-recaptcha-demo.gif" Stretch="Fill"/>
+							<Image Margin="25.266,272.028,983.113,424.638" Source="pack://siteoforigin:,,,/jayz.png" Stretch="Fill"/>
 						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			
