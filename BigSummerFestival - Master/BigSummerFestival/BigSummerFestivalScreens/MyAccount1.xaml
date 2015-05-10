@@ -52,7 +52,13 @@
 								<Button Content="Print Tickets" VerticalAlignment="Bottom" Height="36.987" Margin="991.5,0,56,279.687" FontSize="16"/>
 								<Button Content="Print all tickets" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152.5" Height="36.363" FontSize="16" BorderBrush="#FF878787" Background="#FFB2D20C" FontFamily="/BigSummerFestival.Screens;component/Fonts/#Segoe UI" Margin="991.5,750.554,0,0"/>
 								<Button Content="Print Tickets" VerticalAlignment="Bottom" Height="36.987" Margin="991.5,0,56,134.354" FontSize="16"/>
-								<Button Content="Management Interface" VerticalAlignment="Bottom" Height="36.987" Margin="51.275,0,941.351,13.083" FontSize="16"/>
+								<Button Content="Management Interface" VerticalAlignment="Bottom" Height="36.987" Margin="51.275,0,941.351,13.083" FontSize="16">
+									<i:Interaction.Triggers>
+										<i:EventTrigger EventName="Click">
+											<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Management"/>
+										</i:EventTrigger>
+									</i:Interaction.Triggers>
+								</Button>
 							</Grid>
 						<!-- End of Section -->
 							<local:Footer d:IsPrototypingComposition="True"/>			
