@@ -107,6 +107,9 @@
     <Compile Include="Mobile_Homepage.xaml.cs">
       <DependentUpon>Mobile_Homepage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MyAccount1.xaml.cs">
+      <DependentUpon>MyAccount1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="NavBarComponent.xaml.cs">
       <DependentUpon>NavBarComponent.xaml</DependentUpon>
     </Compile>
@@ -197,6 +200,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Mobile_Homepage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyAccount1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

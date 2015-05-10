@@ -51,7 +51,7 @@
 							<Button Content="Login" HorizontalAlignment="Left" Height="66.866" Margin="361.194,349.925,0,0" VerticalAlignment="Top" Width="500" FontSize="32" FontWeight="Bold">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="Click">
-										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_1"/>
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.MyAccount2"/>
 									</i:EventTrigger>
 								</i:Interaction.Triggers>
 							</Button>
