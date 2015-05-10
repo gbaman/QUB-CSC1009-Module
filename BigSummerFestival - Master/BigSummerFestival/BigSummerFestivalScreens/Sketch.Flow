@@ -303,6 +303,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BigSummerFestivalScreens.MyAccount1</ClassName>
+      <DisplayName>My Account</DisplayName>
+      <FileName>MyAccount1.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>399</X>
+        <Y>-228</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -907,6 +919,27 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Footer</Source>
+      <Target>BigSummerFestivalScreens.MyAccount1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.MyAccount1</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.MyAccount1</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -954,8 +987,8 @@
   <ViewState>
     <Zoom>0.75</Zoom>
     <Center>
-      <X>933.07297091963085</X>
-      <Y>122</Y>
+      <X>740.171816518478</X>
+      <Y>-235.93497942386838</Y>
     </Center>
   </ViewState>
 </Data>

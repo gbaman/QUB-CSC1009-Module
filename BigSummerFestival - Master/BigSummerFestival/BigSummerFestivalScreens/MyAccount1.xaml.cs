@@ -12,7 +12,7 @@ using System.Windows.Shapes;
 
 namespace BigSummerFestivalScreens
 {
-	public partial class MyAccount1
+	public partial class MyAccount1 :UserControl
 	{
 		public MyAccount1()
 		{
