@@ -21,8 +21,15 @@
 								<Grid Height="606.8">
 								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="96,33.046,0,470" Width="997.354" TextWrapping="Wrap"><Run Text="You are able to choose your Campsite. There is a choice of 4 designated campsites that are only a short walk from the heart of the festival"/><Run Language="en-gb" Text="!"/></TextBlock>
 								<Grid Margin="336,0" VerticalAlignment="Top" Width="400">
-									<Image Margin="-356,176,160,-284" Source="pack://siteoforigin:,,,/map16june14.png" Stretch="Fill" HorizontalAlignment="Center" Height="376.8" Width="596" VerticalAlignment="Center"/>
+									<Image Margin="138,110,-334,-218" Source="pack://siteoforigin:,,,/map16june14.png" Stretch="Fill" HorizontalAlignment="Center" Height="376.8" Width="596" VerticalAlignment="Center"/>
 								</Grid>
+								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="96,136.8,0,422.246" Width="343.354" TextWrapping="Wrap"><Run Language="en-gb" Text="Choose Your Campsite"/></TextBlock>
+								<ComboBox HorizontalAlignment="Left" Margin="96,189.554,0,0" VerticalAlignment="Top" Width="120">
+									<ComboBoxItem Content="Camp A"/>
+									<ComboBoxItem Content="Camp B"/>
+									<ComboBoxItem Content="Camp C"/>
+									<ComboBoxItem Content="Camp D"/>
+								</ComboBox>
 								</Grid>
 							</StackPanel>
 							<!-- End of Section -->
