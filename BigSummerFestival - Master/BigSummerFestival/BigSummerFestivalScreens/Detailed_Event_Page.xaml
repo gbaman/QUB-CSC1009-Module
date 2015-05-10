@@ -55,6 +55,7 @@
 													<ComboBoxItem>3</ComboBoxItem>
 													<ComboBoxItem>4</ComboBoxItem>
 												</ComboBox>
+												<TextBlock Margin="461.5,-73.77,52.5,232.77"><Run Language="en-gb" Text="Keep up with this event! "/><LineBreak/><Run Language="en-gb" Text="Sign up to our newsletter!"/></TextBlock>
 											</Grid>
 										</TabItem>
 										<TabItem Header="Camping" Style="{DynamicResource SimpleTabItem}" FontSize="19" Margin="-19,0,4,0">
@@ -67,6 +68,7 @@
 										<TextBlock HorizontalAlignment="Center" FontSize="20" Margin="45.631,10,48.631,-10">£15.00</TextBlock>
 									<Button Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987">
 									</Button>
+									<Button Content="Sign me up!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Margin="-128,-194,0,0" Height="35.96"/>
 									</Grid>
 									<Button Content="ScrollDown" x:Name="btn1" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
 										<Button.Background>

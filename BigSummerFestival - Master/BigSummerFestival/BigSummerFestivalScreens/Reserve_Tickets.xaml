@@ -108,8 +108,10 @@
 				</Grid>
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 				<TextBlock x:Name="basket" HorizontalAlignment="Left" Margin="1255.5,157.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="19.627" Background="White" Height="17.46"/>
+				<Button Content="Sign me up!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="101.923" Margin="1053.847,663.461,0,0" Height="31.498"/>
 				</Grid>
 		</ScrollViewer>
+		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="819.23,659.615,0,0" Height="54.421" Width="227.383" FontSize="19"><Run Language="en-gb" Text="Keep up with this Event!"/><LineBreak/><Run Language="en-gb" Text="Sign up to our newsletter!"/></TextBlock>
 	</Grid>
 	
 </UserControl>
