@@ -104,8 +104,17 @@
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Mobile_Events.xaml.cs">
+      <DependentUpon>Mobile_Events.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Mobile_Homepage.xaml.cs">
       <DependentUpon>Mobile_Homepage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile_Login.xaml.cs">
+      <DependentUpon>Mobile_Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile_Management.xaml.cs">
+      <DependentUpon>Mobile_Management.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyAccount1.xaml.cs">
       <DependentUpon>MyAccount1.xaml</DependentUpon>
@@ -202,7 +211,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Mobile_Events.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Mobile_Homepage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Mobile_Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Mobile_Management.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
