@@ -25,6 +25,8 @@
 					</Border>
 				</Grid>
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+				<Label Content="What does your issue relate to?" Margin="569.627,318.293,956.73,783.97" FontWeight="Bold" FontSize="16" />
+				<RadioButton Margin="916.419,349.253,888.073,747.627" Content="Refunds"/>
 				<TextBox HorizontalAlignment="Left" Height="23" Margin="620.895,407.463,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348.358" BorderBrush="Black"/>
 				<TextBox HorizontalAlignment="Left" Height="23" Margin="620.895,459.701,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348.358" BorderBrush="Black"/>
 				<TextBox HorizontalAlignment="Left" Height="266.284" Margin="620.895,520.895,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348.358" BorderBrush="Black"/>
@@ -33,6 +35,10 @@
 				<Label Content="Name: " HorizontalAlignment="Left" Margin="516.417,459.701,0,0" VerticalAlignment="Top" Width="83.993" FontWeight="Bold" FontSize="18.667"/>
 				<Label Content="Issue:" HorizontalAlignment="Left" Margin="516.417,520.895,0,0" VerticalAlignment="Top" Width="69.993" FontWeight="Bold" FontSize="18.667"/>
 				<Label Content="Have any questions or concerns? Just fill out the form below and we'll get back to you!&#xA;Please Allow 24 hours for a reply.&#xA;" HorizontalAlignment="Left" Margin="569.627,256.075,0,0" VerticalAlignment="Top" Height="72.96" Width="568.993" FontWeight="Bold" FontSize="13.333"/>
+				<RadioButton Content="General" Margin="817.911,349.253,986.581,747.627"/>
+				<RadioButton Content="Accounts" Margin="719.403,349.253,1085.089,747.627"/>
+				<RadioButton Content="Payment" Margin="620.895,349.253,1183.597,747.627"/>
+				<RadioButton Content="Other" Margin="1019.927,349.253,784.565,747.627"/>
 				</Grid>
 		</ScrollViewer>
 	</Grid>
