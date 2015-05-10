@@ -28,6 +28,7 @@
 					<Image Margin="10,190,10,606" Source="ed-sheeran_2.jpg" Stretch="Fill"/>
 					<Image Margin="0,10,10,788" Source="bey_jayz_2.jpg" Stretch="Fill" VerticalAlignment="Center" Height="169" HorizontalAlignment="Right" Width="296.667"/>
 				</Grid>
+
 			</StackPanel>
 		</ScrollViewer>
 	</Grid>
