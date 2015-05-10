@@ -21,15 +21,15 @@
 					</Border>
 				</Grid>
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+				<Label Content="Current Poll Results:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,271.667,0,0" Height="134.293" Width="817.993" FontSize="90.667"/>
+				<Label Content="Thinking Out Loud- Ed Sheeran: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,461.667,0,0" Height="139.293" Width="710" FontSize="48" BorderBrush="#FF23FF00" BorderThickness="5"/>
+				<Label Content="48%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1113.333,461.667,0,0" Height="100.96" Width="119.66" FontSize="48" FontWeight="Bold"/>
+				<Label Content="Crazy in Love- Beyonce/Jay Z:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,600.96,0,0" Height="134.293" Width="710" FontSize="48" Background="White" BorderBrush="#FF23FF00" BorderThickness="5"/>
+				<Label Content="25%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1113.333,600.96,0,0" Height="100.96" Width="119.66" FontSize="48" RenderTransformOrigin="0.557,1.799" FontWeight="Bold"/>
+				<Label Content="Gimme Shelter- The &#xA;Rolling Stones:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,735.253,0,0" Height="152.626" Width="710" FontSize="48" BorderBrush="#FF23FF00" BorderThickness="5"/>
+				<Label Content="27%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1113.333,735.253,0,0" Height="100.96" Width="119.66" FontSize="48" RenderTransformOrigin="0.557,1.799" FontWeight="Bold"/>
 				</Grid>
 		</ScrollViewer>
-		<Label Content="Current Poll Results:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,271.667,0,0" Height="134.293" Width="817.993" FontSize="90.667"/>
-		<Label Content="Thinking Out Loud- Ed Sheeran: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,461.667,0,0" Height="139.293" Width="710" FontSize="48" BorderBrush="#FF23FF00" BorderThickness="5"/>
-		<Label Content="48%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1113.333,461.667,0,0" Height="100.96" Width="119.66" FontSize="48" FontWeight="Bold"/>
-		<Label Content="Crazy in Love- Beyonce/Jay Z:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,600.96,0,0" Height="134.293" Width="710" FontSize="48" Background="White" BorderBrush="#FF23FF00" BorderThickness="5"/>
-		<Label Content="25%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1113.333,600.96,0,0" Height="100.96" Width="119.66" FontSize="48" RenderTransformOrigin="0.557,1.799" FontWeight="Bold"/>
-		<Label Content="Gimme Shelter- The &#xD;&#xA;Rolling Stones:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,735.253,0,0" Height="152.626" Width="710" FontSize="48" BorderBrush="#FF23FF00" BorderThickness="5"/>
-		<Label Content="27%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1113.333,735.253,0,0" Height="100.96" Width="119.66" FontSize="48" RenderTransformOrigin="0.557,1.799" FontWeight="Bold"/>
 	</Grid>
 	
 </UserControl>

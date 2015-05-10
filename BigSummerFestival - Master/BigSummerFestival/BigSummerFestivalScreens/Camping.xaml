@@ -2,10 +2,33 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="BigSummerFestivalScreens_Camping_Name"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:BigSummerFestivalScreens"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="BigSummerFestivalScreens_Camping_Name"
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Camping"
-	Width="640" Height="480">
+	Style="{StaticResource WindowStyles}">
 
-	<Grid x:Name="LayoutRoot" Background="White"/>
+	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="0">
+			<Grid x:Name="MainContainer">
+				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
+					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
+						<StackPanel Width="1200" Background="White" >
+							<!-- Add Your Page Content Between these top Comments -->
+							<StackPanel Margin="0,10,0,30">
+								<TextBlock HorizontalAlignment="Center" FontSize="29"><Run Text="Camping"/></TextBlock>
+								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="30,30,0,0" Height="217.754" Width="615.354" TextWrapping="Wrap" Text="For the first year ever, You are able to choose your Campsite. There is a
+choice of 4 designated campsites that are only a short walk from the heart of the festival, capable of
+accommodating 5,000 tent spaces in total. "></TextBlock>
+							</StackPanel>
+							<!-- End of Section -->
+							<local:Footer d:IsPrototypingComposition="True"/>		
+						</StackPanel>
+					</Border>
+				</Grid>
+				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+			</Grid>
+		</ScrollViewer>
+	</Grid>
 </UserControl>

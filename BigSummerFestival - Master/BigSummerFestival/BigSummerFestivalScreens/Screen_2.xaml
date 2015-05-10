@@ -10,14 +10,14 @@
 	Style="{StaticResource WindowStyles}">
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="0,0,0,-2000">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="0">
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 						<StackPanel Width="1200" Background="White" >
 							<!-- Add Your Page Content Between these top Comments -->
 							<StackPanel Margin="0,10,0,30">
-								<TextBlock HorizontalAlignment="center" FontSize="25"><Run Text="Events"/></TextBlock>
+								<TextBlock HorizontalAlignment="Center" FontSize="25"><Run Text="Events"/></TextBlock>
 								<Grid  Width="800" HorizontalAlignment="Center" Margin="200,20,200,0">
 									<i:Interaction.Triggers>
 										<i:EventTrigger EventName="MouseLeftButtonDown">
