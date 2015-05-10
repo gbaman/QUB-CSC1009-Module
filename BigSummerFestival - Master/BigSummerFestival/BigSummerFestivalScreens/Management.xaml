@@ -66,6 +66,8 @@
 								</i:Interaction.Triggers>
 							</Button>
 							<Rectangle Fill="White" HorizontalAlignment="Center" Height="100" RadiusY="20" RadiusX="20" Stroke="#00000000" StrokeThickness="5" VerticalAlignment="Top" Width="500" Margin="350,0"/>
+							<Button Content="Export PDF of Tickets to Dispatch" HorizontalAlignment="Center" Height="91" VerticalAlignment="Top" Width="500" FontSize="29.333" Margin="350,0"/>
+							<Rectangle Fill="White" HorizontalAlignment="Center" Height="100" RadiusY="20" RadiusX="20" Stroke="#00000000" StrokeThickness="5" VerticalAlignment="Top" Width="500" Margin="350,0"/>
 							<!-- End of Section -->
 							<local:Footer d:IsPrototypingComposition="True"/>
 						</StackPanel>
