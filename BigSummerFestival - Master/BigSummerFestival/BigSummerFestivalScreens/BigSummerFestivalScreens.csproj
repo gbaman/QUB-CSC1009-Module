@@ -140,8 +140,8 @@
     <Compile Include="Search.xaml.cs">
       <DependentUpon>Search.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Support Queries.xaml.cs">
-      <DependentUpon>Support Queries.xaml</DependentUpon>
+    <Compile Include="Support_Queries.xaml.cs">
+      <DependentUpon>Support_Queries.xaml</DependentUpon>
     </Compile>
     <Compile Include="Vote Results.xaml.cs">
       <DependentUpon>Vote Results.xaml</DependentUpon>
@@ -258,7 +258,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Support Queries.xaml">
+    <Page Include="Support_Queries.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
