@@ -295,6 +295,7 @@
     <Resource Include="ed-sheeran_2.jpg" />
     <Resource Include="ed-sheeran_3.jpg" />
     <Resource Include="hero-recaptcha-demo.gif" />
+    <Resource Include="logomobile.png" />
     <Resource Include="lumia930.png" />
     <Resource Include="lumia9301.png" />
     <Resource Include="lumia9302.png" />
@@ -330,6 +331,12 @@
     <Resource Include="view-cart-button.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="backgroundmobile.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="bg.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
