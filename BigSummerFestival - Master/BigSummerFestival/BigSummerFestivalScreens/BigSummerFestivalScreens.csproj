@@ -266,12 +266,14 @@
     <Resource Include="ed-sheeran.jpg" />
     <Resource Include="ed-sheeran_2.jpg" />
     <Resource Include="ed-sheeran_3.jpg" />
+    <Resource Include="hero-recaptcha-demo.gif" />
     <Resource Include="lumia930.png" />
     <Resource Include="lumia9301.png" />
     <Resource Include="lumia9302.png" />
     <Resource Include="Paypal - Andrew%281%29.png" />
     <Resource Include="Paypal - Andrew.jpg" />
     <Resource Include="signin-facebook-large.png" />
+    <Resource Include="TimeRemaining.png" />
     <Resource Include="widesearch.png" />
     <Resource Include="dropdown.png" />
     <Resource Include="Event Page.jpg" />
