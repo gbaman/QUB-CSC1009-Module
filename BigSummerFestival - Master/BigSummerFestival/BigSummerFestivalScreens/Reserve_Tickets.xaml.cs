@@ -37,7 +37,11 @@ namespace BigSummerFestivalScreens
 		
 		public void addToBasket(Object sender, EventArgs e) {
 			// Get quantity
-			ticketCount++;
+			if (ticketCount<4) {
+				ticketCount++;
+			} else {
+				MessageBox.Show("You have cannot add more than 4 Tickets to the Basket", "Error");
+			}
 			basket.Text=ticketCount +"";
 		}
 	}
