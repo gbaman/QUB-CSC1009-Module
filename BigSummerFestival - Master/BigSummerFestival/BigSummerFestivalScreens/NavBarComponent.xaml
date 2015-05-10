@@ -38,19 +38,19 @@
 				</i:Interaction.Triggers>
 			</Button>
 			<Image Margin="1505.333,138.526,294.333,885.474" Source="view-cart-button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
-			<local:Search_Bar d:IsPrototypingComposition="True" Margin="-256.833,138.526,256.833,-138.526"/>
-			<TextBox HorizontalAlignment="Left" Height="31.25" Margin="1376.834,148.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207.333" Style="{StaticResource Search}"/>
-			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1584.167,148.333,0,0" Height="31.25" Width="37.5">
+			<local:Search_Bar d:IsPrototypingComposition="True" Margin="-348.833,138.526,348.833,-138.526"/>
+			<TextBox HorizontalAlignment="Left" Height="31.25" Margin="1284.834,148.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207.333" Style="{StaticResource Search}"/>
+			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1492.167,148.333,0,0" Height="31.25" Width="37.5">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Search"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Label>
-			<Border Margin="1218.916,148.333,625.197,17" Background="#FFF" BorderBrush="#252525" BorderThickness="1"></Border>
-			<TextBlock HorizontalAlignment="Left" Margin="1255,157.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19.583" Width="27.137"><Run Language="en-gb" Text="1"/></TextBlock>
-			<Image Margin="1190,137.026,653,10" Source="pack://siteoforigin:,,,/shopping-cart.png" Stretch="Fill"/>
-			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1190,137.026,0,0" Height="52.974" Width="87.803">
+			<Border Margin="1593.916,145,250.197,20.333" Background="#FFF" BorderBrush="#252525" BorderThickness="1"></Border>
+			<TextBlock HorizontalAlignment="Left" Margin="1630,153.717,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19.583" Width="27.137"><Run Language="en-gb" Text="1"/></TextBlock>
+			<Image Margin="1565,133.693,278,13.333" Source="pack://siteoforigin:,,,/shopping-cart.png" Stretch="Fill"/>
+			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1565,133.693,0,0" Height="52.974" Width="87.803">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Basket"/>
