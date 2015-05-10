@@ -13,6 +13,7 @@
 			<RowDefinition Height="188*"/>
 		</Grid.RowDefinitions>
 		<Image Margin="-17.526,0,-32.326,138.248" Grid.RowSpan="2" Source="lumia9302.png" Stretch="Fill"/>
+		<ScrollViewer HorizontalAlignment="Left" Height="370.599" VerticalAlignment="Top" Width="244.646" Margin="37.08,70.027,0,0" Grid.RowSpan="2" Background="#FF00F3FF"/>
 		<Image Margin="37.08,138.835,48.014,170.974" Source="pack://siteoforigin:,,,/camping.png" Stretch="Fill"/>
 		<Image Margin="37.08,231.192,48.014,64.292" Source="ed-sheeran_2.jpg" Stretch="Fill"/>
 		<Image Margin="37.08,337.874,48.014,221.358" Grid.RowSpan="2" Source="bey_jayz_2.jpg" Stretch="Fill"/>
