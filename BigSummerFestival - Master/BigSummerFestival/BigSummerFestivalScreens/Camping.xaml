@@ -16,20 +16,49 @@
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 						<StackPanel Width="1200" Background="White" >
 							<!-- Add Your Page Content Between these top Comments -->
-							<StackPanel Margin="0,10,10,30" HorizontalAlignment="Right" Width="1190">
+							<StackPanel Margin="0,10,10,30" HorizontalAlignment="Right" Width="1190" Height="724.873">
 								<TextBlock HorizontalAlignment="Center" FontSize="29"><Run Text="Camping"/></TextBlock>
 								<Grid Height="606.8">
-								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="96,33.046,0,470" Width="997.354" TextWrapping="Wrap"><Run Text="You are able to choose your Campsite. There is a choice of 4 designated campsites that are only a short walk from the heart of the festival"/><Run Language="en-gb" Text="!"/></TextBlock>
+								<TextBlock HorizontalAlignment="Left" FontSize="22" Margin="96,128.054,0,370.738" Width="439.354" TextWrapping="Wrap"><Run Text="There is a choice of 4 designated campsites that are only a short walk from the heart of the festival"/><Run Language="en-gb" Text="!"/></TextBlock>
 								<Grid Margin="336,0" VerticalAlignment="Top" Width="400">
-									<Image Margin="138,110,-334,-218" Source="pack://siteoforigin:,,,/map16june14.png" Stretch="Fill" HorizontalAlignment="Center" Height="376.8" Width="596" VerticalAlignment="Center"/>
+									<Image Margin="159,57.5,-266.5,-98" Source="pack://siteoforigin:,,,/map16june14.png" Stretch="Fill" HorizontalAlignment="Center" Height="309.3" VerticalAlignment="Center"/>
 								</Grid>
-								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="96,136.8,0,422.246" Width="343.354" TextWrapping="Wrap"><Run Language="en-gb" Text="Choose Your Campsite"/></TextBlock>
-								<ComboBox HorizontalAlignment="Left" Margin="96,189.554,0,0" VerticalAlignment="Top" Width="120">
+								<TextBlock HorizontalAlignment="Left" FontSize="28" Margin="96,75.3,0,483.746" Width="343.354" TextWrapping="Wrap"><Run Language="en-gb" Text="Choose Your Campsite"/></TextBlock>
+								<ComboBox HorizontalAlignment="Left" Margin="96,236.062,0,0" VerticalAlignment="Top" Width="120">
 									<ComboBoxItem Content="Camp A"/>
 									<ComboBoxItem Content="Camp B"/>
 									<ComboBoxItem Content="Camp C"/>
 									<ComboBoxItem Content="Camp D"/>
 								</ComboBox>
+								<TabControl HorizontalAlignment="Left" Height="262" Margin="96,422.993,0,-78.193" Style="{DynamicResource CustomTabControl}" VerticalAlignment="Top" Width="791.5">
+										
+										<TabItem Header="3 Nights" Style="{DynamicResource SimpleTabItem}" FontSize="19" Cursor="Hand" HorizontalAlignment="Left" Width="225.023" Margin="0,0,-49,0">
+											<Grid Background="White" Style="{DynamicResource Background}">
+												<TextBlock Margin="23.5,79.96,465.5,79.04">14th August - 8:00pm</TextBlock>
+												<TextBlock Margin="23.5,27.73,465.5,131.27" FontSize="25" ><Run Language="en-gb" Text="Rolling Stones "/><LineBreak/><Run Language="en-gb"/></TextBlock>
+												<Image Margin="590,133.73,10,10" Source="logo.png" Stretch="Fill"/>
+												<TextBlock Margin="23.5,117.23,540.5,41.77"><Run Language="en-gb" Text="Ticket Type"/></TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="23.5,149.96,0,0" VerticalAlignment="Top" Width="232.5">
+													<ComboBoxItem>Standard</ComboBoxItem>
+													<ComboBoxItem>Disabled Access</ComboBoxItem>
+													<ComboBoxItem>VIP</ComboBoxItem>
+												</ComboBox>
+												<TextBlock Margin="296.5,117.23,267.5,41.77">Quantity</TextBlock>
+												<ComboBox x:Name="combobox" HorizontalAlignment="Left" Height="36" Margin="296.5,149.96,0,0" VerticalAlignment="Top" Width="87" Text="1">
+													<ComboBoxItem>1</ComboBoxItem>
+													<ComboBoxItem>2</ComboBoxItem>
+													<ComboBoxItem>3</ComboBoxItem>
+													<ComboBoxItem>4</ComboBoxItem>
+												</ComboBox>
+											</Grid>
+										</TabItem>
+										<TabItem Header=" 1 Night" Style="{DynamicResource SimpleTabItem}" FontSize="19" Margin="-19,0,4,0">
+											<Grid Background="#FFE5E5E5" Style="{DynamicResource Background}">
+												<TextBlock FontFamily="Roboto" VerticalAlignment="Bottom" HorizontalAlignment="Right">*Concert is included in the price of the camping ticket.</TextBlock>
+											</Grid>
+										</TabItem>
+									</TabControl>
+								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="96,370.239,0,188.807" Width="343.354" TextWrapping="Wrap"><Run Language="en-gb" Text="Choose Your Dates"/></TextBlock>
 								</Grid>
 							</StackPanel>
 							<!-- End of Section -->
