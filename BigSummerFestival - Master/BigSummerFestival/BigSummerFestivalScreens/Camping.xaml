@@ -19,8 +19,9 @@
 							<StackPanel Margin="0,10,10,30" HorizontalAlignment="Right" Width="1190" Height="724.873">
 								<TextBlock HorizontalAlignment="Center" FontSize="29"><Run Text="Camping"/></TextBlock>
 								<Grid Height="606.8">
-								<TextBlock HorizontalAlignment="Left" FontSize="22" Margin="96,128.054,0,370.738" Width="439.354" TextWrapping="Wrap"><Run Text="There is a choice of 4 designated campsites that are only a short walk from the heart of the festival"/><Run Language="en-gb" Text="!"/></TextBlock>
-									<Image Margin="540.354,55.5,57.146,242" Source="pack://siteoforigin:,,,/map16june14.png" Stretch="Fill" HorizontalAlignment="Center" Height="309.3" VerticalAlignment="Center" Width="592.5"/>
+								<TextBlock HorizontalAlignment="Left" FontSize="22" Margin="96,128.054,0,370.738" Width="439.354" TextWrapping="Wrap"><Run Text="There is a choice of 4 designated campsites that are only a short walk from the heart of the festival"/><Run Language="en-gb" Text="!"/><InlineUIContainer>
+											<Image Height="2187" Source="map16june14.png" Stretch="Fill" Width="3000"/>
+										</InlineUIContainer></TextBlock>
 								<TextBlock HorizontalAlignment="Left" FontSize="28" Margin="96,75.3,0,483.746" Width="343.354" TextWrapping="Wrap"><Run Language="en-gb" Text="Choose Your Campsite"/></TextBlock>
 								<ComboBox HorizontalAlignment="Left" Margin="96,236.062,0,0" VerticalAlignment="Top" Width="120">
 									<ComboBoxItem Content="Camp A"/>

@@ -328,7 +328,6 @@
     <Resource Include="std.png" />
     <Resource Include="search.png" />
     <Resource Include="view-cart-button.png" />
-    <Resource Include="map16june14.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bg.jpg">
@@ -344,9 +343,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="jayz.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="map16june14.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="photoslider.png">
