@@ -49,9 +49,9 @@
 						<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
 							<Label Content="Performance Information" FontSize="36" HorizontalContentAlignment="Center" Margin="386.571,17.612,385.712,724.504"/>
-							<Label Content="Event Information" FontSize="22" Margin="13,414.224,54.5,346.512"/>
+							<Label Content="Event Information" FontSize="22" Margin="18,384.224,49.5,376.512"/>
 						
-							<Grid HorizontalAlignment="Left" Height="335.276" VerticalAlignment="Top" Width="1180" Margin="0,454.724,0,0">
+							<Grid HorizontalAlignment="Left" Height="335.276" VerticalAlignment="Top" Width="1180" Margin="5,424.724,0,0">
 								<Grid.ColumnDefinitions>
 									<ColumnDefinition Width="77*"/>
 									<ColumnDefinition Width="1103*"/>
@@ -71,21 +71,23 @@
 							</Grid>
 							<Label Content="Create A New Event" FontSize="22" Margin="18,148,-18,612.736"/>
 							<Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1180" Margin="10,187.263,0,0">
-								<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="6,0,0,0"/>
-								<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="180" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="239.021,0,0,0"/>
-								<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="179" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="419.021,0,0,0"/>
-								<Label Content="Standard Tickets" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="171" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="598.021,0,0,0"/>
-								<Label Content="Total Tickets" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="149.494" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="1022.34,0,0,0"/>
-								<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Margin="239.688,45.46,0,0" Height="43.047" Width="179.333" FontSize="14.667" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-								<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="43.047" Width="179.667" FontSize="14.667" Margin="419.021,45.46,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-								<TextBox HorizontalAlignment="Left" Height="45.41" TextWrapping="Wrap" VerticalAlignment="Top" Width="149.494" Margin="1022.34,43.354,0,0" BorderThickness="2" BorderBrush="#FFB2DB8D" MaxLength="4" IsReadOnly="True" Text="[Value]" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14.667"/>
-								<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="171" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="598.021,43.354,0,0" VerticalContentAlignment="Center"/>
-								<Label Content="Tickets for Sale&#xA;Total Tickets" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="924.334,210.5,0,-155.96"/>
-								<TextBox HorizontalAlignment="Left" Height="45.41" TextWrapping="Wrap" VerticalAlignment="Top" Width="234.994" Margin="6.006,43.404,0,0" BorderThickness="2" BorderBrush="#FFB2DB8D" MaxLength="4" IsReadOnly="True" Text="Enter The Name of the Event" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14.667"/>
-								<Label Content="Disabled Access" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="171" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="769.021,0,0,0"/>
-								<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="171" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="769.021,43.047,0,0" VerticalContentAlignment="Center"/>
-								<Label Content="VIP" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="82.319" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="940.021,0,0,0"/>
-								<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="82.319" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="940.021,43.047,0,0" VerticalContentAlignment="Center"/>
+								<Label Content="Event Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="180" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="6,0,0,0"/>
+								<Label Content="Date Start" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="114.854" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="186,-0.307,0,0"/>
+								<Label Content="Date End" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="116" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="300.854,0,0,0"/>
+								<Label Content="Total Tickets" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="131.494" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="1040.34,0,0,0"/>
+								<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,45.153,0,0" Height="43.047" Width="114.854" FontSize="14.667" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+								<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="43.047" Width="116" FontSize="14.667" Margin="300.854,45.153,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+								<TextBox HorizontalAlignment="Left" Height="45.41" TextWrapping="Wrap" VerticalAlignment="Top" Width="131.494" Margin="1040.34,43.354,0,0" BorderThickness="2" BorderBrush="#FFB2DB8D" MaxLength="4" IsReadOnly="True" Text="[Value]" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14.667"/>
+								<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="171" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="626.021,42.74,0,0" VerticalContentAlignment="Center"/>
+								<Label Content="Tickets for Sale&#xA;Total Tickets" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="235" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="933.667,186.334,0,-131.794"/>
+								<TextBox HorizontalAlignment="Left" Height="45.41" TextWrapping="Wrap" VerticalAlignment="Top" Width="179.994" Margin="6.006,43.404,0,0" BorderThickness="2" BorderBrush="#FFB2DB8D" MaxLength="4" IsReadOnly="True" Text="Enter The Name of the Event" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="13.333"/>
+								<Label Content="Disabled Access" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="166" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="797.021,0,0,0"/>
+								<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="166" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="797.021,42.74,0,0" VerticalContentAlignment="Center"/>
+								<Label Content="VIP" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="77.319" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="963.021,0,0,0"/>
+								<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="77.319" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="963.021,43.047,0,0" VerticalContentAlignment="Center"/>
+								<Label Content="Max Tickets per User" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="209.167" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="416.854,0,0,0"/>
+								<Label Content="Standard Tickets" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="171" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="626.021,0,0,0"/>
+								<Label Content="[Value]" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45.46" Width="209.167" FontSize="14.667" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="416.854,42.74,0,0" VerticalContentAlignment="Center" RenderTransformOrigin="0.764,0.88"/>
 							</Grid>
 							<Button Content="Confirm" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="111.231" FontSize="29.333" Margin="888.067,287.263,200.702,0"/>
 							<Button Content="Cancel" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="111.231" FontSize="29.333" Margin="1039.269,287.263,49.5,0"/>
@@ -103,7 +105,7 @@
 					</StackPanel>
 					</Border>
 				</Grid>
-				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+				<local:NavBarComponent HorizontalAlignment="Center" d:IsPrototypingComposition="True" Height="213" VerticalAlignment="Top"/>
 				</Grid>
 		</ScrollViewer>
 	</Grid>

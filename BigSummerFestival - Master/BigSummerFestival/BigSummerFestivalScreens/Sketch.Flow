@@ -291,6 +291,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BigSummerFestivalScreens.Camping</ClassName>
+      <DisplayName>Camping</DisplayName>
+      <FileName>Camping.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>933</X>
+        <Y>122</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -846,6 +858,13 @@
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_2</Source>
+      <Target>BigSummerFestivalScreens.Camping</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -893,8 +912,8 @@
   <ViewState>
     <Zoom>0.75</Zoom>
     <Center>
-      <X>1265.9301137767709</X>
-      <Y>35.585925925925942</Y>
+      <X>933.07297091963085</X>
+      <Y>122</Y>
     </Center>
   </ViewState>
 </Data>
