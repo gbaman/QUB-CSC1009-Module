@@ -47,16 +47,6 @@
 				<Image Margin="918,242,389,836.06" Source="pack://siteoforigin:,,,/Festival-photographer (1).png" Stretch="Fill"/>
 				</Grid>
 		</ScrollViewer>
-		<Label Content="Manager's Special" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="396.903,436.448,0,0" Height="69.9" Width="474.448" FontSize="29.333" Foreground="White" Background="#00000000"/>
-		<Image Margin="376.903,244,995.097,502" Source="ed-sheeran_2.jpg" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Artist"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
-		<Label Content="Managers Special" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="517.455,277.517,0,0" Height="57.9" Width="334.448" FontSize="29.333" Foreground="White"/>
-		<Label Content="Ed Sheeran- 15% off!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="485.455,506.348,0,0" Height="57.9" Width="334.448" FontSize="29.333" Foreground="White"/>
 	</Grid>
 	
 </UserControl>

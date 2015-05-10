@@ -34,6 +34,8 @@
 						</i:EventTrigger>
 					</i:Interaction.Triggers>
 				</Button>
+				<Button Content="Email Reply" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="203.294" FontSize="29.333" Margin="1162.67,865.705,537.036,0"/>
+				<Button Content="Ticket Swap" HorizontalAlignment="Center" Height="45.819" VerticalAlignment="Top" Width="203.294" FontSize="29.333" Margin="1162.67,819.886,537.036,0"/>
 				</Grid>
 		</ScrollViewer>
 		<Label Content="Support Queries" FontSize="36" HorizontalContentAlignment="Center" Margin="674.571,254.612,817.712,767.504"/>
@@ -48,6 +50,9 @@
 		<Label Content="Account" HorizontalAlignment="Left" VerticalAlignment="Top" Height="132.762" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="607.698,671.302,0,0"/>
 		<Label Content="I have forgotten my password, can&#xD;&#xA;you please reset it for me if it's&#xD;&#xA;not too much trouble?" HorizontalAlignment="Left" VerticalAlignment="Top" Height="132.762" Width="356.733" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="802.698,671.302,0,0"/>
 		<Label Content="There are currently (2) queries that need resolved." FontSize="36" HorizontalContentAlignment="Center" Margin="412.698,356.199,695.458,665.917"/>
+		<Label Content="Heather Smyth" HorizontalAlignment="Left" VerticalAlignment="Top" Height="132.762" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="412.698,804.064,0,0"/>
+		<Label Content="Refund" HorizontalAlignment="Left" VerticalAlignment="Top" Height="132.762" Width="195" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="607.698,804.064,0,0"/>
+		<Label Content="Hi, Is it possible to swap my tickets&#xD;&#xA;on 14th August for tickets on 16th&#xD;&#xA;August instead?" HorizontalAlignment="Left" VerticalAlignment="Top" Height="132.762" Width="356.733" FontSize="21.333" HorizontalContentAlignment="Center" BorderBrush="#FFB2DB8D" BorderThickness="2" Margin="802.698,804.064,0,0"/>
 	</Grid>
 	
 </UserControl>

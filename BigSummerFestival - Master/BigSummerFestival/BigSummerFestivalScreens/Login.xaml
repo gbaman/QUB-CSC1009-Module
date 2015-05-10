@@ -69,6 +69,7 @@
 									</i:EventTrigger>
 								</i:Interaction.Triggers>
 							</Image>
+							<Label Content="Note: You will be logged out after 5 minutes of inactivity for security reasons." HorizontalAlignment="Left" Margin="323.206,690.447,0,0" VerticalAlignment="Top" FontSize="16" FontStyle="Italic" FontWeight="Bold"/>
 						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			
