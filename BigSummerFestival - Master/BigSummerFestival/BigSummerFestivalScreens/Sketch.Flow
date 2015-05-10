@@ -279,6 +279,18 @@
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BigSummerFestivalScreens.Vote Results</ClassName>
+      <DisplayName>Vote Results</DisplayName>
+      <FileName>Vote Results.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>1495</X>
+        <Y>-71</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -764,6 +776,13 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_1</Source>
+      <Target>BigSummerFestivalScreens.Vote Results</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -809,10 +828,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1.125</Zoom>
+    <Zoom>0.42</Zoom>
     <Center>
-      <X>-649.26012276469794</X>
-      <Y>22.520987654321132</Y>
+      <X>1122.0067162516127</X>
+      <Y>-242.55445847437284</Y>
     </Center>
   </ViewState>
 </Data>
