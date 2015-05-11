@@ -30,7 +30,7 @@
 					<Button Content="Login" HorizontalAlignment="Left" Height="50.866" Margin="67,250.925,0,0" VerticalAlignment="Top" Width="177" FontSize="32" FontWeight="Bold">
 						<i:Interaction.Triggers>
 							<i:EventTrigger EventName="Click">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.MyAccount2"/>
+								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Mobile_Homepage"/>
 							</i:EventTrigger>
 						</i:Interaction.Triggers>
 					</Button>
@@ -38,7 +38,7 @@
 					<Button Content="Register" HorizontalAlignment="Left" Height="49.866" Margin="67,330.978,0,0" VerticalAlignment="Top" Width="177" FontSize="32" FontWeight="Bold">
 						<i:Interaction.Triggers>
 							<i:EventTrigger EventName="Click">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Register"/>
+								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Mobile_Homepage"/>
 							</i:EventTrigger>
 						</i:Interaction.Triggers>
 					</Button>
