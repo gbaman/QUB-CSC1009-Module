@@ -327,6 +327,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BigSummerFestivalScreens.Mobile_Events</ClassName>
+      <DisplayName>Mobile - Events Page</DisplayName>
+      <FileName>Mobile_Events.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-863</X>
+        <Y>11</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -980,6 +992,13 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
+      <Target>BigSummerFestivalScreens.Mobile_Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -1027,7 +1046,7 @@
   <ViewState>
     <Zoom>0.8</Zoom>
     <Center>
-      <X>-3.7308362865235072</X>
+      <X>-768</X>
       <Y>-70.57793209876553</Y>
     </Center>
   </ViewState>
