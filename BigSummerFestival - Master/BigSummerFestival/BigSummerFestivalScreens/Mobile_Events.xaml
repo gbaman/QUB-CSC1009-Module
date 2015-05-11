@@ -14,7 +14,7 @@
 		</Grid.RowDefinitions>
 		<Image Margin="0" Grid.RowSpan="2" Source="lumia9302.png" Stretch="Fill"/>
 		<ScrollViewer HorizontalAlignment="Left" Height="567.433" VerticalAlignment="Top" Width="333.979" Margin="79.08,105.414,0,0" Background="White" Grid.RowSpan="2">
-			<StackPanel HorizontalAlignment="Left" Height="739.933" VerticalAlignment="Top" Width="316.667">
+			<StackPanel HorizontalAlignment="Left" Height="916.933" VerticalAlignment="Top" Width="316.667">
 				<Grid Height="100">
 					<Image Margin="-32,-60,-35.333,-530" Source="pack://siteoforigin:,,,/backgroundmobile.png" Stretch="Fill"/>
 					<Image Margin="0" Source="logomobile.png" Stretch="Fill" Width="200"/>
@@ -35,9 +35,9 @@
 					<Border Background="#454545" Margin="0,0,0,10">
 						<TextBlock Foreground="White" FontSize="20" Text="Jay Z and Beyonce " Margin="10,10,110,10"></TextBlock>
 					</Border>
-					<Image Width="296.667" Source="pack://siteoforigin:,,,/image.jpg" HorizontalAlignment="Left" Margin="10,547,0,276.333" Stretch="Fill"/>
-					<Border Margin="10,655.667,10,264.333" Background="#454545">
-						<TextBlock Foreground="White" Margin="10,10,110,10" FontSize="20"><Run Language="en-gb" Text="Ed Sheeran"/></TextBlock>
+					<Image Width="296.667" Source="image.jpg" HorizontalAlignment="Left" Stretch="Fill" Margin="0,0,0,-35"/>
+					<Border Margin="0,0,0,10" Background="#454545">
+						<TextBlock Foreground="White" Margin="10,10,110,10" FontSize="20" Text="Ed Sheeran"></TextBlock>
 					</Border>				
 				</StackPanel>
 				</Grid>
