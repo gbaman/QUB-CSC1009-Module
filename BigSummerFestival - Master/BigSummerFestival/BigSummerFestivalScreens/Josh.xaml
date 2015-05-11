@@ -8,14 +8,38 @@
 	Style="{StaticResource WindowStyles}">
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="0,0,0,-204">
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 					<StackPanel Width="1200" Background="White">
-						<!-- Add Your Page Content Between these top Comments -->
+						<!-- Add Your Page Content Between these top Comments -->			
+					<!-- Add Your Page Content Between these top Comments -->			
+					<!-- Add Your Page Content Between these top Comments -->			
+					<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
-							
+							<Image Margin="395.273,86.622,407.385,317.541" Source="Image3.png" Stretch="Fill">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseLeftButtonDown">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Gallery2"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Image>
+							<Image Margin="-0.563,86.622,801.727,317.541" Source="Image2.png" Stretch="Fill">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseLeftButtonDown">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Gallery1"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Image>
+							<Image Margin="787.615,86.622,15.037,317.541" Source="Image4.png" Stretch="Fill">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseLeftButtonDown">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Gallery3"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Image>
+							<Label Content="Gallery" Margin="500,-8.505,0,0" VerticalAlignment="Top" FontSize="64" Width="206.16" HorizontalAlignment="Left"/>
 						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			

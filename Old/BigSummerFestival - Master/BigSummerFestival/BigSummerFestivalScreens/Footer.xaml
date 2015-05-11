@@ -1,0 +1,56 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	mc:Ignorable="d"
+	x:Class="BigSummerFestivalScreens.Footer"
+	x:Name="UserControl"
+	d:DesignWidth="1200" d:DesignHeight="200" Height="200" Width="1200">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid x:Name="Footer_Copy" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="1200" Height="200">
+			<Rectangle Fill="#b2db8d" Width="1100" Height="4" VerticalAlignment="Top"/>
+			<TextBlock Margin="50,120,563,10" FontSize="20"><Run Text="2016 Big Summer Festival. All rights reserved. Hosted in Belfast."/></TextBlock>
+			<TextBlock Margin="50,145,563,-15" FontSize="20"><Run Text="17 Russle Street, Belfast, BT1 7AT."/></TextBlock>
+			<Image Margin="835,109,29,22" Source="socialmedia .png" Stretch="Fill"/>
+			<Image Margin="50,34.75,1002.25,112.5" Source="login.jpg" Stretch="Fill">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Login"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Image>
+			<Image Margin="197.75,37.25,773.25,116.25" Source="signup.png" Stretch="Fill">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Register"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Image>
+			<Button Content="Terms of Use" HorizontalAlignment="Left" Margin="566.667,47,0,0" VerticalAlignment="Top" Width="125" Style="{StaticResource TransparentButton}">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Mobile_Homepage"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Content="Privacy Policy" HorizontalAlignment="Left" Margin="696.667,47,0,0" VerticalAlignment="Top" Width="142" Style="{StaticResource TransparentButton}"/>
+			<Button Content="Contact Us" HorizontalAlignment="Left" Margin="861.667,47,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource TransparentButton}">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Contact_Us"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Content="My Account" HorizontalAlignment="Left" Margin="436.667,47,0,0" VerticalAlignment="Top" Width="125" Style="{StaticResource TransparentButton}">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.MyAccount1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</Grid>
+	</Grid>
+</UserControl>

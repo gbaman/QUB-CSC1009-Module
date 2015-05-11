@@ -8,14 +8,18 @@
 	Style="{StaticResource WindowStyles}">
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="0,0,0,-174">
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
-						<Grid Style="{StaticResource pageContent}">
 							
+						<!-- Add Your Page Content Between these top Comments -->
+						<Grid Style="{StaticResource pageContent}">
+							<Label x:Name="___Label___Beyonce_" Content="Beyonce: " Margin="30,14.04,952,716" FontSize="48"/>
+							<Image Margin="30,94,620.978,394.717" Source="pack://siteoforigin:,,,/xuaof60y.bmp" Stretch="Fill"/>
+							<Image Margin="608.717,94,42.262,394.717" Source="pack://siteoforigin:,,,/k0xsn53j.bmp" Stretch="Fill"/>
 						</Grid>
 						<!-- End of Section -->
 						<local:Footer d:IsPrototypingComposition="True"/>			

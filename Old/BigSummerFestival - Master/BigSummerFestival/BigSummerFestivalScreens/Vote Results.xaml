@@ -1,0 +1,39 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:local="clr-namespace:BigSummerFestivalScreens" x:Name="BigSummerFestivalScreens_Screen_1_Name"
+	mc:Ignorable="d"
+	x:Class="BigSummerFestivalScreens.Vote_Results"
+	Style="{StaticResource WindowStyles}">
+
+	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+			<Grid x:Name="MainContainer">
+				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
+					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
+					<StackPanel Width="1200" Background="White">
+						<!-- Add Your Page Content Between these top Comments -->
+						<Grid Style="{StaticResource pageContent}"/>
+						<!-- End of Section -->
+						<local:Footer d:IsPrototypingComposition="True"/>			
+					</StackPanel>
+					</Border>
+				</Grid>
+				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+				<Label Content="Current Poll Results:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,271.667,0,0" Height="134.293" Width="817.993" FontSize="90.667"/>
+				<Image Margin="804.833,387.627,893.167,1031.29" Source="ed-sheeran.jpg" Stretch="Fill"/>
+				<Image Margin="1009.833,387.627,651.5,1031.29" Source="pack://siteoforigin:,,,/the-rolling-stones-wallpaper_154075-1920x1080.jpg" Stretch="Fill"/>
+				<Image Margin="593.333,387.627,1098.167,1031.29" Source="bey_jayz.jpg" Stretch="Fill"/>
+				<Label Content="Thinking Out Loud- Ed Sheeran: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,681.667,0,0" Height="85.96" Width="710" FontSize="48" BorderBrush="#FF23FF00" BorderThickness="5"/>
+				<Label Content="48%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1108.333,681.667,0,0" Height="100.96" Width="119.66" FontSize="48" FontWeight="Bold"/>
+				<Label Content="Crazy in Love- Beyonce/Jay Z:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,767.627,0,0" Height="82.626" Width="710" FontSize="48" Background="White" BorderBrush="#FF23FF00" BorderThickness="5"/>
+				<Label Content="25%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1113.333,762.627,0,0" Height="100.96" Width="119.66" FontSize="48" RenderTransformOrigin="0.557,1.799" FontWeight="Bold"/>
+				<Label Content="Gimme Shelter- The &#xA;Rolling Stones:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="398.333,850.253,0,0" Height="152.626" Width="710" FontSize="48" BorderBrush="#FF23FF00" BorderThickness="5"/>
+				<Label Content="27%" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1113.333,868.587,0,0" Height="100.96" Width="119.66" FontSize="48" RenderTransformOrigin="0.557,1.799" FontWeight="Bold"/>
+				<Label Content="Your favourite song?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="626.666,551.252,0,0" Height="134.293" Width="817.993" FontSize="64"/>
+				</Grid>
+		</ScrollViewer>
+	</Grid>
+	
+</UserControl>

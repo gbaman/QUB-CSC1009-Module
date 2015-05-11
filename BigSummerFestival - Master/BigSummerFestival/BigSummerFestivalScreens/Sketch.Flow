@@ -494,25 +494,11 @@
       <VisualTag>1</VisualTag>
     </Connection>
     <Connection>
-      <Source>BigSummerFestivalScreens.Screen_1</Source>
-      <Target>BigSummerFestivalScreens.Footer</Target>
-      <Type>Composition</Type>
-      <TransitionType>None</TransitionType>
-      <VisualTag>1</VisualTag>
-    </Connection>
-    <Connection>
       <Source>BigSummerFestivalScreens.NavBarComponent</Source>
       <Target>BigSummerFestivalScreens.Screen_1</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BigSummerFestivalScreens.Screen_1</Source>
-      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
-      <Type>Composition</Type>
-      <TransitionType>None</TransitionType>
-      <VisualTag>1</VisualTag>
     </Connection>
     <Connection>
       <Source>BigSummerFestivalScreens.NavBarComponent</Source>
@@ -677,20 +663,6 @@
     </Connection>
     <Connection>
       <Source>BigSummerFestivalScreens.Gallery2</Source>
-      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
-      <Type>Composition</Type>
-      <TransitionType>None</TransitionType>
-      <VisualTag>1</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BigSummerFestivalScreens.Gallery3</Source>
-      <Target>BigSummerFestivalScreens.Footer</Target>
-      <Type>Composition</Type>
-      <TransitionType>None</TransitionType>
-      <VisualTag>1</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BigSummerFestivalScreens.Gallery3</Source>
       <Target>BigSummerFestivalScreens.NavBarComponent</Target>
       <Type>Composition</Type>
       <TransitionType>None</TransitionType>
@@ -1039,6 +1011,48 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Gallery3</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Gallery3</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_1</Source>
+      <Target>BigSummerFestivalScreens.Footer</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_1</Source>
+      <Target>BigSummerFestivalScreens.NavBarComponent</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_1</Source>
+      <Target>BigSummerFestivalScreens.Camping</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Screen_1</Source>
+      <Target>BigSummerFestivalScreens.Early_Access_Tickets</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -1084,10 +1098,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.8</Zoom>
+    <Zoom>0.5</Zoom>
     <Center>
-      <X>-768</X>
-      <Y>-70.57793209876553</Y>
+      <X>426.46656344568959</X>
+      <Y>29.709756051593587</Y>
     </Center>
   </ViewState>
 </Data>

@@ -1,0 +1,107 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:BigSummerFestivalScreens"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="BigSummerFestivalScreens_Camping_Name"
+	mc:Ignorable="d"
+	x:Class="BigSummerFestivalScreens.Camping"
+	Style="{StaticResource WindowStyles}">
+
+	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="0">
+			<Grid x:Name="MainContainer">
+				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
+					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
+						<StackPanel Width="1200" Background="White" >
+							<!-- Add Your Page Content Between these top Comments -->
+							<StackPanel Margin="0,10,10,30" HorizontalAlignment="Right" Width="1190" Height="724.873">
+								<TextBlock HorizontalAlignment="Center" FontSize="29"><Run Text="Camping"/></TextBlock>
+								<Grid Height="606.8">
+								<TextBlock HorizontalAlignment="Left" FontSize="22" Margin="96,128.054,0,370.738" Width="439.354" TextWrapping="Wrap"><Run Text="There is a choice of 4 designated campsites that are only a short walk from the heart of the festival"/><Run Language="en-gb" Text="!"/><InlineUIContainer>
+											<Image Height="2187" Source="map16june14.png" Stretch="Fill" Width="3000"/>
+										</InlineUIContainer></TextBlock>
+								<TextBlock HorizontalAlignment="Left" FontSize="28" Margin="96,75.3,0,483.746" Width="343.354" TextWrapping="Wrap"><Run Language="en-gb" Text="Choose Your Campsite"/></TextBlock>
+								<TabControl HorizontalAlignment="Left" Height="295" Margin="96,368.993,0,-57.193" Style="{DynamicResource CustomTabControl}" VerticalAlignment="Top" Width="791.5">
+										<TabItem Header="Complete Pass" Style="{DynamicResource SimpleTabItem}" FontSize="19" Cursor="Hand" HorizontalAlignment="Left" Width="225.023" Margin="0,0,-49,0">
+											<Grid Background="White" Style="{DynamicResource Background}">
+												<TextBlock Margin="23.5,79.96,465.5,131.27"><Run Language="en-gb" Text="14th - 16th August "/></TextBlock>
+												<TextBlock Margin="23.5,27.73,465.5,131.27" FontSize="25" ><Run Language="en-gb" Text="3 Nights at the Festival"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+												<Image Margin="590,149.96,10,10" Source="logo.png" Stretch="Fill"/>
+												<TextBlock Margin="22,159.23,542,-0.23"><Run Language="en-gb" Text="Ticket Type"/></TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="22,191.96,0,0" VerticalAlignment="Top" Width="232.5">
+													<ComboBoxItem>Standard</ComboBoxItem>
+													<ComboBoxItem>Disabled Access</ComboBoxItem>
+													<ComboBoxItem>VIP</ComboBoxItem>
+												</ComboBox>
+												<TextBlock Margin="418,159.23,146,-0.23">Quantity</TextBlock>
+												<ComboBox x:Name="combobox" HorizontalAlignment="Left" Height="36" Margin="418,191.96,0,0" VerticalAlignment="Top" Width="87" Text="1">
+													<ComboBoxItem>1</ComboBoxItem>
+													<ComboBoxItem>2</ComboBoxItem>
+													<ComboBoxItem>3</ComboBoxItem>
+													<ComboBoxItem>4</ComboBoxItem>
+												</ComboBox>
+												<TextBlock Margin="272.5,159.23,383,-0.23"><Run Language="en-gb" Text="Camp Site"/></TextBlock>
+												<ComboBox x:Name="combobox_Copy" HorizontalAlignment="Left" Height="36" Margin="272.5,191.96,0,0" VerticalAlignment="Top" Width="126" Text="1">
+													<ComboBoxItem Content="Camp A"/>
+													<ComboBoxItem Content="Camp B"/>
+													<ComboBoxItem Content="Camp C"/>
+													<ComboBoxItem Content="Camp D"/>
+												</ComboBox>
+												<TextBlock Margin="23.5,110.73,162.5,100.5"><Run Language="en-gb" Text="Includes a Wrist Band allowing Access to Every Concert at the Festival"/></TextBlock>
+											</Grid>
+										</TabItem>
+										<TabItem Header=" 1 Night" Style="{DynamicResource SimpleTabItem}" FontSize="19" Margin="-19,0,4,0">
+											<Grid Background="White" Style="{DynamicResource Background}">
+												<TextBlock Margin="23.5,27.73,465.5,179.77" FontSize="25" ><Run Language="en-gb" Text="1 Night at the Festival"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+												<Image Margin="590,149.96,10,10" Source="logo.png" Stretch="Fill"/>
+												<TextBlock Margin="182.667,159,478.833,63"><Run Language="en-gb" Text="Ticket Type"/></TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="182.667,191.73,0,0" VerticalAlignment="Top" Width="167.667">
+													<ComboBoxItem>Standard</ComboBoxItem>
+													<ComboBoxItem>Disabled Access</ComboBoxItem>
+													<ComboBoxItem>VIP</ComboBoxItem>
+												</ComboBox>
+												<TextBlock Margin="484,159,80,0">Quantity</TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="484,191.73,0,0" VerticalAlignment="Top" Width="87" Text="1">
+													<ComboBoxItem>1</ComboBoxItem>
+													<ComboBoxItem>2</ComboBoxItem>
+													<ComboBoxItem>3</ComboBoxItem>
+													<ComboBoxItem>4</ComboBoxItem>
+												</ComboBox>
+												<TextBlock Margin="368,159,287.5,0"><Run Language="en-gb" Text="Camp Site"/></TextBlock>
+												<ComboBox x:Name="combobox1" HorizontalAlignment="Left" Height="36" Margin="368,191.73,0,0" VerticalAlignment="Top" Width="99" Text="1">
+													<ComboBoxItem Content="Camp A"/>
+													<ComboBoxItem Content="Camp B"/>
+													<ComboBoxItem Content="Camp C"/>
+													<ComboBoxItem Content="Camp D"/>
+												</ComboBox>
+												<TextBlock Margin="22,74.96,146,125.27" TextWrapping="Wrap" Text="Includes a Wrist Band allowing Access to the All the Concerts while your camping Ticket is valid"></TextBlock>
+												<TextBlock Margin="23.5,159,638,63"><Run Language="en-gb" Text="Date"/></TextBlock>
+												<ComboBox HorizontalAlignment="Left" Height="36" Margin="23.5,191.73,0,0" VerticalAlignment="Top" Width="145.5">
+													<ComboBoxItem Content="14-15th August"/>
+													<ComboBoxItem Content="15-16th August"/>
+													<ComboBoxItem Content="16-17th August"/>
+												</ComboBox>
+											</Grid>
+										</TabItem>
+									</TabControl>
+								<TextBlock HorizontalAlignment="Left" FontSize="25" Margin="96,316.239,0,242.807" Width="343.354" TextWrapping="Wrap"><Run Language="en-gb" Text="Choose Your Ticket"/></TextBlock>
+								<Grid Margin="918.5,570.503,129,-49.987" Background="#EEE">
+										<TextBlock HorizontalAlignment="Center" FontSize="20" Margin="35.242,10,27.742,-10" Width="79.516"><Run Text="£15"/><Run Language="en-gb" Text="0"/><Run Text=".00"/></TextBlock>
+									<Button x:Name="btnBasket" Content="Add To Basket" VerticalAlignment="Bottom" Height="36.987">
+									</Button>
+									</Grid>
+								<Image Margin="557.354,52,100.646,277.561" Source="pack://siteoforigin:,,,/map.png" Stretch="Fill"/>
+								</Grid>
+							</StackPanel>
+							<!-- End of Section -->
+							<local:Footer d:IsPrototypingComposition="True"/>		
+						</StackPanel>
+					</Border>
+				</Grid>
+				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+			</Grid>
+		</ScrollViewer>
+	</Grid>
+</UserControl>

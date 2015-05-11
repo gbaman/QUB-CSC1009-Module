@@ -8,13 +8,16 @@
 	Style="{StaticResource WindowStyles}">
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="0,0,0,-183">
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
 					<StackPanel Width="1200" Background="White">
 						<!-- Add Your Page Content Between these top Comments -->
 						<Grid Style="{StaticResource pageContent}">
+							<Label x:Name="___Label___Beyonce_" Content="Ed Sheeran:" Margin="30,14.04,898.269,716" FontSize="48"/>
+							<Image Margin="45,96,623,380" Source="pack://siteoforigin:,,,/wweuy281.bmp" Stretch="Fill"/>
+							<Image Margin="621,96,47,380" Source="Image8.png" Stretch="Fill"/>
 							
 						</Grid>
 						<!-- End of Section -->

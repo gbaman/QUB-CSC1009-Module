@@ -5,7 +5,7 @@
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:local="clr-namespace:BigSummerFestivalScreens" x:Name="BigSummerFestivalScreens_Screen_1_Name"
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Screen_1"
-	Style="{StaticResource WindowStyles}">
+	Style="{StaticResource WindowStyles}" Height="2388">
 
 	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
 		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
@@ -24,27 +24,49 @@
 						<!-- End of Section -->
 
 						<!-- End of Section -->
-						<Grid Height="288.06" Margin="10,400,10,10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="519.403">
-							<Image Margin="10,-83.583,-10,-27.358" Source="pack://siteoforigin:,,,/photoslider.png" Height="399"/>
-							<Button Content="Cast your vote!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="185.448" Height="39.363" FontWeight="Bold" FontSize="16" BorderBrush="#FF878787" Background="#FFB2D20C" FontFamily="Roboto" Margin="623.077,227.802,-289.122,0">
+						<!-- End of Section -->
+						<Grid Height="399" Margin="10,400,0,10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="519.403">
+							<Image Margin="-12,-402,-667.522,619" Source="Image10.png" Stretch="Fill"/>
+							<Image Margin="10,-247.074,-289.122,32.656" Source="pack://siteoforigin:,,,/photoslider.png"/>
+							<Image Margin="828.525,-169.455,-642.099,105.835" Source="facebook.jpg" Stretch="Fill"/>
+							<Label Content="Vote for your favourite songs!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,350.353,0,0" Height="45.566" Width="402.094" FontWeight="Bold" FontSize="21.333"/>
+							<Button Content="Cast your vote!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="222.957" Height="47.324" FontWeight="Bold" FontSize="16" BorderBrush="#FF878787" Background="#FFB2D20C" FontFamily="Roboto" Margin="75.99,571.718,0,-220.042">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="Click">
 										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Vote_Results"/>
 									</i:EventTrigger>
 								</i:Interaction.Triggers>
 							</Button>
-							<Label Content="Vote for your favourite songs!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="534.403,10.448,-349.448,0" Height="37.9" Width="334.448" FontWeight="Bold" FontSize="21.333"/>
-							<RadioButton Content="Thinking out Loud- Ed Sheeran" Margin="574.843,80.597,-334.545,161.194" FontWeight="Bold" FontSize="16"/>
-							<Image Margin="873.851,-10.746,-634.329,20.895" Source="facebook.jpg" Stretch="Fill"/>
-							<RadioButton Content="Crazy in Love- Beyonce/Jay Z" Margin="574.843,126.866,-334.545,114.925" FontWeight="Bold" FontSize="16"/>
-							<RadioButton Content="Gimme Shelter- The Rolling Stones" Margin="574.843,173.135,-349.448,68.656" FontWeight="Bold" FontSize="16"/>
+							<RadioButton Content="Thinking out Loud- Ed Sheeran" Margin="36,406.739,147.846,-196.745" FontWeight="Bold" FontSize="16"/>
+							<RadioButton Content="Crazy in Love- Beyonce/Jay Z" Margin="36,462.366,147.846,-252.373" FontWeight="Bold" FontSize="16"/>
+							<RadioButton Content="Gimme Shelter- The Rolling Stones" Margin="36,517.994,129.929,-308" FontWeight="Bold" FontSize="16"/>
+							<Image Margin="395.961,344.353,-642.099,-242" Source="pack://siteoforigin:,,,/Image11.png" Stretch="Fill">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseLeftButtonDown">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Camping"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Image>
+							<Image Margin="13,684,-63.164,-641" Source="pack://siteoforigin:,,,/Image12.png" Stretch="Fill">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseLeftButtonDown">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_2"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Image>
+							<Image Margin="587.283,684,-637.447,-641" Source="pack://siteoforigin:,,,/Image13.png" Stretch="Fill">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseLeftButtonDown">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_2"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Image>
 						</Grid>
-						<local:Footer d:IsPrototypingComposition="True"/>			
+						<local:Footer d:IsPrototypingComposition="True" Margin="0,698,0,0"/>			
 					</StackPanel>
 					</Border>
 				</Grid>
 				<local:NavBarComponent HorizontalAlignment="Center" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
-				<Image Margin="918,242,389,836.06" Source="pack://siteoforigin:,,,/Festival-photographer (1).png" Stretch="Fill"/>
 				</Grid>
 		</ScrollViewer>
 	</Grid>
