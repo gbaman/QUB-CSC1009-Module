@@ -50,11 +50,11 @@
 						</i:Interaction.Triggers>
 					</Image>
 					<Label Content="Note: You will be logged out after 5 minutes of&#xD;&#xA;              inactivity for security reasons." HorizontalAlignment="Left" Margin="31,488.447,0,0" VerticalAlignment="Top" FontSize="10.667" FontStyle="Italic" FontWeight="Bold" Width="261.847" Height="55.187"/>
+					<Label Content="Login" HorizontalAlignment="Left" Height="63.911" Margin="106.649,8.211,0,0" VerticalAlignment="Top" Width="106.911" FontSize="32"/>
+					<Label Content="Username" HorizontalAlignment="Left" Margin="19,73.122,0,0" VerticalAlignment="Top" FontSize="10.667" Height="29.187" Width="70.649"/>
+					<Label Content="Password" HorizontalAlignment="Left" Margin="19,153.122,0,0" VerticalAlignment="Top" FontSize="10.667" Height="29.187" Width="70.649"/>
 				</Grid>
 			</StackPanel>
 		</ScrollViewer>
-		<Label Content="Login" HorizontalAlignment="Left" Height="63.911" Margin="185.843,248.298,0,0" VerticalAlignment="Top" Width="106.911" FontSize="32"/>
-		<Label Content="Username" HorizontalAlignment="Left" Margin="98.194,313.209,0,0" VerticalAlignment="Top" FontSize="10.667" Height="29.187" Width="70.649"/>
-		<Label Content="Password" HorizontalAlignment="Left" Margin="98.194,393.209,0,0" VerticalAlignment="Top" FontSize="10.667" Height="29.187" Width="70.649"/>
 	</Grid>
 </UserControl>

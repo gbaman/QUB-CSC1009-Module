@@ -339,6 +339,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BigSummerFestivalScreens.Mobile_Login</ClassName>
+      <DisplayName>Mobile - Login Page</DisplayName>
+      <FileName>Mobile_Login.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-743</X>
+        <Y>12</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -995,6 +1007,27 @@
     <Connection>
       <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
       <Target>BigSummerFestivalScreens.Mobile_Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
+      <Target>BigSummerFestivalScreens.Mobile_Login</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Login</Source>
+      <Target>BigSummerFestivalScreens.Register</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Login</Source>
+      <Target>BigSummerFestivalScreens.Screen_1</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
