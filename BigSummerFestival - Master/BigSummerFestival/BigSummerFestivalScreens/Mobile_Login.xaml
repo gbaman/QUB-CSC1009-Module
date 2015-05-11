@@ -20,7 +20,7 @@
 					<Image Margin="0" Source="logomobile.png" Stretch="Fill" Width="200"/>
 				</Grid>
 				<Border BorderBrush="#FFB4DB8F" BorderThickness="0,4,0,0" Height="35.333" Background="#454545">
-					<TextBlock TextWrapping="Wrap" Text="TextBlock" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+					<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"><Run Language="en-gb" Text="Login"/></TextBlock>
 					
 				</Border>
 				<Grid Height="967" Background="White">
