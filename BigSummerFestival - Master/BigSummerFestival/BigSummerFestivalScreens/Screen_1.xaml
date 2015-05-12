@@ -5,10 +5,10 @@
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:local="clr-namespace:BigSummerFestivalScreens" x:Name="BigSummerFestivalScreens_Screen_1_Name"
 	mc:Ignorable="d"
 	x:Class="BigSummerFestivalScreens.Screen_1"
-	Style="{StaticResource WindowStyles}" Height="2388">
+	Style="{StaticResource WindowStyles}" Height="1080">
 
-	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}">
-		<ScrollViewer HorizontalScrollBarVisibility="Disabled">
+	<Grid x:Name="LayoutRoot" Style="{StaticResource Background}" Height="1080" VerticalAlignment="Top" Margin="0,0,0,-2000">
+		<ScrollViewer HorizontalScrollBarVisibility="Disabled" Margin="0" Height="1080" VerticalAlignment="Top">
 			<Grid x:Name="MainContainer">
 				<Grid x:Name="MainPanel" Margin="0,213,0,30" HorizontalAlignment="Center" Width="1200" >
 					<Border  HorizontalAlignment="Left" VerticalAlignment="Top"  BorderBrush="#b2db8d" BorderThickness="5">
@@ -25,7 +25,7 @@
 
 						<!-- End of Section -->
 						<!-- End of Section -->
-						<Grid Height="399" Margin="10,400,0,10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="519.403">
+						<Grid Height="399" Margin="10,400,0,500" HorizontalAlignment="Left" VerticalAlignment="Top" Width="519.403">
 							<Image Margin="-12,-402,-667.522,619" Source="Image10.png" Stretch="Fill"/>
 							<Image Margin="10,-247.074,-289.122,32.656" Source="pack://siteoforigin:,,,/photoslider.png"/>
 							<Image Margin="828.525,-169.455,-642.099,105.835" Source="facebook.jpg" Stretch="Fill"/>
@@ -58,6 +58,14 @@
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="MouseLeftButtonDown">
 										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_2"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Image>
+							<Image Margin="-1523,1127,1066.403,-1245" Source="pack://siteoforigin:,,,/tile3.png" Stretch="Fill"/>
+							<Image x:Name="Managers_Special" Margin="10,1050.667,-637.447,-1161.622" Source="pack://siteoforigin:,,,/tile3.png" Stretch="Fill">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseLeftButtonDown">
+										<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Artist"/>
 									</i:EventTrigger>
 								</i:Interaction.Triggers>
 							</Image>
