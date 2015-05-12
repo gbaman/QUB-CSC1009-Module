@@ -5,4 +5,7 @@ The project was built in Microsoft Visual Studio Blend 2012 as a prototype for a
 The module didn't require the building of the actual site, just the prototype.   
     
 Released under MIT Licence, see the LICENCE.txt file for more details.   
-![](/images/BlendHomeScreen.jpg)
+    
+![](/images/BlendHomeScreen.jpg)   
+   
+Project repository - https://github.com/gbaman/CSC1009
