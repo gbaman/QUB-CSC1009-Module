@@ -61,10 +61,10 @@
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Button>
-			<Image Margin="1162.167,142.566,689.208,9.594" Source="bag-icon.png" Stretch="Fill"/>
-			<TextBlock HorizontalAlignment="Left" Margin="1213.792,137.899,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142.818" FontFamily="Yu Gothic Light" Height="24.49" FontSize="14.667" Foreground="White"><Run Language="en-gb" Text="SHOPPING CART" Typography.Variants="Subscript"/></TextBlock>
-			<Polygon Points="0,0 8,5, 0,10" Stroke="Black" Fill="Black" HorizontalAlignment="Center" VerticalAlignment="Top" Height="11.565" Margin="1332.558,144.68,558.198,0" Width="12.244" RenderTransformOrigin="-0.082,0.723" StrokeThickness="0" />
-			<Border BorderBrush="#FF6E6E6E" BorderThickness="1" HorizontalAlignment="Left" Height="25.124" Margin="1211.209,160.745,0,0" VerticalAlignment="Top" Width="131.312" CornerRadius="5" Background="#FFF">
+			<Image Margin="1162.167,143.441,689.208,8.719" Source="bag-icon.png" Stretch="Fill"/>
+			<TextBlock HorizontalAlignment="Left" Margin="1213.792,138.774,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142.818" FontFamily="Yu Gothic Light" Height="24.49" FontSize="14.667" Foreground="White"><Run Language="en-gb" Text="SHOPPING CART" Typography.Variants="Subscript"/></TextBlock>
+			<Polygon Points="0,0 8,5, 0,10" Stroke="Black" Fill="Black" HorizontalAlignment="Center" VerticalAlignment="Top" Height="11.565" Margin="1332.558,145.555,558.198,0" Width="12.244" RenderTransformOrigin="-0.082,0.723" StrokeThickness="0" />
+			<Border BorderBrush="#FF6E6E6E" BorderThickness="1" HorizontalAlignment="Left" Height="25.124" Margin="1211.209,161.62,0,0" VerticalAlignment="Top" Width="131.312" CornerRadius="5" Background="#FFF">
 				<Grid>
 				<Polygon Points="0,0 5,3 0,6" Stroke="Black" Fill="#FFFF007E" HorizontalAlignment="Center" VerticalAlignment="Top" Height="6.402" Margin="6.761,8.688,134.024,0" Width="6.777" StrokeThickness="0" />
 				<TextBlock HorizontalAlignment="Left" Margin="20.787,2.37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95.067" FontFamily="BrowalliaUPC" FontSize="14.667" Foreground="#FFF02C8D"><Run Language="en-gb" Text="0 Tickets - £0.00"/></TextBlock>
