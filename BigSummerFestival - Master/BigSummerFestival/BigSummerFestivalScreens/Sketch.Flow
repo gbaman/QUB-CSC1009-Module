@@ -351,6 +351,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BigSummerFestivalScreens.Mobile_Management</ClassName>
+      <DisplayName>Mobile - Management Page</DisplayName>
+      <FileName>Mobile_Management.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-630</X>
+        <Y>12</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -1054,29 +1066,22 @@
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
-      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
-      <Target>BigSummerFestivalScreens.Screen_2</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
-      <Target>BigSummerFestivalScreens.Camping</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
-      <Target>BigSummerFestivalScreens.Vote_Results</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
       <Source>BigSummerFestivalScreens.NavBarComponent</Source>
       <Target>BigSummerFestivalScreens.Camping</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
+      <Target>BigSummerFestivalScreens.Mobile_Management</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Management</Source>
+      <Target>BigSummerFestivalScreens.Early_Access_Tickets</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -1126,10 +1131,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.5</Zoom>
+    <Zoom>1</Zoom>
     <Center>
-      <X>426.46656344568959</X>
-      <Y>29.709756051593587</Y>
+      <X>-283.63176156719845</X>
+      <Y>5.1965446924634691</Y>
     </Center>
   </ViewState>
 </Data>

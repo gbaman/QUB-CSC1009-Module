@@ -25,6 +25,13 @@
 				</Border>
 				<Grid Height="967" Background="White">
 					<Label Content="Management Interface" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="21.333" Margin="40,25.714,-30,0" Width="306.667"/>
+					<Button Content="Early Access Tickets" HorizontalAlignment="Center" Height="61" VerticalAlignment="Top" Width="291.429" FontSize="29.333" Margin="10,89.7,15.238,0">
+						<i:Interaction.Triggers>
+							<i:EventTrigger EventName="Click">
+								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Early_Access_Tickets"/>
+							</i:EventTrigger>
+						</i:Interaction.Triggers>
+					</Button>
 					<Button Content="Performance Information" HorizontalAlignment="Center" Height="61" VerticalAlignment="Top" Width="296.667" FontSize="21.333" Margin="10,184.843,10,0">
 						<i:Interaction.Triggers>
 							<i:EventTrigger EventName="Click">
@@ -50,19 +57,5 @@
 				</Grid>
 			</StackPanel>
 		</ScrollViewer>
-		<Button Content="Early Access Tickets" HorizontalAlignment="Center" Height="61" VerticalAlignment="Top" Width="291.429" FontSize="29.333" Margin="92.857,316.7,115.714,0">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="Click">
-					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Early_Access_Tickets"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Button>
-		<Button Content="Early Access Tickets" HorizontalAlignment="Center" Height="61" VerticalAlignment="Top" Width="291.429" FontSize="29.333" Margin="92.857,316.7,115.714,0">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="Click">
-					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Early_Access_Tickets"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Button>
 	</Grid>
 </UserControl>

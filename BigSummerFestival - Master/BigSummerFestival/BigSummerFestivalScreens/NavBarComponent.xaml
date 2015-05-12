@@ -38,9 +38,9 @@
 				</i:Interaction.Triggers>
 			</Button>
 			<Image Margin="1505.333,138.526,294.333,885.474" Source="view-cart-button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
-			<local:Search_Bar d:IsPrototypingComposition="True" Margin="-205.833,138.219,205.833,-138.219"/>
-			<TextBox HorizontalAlignment="Left" Height="31.25" Margin="1427.834,148.026,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207.333" Style="{StaticResource Search}"/>
-			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1635.167,148.026,0,0" Height="31.25" Width="37.5">
+			<local:Search_Bar d:IsPrototypingComposition="True" Margin="-204.5,130.885,204.499,-130.886"/>
+			<TextBox HorizontalAlignment="Left" Height="31.25" Margin="1429.167,140.693,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207.333" Style="{StaticResource Search}"/>
+			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1636.5,140.693,0,0" Height="31.25" Width="37.5">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Search"/>
@@ -70,7 +70,12 @@
 				<TextBlock HorizontalAlignment="Left" Margin="24.245,2.75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95.067" FontFamily="BrowalliaUPC" FontSize="14.667" Foreground="#FFEC4D4F"><Run Language="en-gb" Text="0 Tickets - £0.00"/></TextBlock>
 				</Grid>
 			</Border>
-			<TextBlock HorizontalAlignment="Left" Margin="1427.834,179.276,0,-3.766" TextWrapping="Wrap" VerticalAlignment="Top" Width="78.485" FontFamily="Yu Gothic Light" Height="24.49" FontSize="6.667" Foreground="White"><Run Language="en-gb" Text="Login"/></TextBlock>
+			<TextBlock HorizontalAlignment="Left" Margin="1429.167,171.943,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114.485" FontFamily="Yu Gothic Light" Height="19.338" FontSize="13.333" Foreground="White">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Login"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers><Run Language="en-gb" Text="Login"/></TextBlock>
 		</Grid>
 		<Label Content="" HorizontalAlignment="Left" Height="67.5" Margin="1163.75,132.5,0,0" VerticalAlignment="Top" Width="182.993">
 			<i:Interaction.Triggers>
