@@ -1053,6 +1053,27 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
+      <Target>BigSummerFestivalScreens.Screen_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
+      <Target>BigSummerFestivalScreens.Camping</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BigSummerFestivalScreens.Mobile_Homepage</Source>
+      <Target>BigSummerFestivalScreens.Vote_Results</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
