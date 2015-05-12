@@ -27,14 +27,14 @@
 					<Image Margin="0,0,0,776.854" Source="pack://siteoforigin:,,,/Image13.png" Stretch="Fill">
 						<i:Interaction.Triggers>
 							<i:EventTrigger EventName="MouseLeftButtonDown">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_2"/>
+								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Mobile_Events"/>
 							</i:EventTrigger>
 						</i:Interaction.Triggers>
 					</Image>
 					<Image Margin="0,190.146,0,586.708" Source="pack://siteoforigin:,,,/Image11.png" Stretch="Fill" Width="316.667" Height="190.146">
 						<i:Interaction.Triggers>
 							<i:EventTrigger EventName="MouseLeftButtonDown">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Camping"/>
+								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Mobile_Events"/>
 							</i:EventTrigger>
 						</i:Interaction.Triggers>
 					</Image>
