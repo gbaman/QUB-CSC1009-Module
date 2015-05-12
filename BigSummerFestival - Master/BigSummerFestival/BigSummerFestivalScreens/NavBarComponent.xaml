@@ -72,5 +72,12 @@
 			</Border>
 			<TextBlock HorizontalAlignment="Left" Margin="1427.834,179.276,0,-3.766" TextWrapping="Wrap" VerticalAlignment="Top" Width="78.485" FontFamily="Yu Gothic Light" Height="24.49" FontSize="6.667" Foreground="White"><Run Language="en-gb" Text="Login"/></TextBlock>
 		</Grid>
+		<Label Content="" HorizontalAlignment="Left" Height="67.5" Margin="1163.75,132.5,0,0" VerticalAlignment="Top" Width="182.993">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Basket"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Label>
 	</Grid>
 </UserControl>

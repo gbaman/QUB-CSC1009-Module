@@ -42,13 +42,7 @@
 					<RadioButton Content="Thinking out Loud- Ed Sheeran" Margin="21.905,440.681,31.586,485.884" FontWeight="Bold" FontSize="16"/>
 					<RadioButton Content="Crazy in Love- Beyonce/Jay Z" Margin="21.905,481.116,31.586,447.941" FontWeight="Bold" FontSize="16"/>
 					<RadioButton Content="Gimme Shelter- The Rolling Stones" Margin="21.905,524.059,-58.712,253.935" FontWeight="Bold" FontSize="16"/>
-					<Button Content="Cast your vote!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="222.957" Height="47.324" FontWeight="Bold" FontSize="16" BorderBrush="#FF878787" Background="#FFB2D20C" FontFamily="Roboto" Margin="40.884,552.569,0,0">
-						<i:Interaction.Triggers>
-							<i:EventTrigger EventName="Click">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Vote_Results"/>
-							</i:EventTrigger>
-						</i:Interaction.Triggers>
-					</Button>
+					<Button Content="Cast your vote!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="222.957" Height="47.324" FontWeight="Bold" FontSize="16" BorderBrush="#FF878787" Background="#FFB2D20C" FontFamily="Roboto" Margin="40.884,552.569,0,0"/>
 				</Grid>
 
 			</StackPanel>
