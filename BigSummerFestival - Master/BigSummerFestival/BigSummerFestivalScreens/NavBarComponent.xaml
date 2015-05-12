@@ -12,9 +12,9 @@
 
 	<Grid x:Name="LayoutRoot">
 		<Grid x:Name="NavBar" Height="200" VerticalAlignment="Top" HorizontalAlignment="Center" Width="1903">
-			<Rectangle Fill="#454545" Height="75" Margin="200,0" Stroke="Black" VerticalAlignment="Bottom" RadiusX="20" RadiusY="20" Opacity="0.8" StrokeThickness="0"/>
-			<Image Margin="10,10,10,-20" Source="sitelogo.png" Stretch="Uniform"/>
-			<Button Content="Home" HorizontalAlignment="Left" Margin="300,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn1" Style="{StaticResource NavButton}">
+			<Rectangle Fill="#454545" Height="75" Margin="170,0" Stroke="Black" VerticalAlignment="Bottom" RadiusX="20" RadiusY="20" Opacity="0.8" StrokeThickness="0"/>
+			<Image Margin="15.667,10,4.333,-20" Source="sitelogo.png" Stretch="Uniform"/>
+			<Button Content="Home" HorizontalAlignment="Left" Margin="254,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn1" Style="{StaticResource NavButton}">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_1"/>
@@ -23,14 +23,14 @@
 				<!-- Trying to add a click listener here and failing :( -->
 				
 			</Button>
-			<Button Content="Events" HorizontalAlignment="Left" Margin="470,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn2" Style="{StaticResource NavButton}">
+			<Button Content="Events" HorizontalAlignment="Left" Margin="384,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn2" Style="{StaticResource NavButton}">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Screen_2"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Button>
-			<Button Content="Gallery" HorizontalAlignment="Left" Margin="640,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3" Style="{StaticResource NavButton}">
+			<Button Content="Gallery" HorizontalAlignment="Left" Margin="648,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3" Style="{StaticResource NavButton}">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Josh"/>
@@ -38,25 +38,39 @@
 				</i:Interaction.Triggers>
 			</Button>
 			<Image Margin="1505.333,138.526,294.333,885.474" Source="view-cart-button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
-			<local:Search_Bar d:IsPrototypingComposition="True" Margin="-348.833,138.526,348.833,-138.526"/>
-			<TextBox HorizontalAlignment="Left" Height="31.25" Margin="1284.834,148.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207.333" Style="{StaticResource Search}"/>
-			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1492.167,148.333,0,0" Height="31.25" Width="37.5">
+			<local:Search_Bar d:IsPrototypingComposition="True" Margin="-205.833,138.219,205.833,-138.219"/>
+			<TextBox HorizontalAlignment="Left" Height="31.25" Margin="1427.834,148.026,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207.333" Style="{StaticResource Search}"/>
+			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1635.167,148.026,0,0" Height="31.25" Width="37.5">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Search"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Label>
-			<Border Margin="1593.916,145,250.197,20.333" Background="#FFF" BorderBrush="#252525" BorderThickness="1"></Border>
-			<TextBlock HorizontalAlignment="Left" Margin="1630,153.717,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19.583" Width="27.137"><Run Language="en-gb" Text="1"/></TextBlock>
-			<Image Margin="1565,133.693,278,13.333" Source="pack://siteoforigin:,,,/shopping-cart.png" Stretch="Fill"/>
-			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1565,133.693,0,0" Height="52.974" Width="87.803">
+			<Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1287.863,20.386,0,0" Height="52.974" Width="87.803" d:IsHidden="True">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Basket"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Label>
+			<Button Content="Camping" HorizontalAlignment="Left" Margin="527,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3_Copy" Style="{StaticResource NavButton}" d:IsHidden="True">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Josh"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Image Margin="1162.167,142.566,689.208,9.594" Source="bag-icon.png" Stretch="Fill"/>
+			<TextBlock HorizontalAlignment="Left" Margin="1213.792,137.899,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142.818" FontFamily="Yu Gothic Light" Height="24.49" FontSize="14.667" Foreground="White"><Run Language="en-gb" Text="SHOPPING CART" Typography.Variants="Subscript"/></TextBlock>
+			<Polygon Points="0,0 8,5, 0,10" Stroke="Black" Fill="Black" HorizontalAlignment="Center" VerticalAlignment="Top" Height="11.565" Margin="1332.558,144.68,558.198,0" Width="12.244" RenderTransformOrigin="-0.082,0.723" StrokeThickness="0" />
+			<Border BorderBrush="#FF6E6E6E" BorderThickness="1" HorizontalAlignment="Left" Height="25.124" Margin="1211.209,160.745,0,0" VerticalAlignment="Top" Width="131.312" CornerRadius="5" Background="#FFF">
+				<Grid>
+				<Polygon Points="0,0 5,3 0,6" Stroke="Black" Fill="#FFFF007E" HorizontalAlignment="Center" VerticalAlignment="Top" Height="6.402" Margin="6.761,8.688,134.024,0" Width="6.777" StrokeThickness="0" />
+				<TextBlock HorizontalAlignment="Left" Margin="20.787,2.37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95.067" FontFamily="BrowalliaUPC" FontSize="14.667" Foreground="#FFF02C8D"><Run Language="en-gb" Text="0 Tickets - £0.00"/></TextBlock>
+				</Grid>
+			</Border>
+			<TextBlock HorizontalAlignment="Left" Margin="1427.834,179.276,0,-3.766" TextWrapping="Wrap" VerticalAlignment="Top" Width="78.485" FontFamily="Yu Gothic Light" Height="24.49" FontSize="6.667" Foreground="White"><Run Language="en-gb" Text="Login"/></TextBlock>
 		</Grid>
 	</Grid>
 </UserControl>
