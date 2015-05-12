@@ -29,13 +29,7 @@
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Image>
-			<Button Content="Terms of Use" HorizontalAlignment="Left" Margin="566.667,47,0,0" VerticalAlignment="Top" Width="125" Style="{StaticResource TransparentButton}">
-				<i:Interaction.Triggers>
-					<i:EventTrigger EventName="Click">
-						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Mobile_Homepage"/>
-					</i:EventTrigger>
-				</i:Interaction.Triggers>
-			</Button>
+			<Button Content="Terms of Use" HorizontalAlignment="Left" Margin="566.667,47,0,0" VerticalAlignment="Top" Width="125" Style="{StaticResource TransparentButton}"/>
 			<Button Content="Privacy Policy" HorizontalAlignment="Left" Margin="696.667,47,0,0" VerticalAlignment="Top" Width="142" Style="{StaticResource TransparentButton}"/>
 			<Button Content="Contact Us" HorizontalAlignment="Left" Margin="861.667,47,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource TransparentButton}">
 				<i:Interaction.Triggers>
@@ -48,6 +42,13 @@
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.MyAccount1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Content="Mobile" HorizontalAlignment="Left" Margin="964.055,47,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource TransparentButton}">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Mobile_Homepage"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Button>

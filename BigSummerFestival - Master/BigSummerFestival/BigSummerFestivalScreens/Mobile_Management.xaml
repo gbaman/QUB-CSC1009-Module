@@ -25,34 +25,10 @@
 				</Border>
 				<Grid Height="967" Background="White">
 					<Label Content="Management Interface" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="21.333" Margin="40,25.714,-30,0" Width="306.667"/>
-					<Button Content="Early Access Tickets" HorizontalAlignment="Center" Height="61" VerticalAlignment="Top" Width="291.429" FontSize="29.333" Margin="10,89.7,15.238,0">
-						<i:Interaction.Triggers>
-							<i:EventTrigger EventName="Click">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Early_Access_Tickets"/>
-							</i:EventTrigger>
-						</i:Interaction.Triggers>
-					</Button>
-					<Button Content="Performance Information" HorizontalAlignment="Center" Height="61" VerticalAlignment="Top" Width="296.667" FontSize="21.333" Margin="10,184.843,10,0">
-						<i:Interaction.Triggers>
-							<i:EventTrigger EventName="Click">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Performance_Information"/>
-							</i:EventTrigger>
-						</i:Interaction.Triggers>
-					</Button>
-					<Button Content="Financial Information" HorizontalAlignment="Center" Height="62.429" VerticalAlignment="Top" Width="296.667" FontSize="29.333" Margin="10,290.129,10,0">
-						<i:Interaction.Triggers>
-							<i:EventTrigger EventName="Click">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Financial_Information"/>
-							</i:EventTrigger>
-						</i:Interaction.Triggers>
-					</Button>
-					<Button Content="Support Queries" HorizontalAlignment="Center" Height="62.429" VerticalAlignment="Top" Width="296.667" FontSize="29.333" Margin="10,391.129,10,0">
-						<i:Interaction.Triggers>
-							<i:EventTrigger EventName="Click">
-								<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Support_Queries"/>
-							</i:EventTrigger>
-						</i:Interaction.Triggers>
-					</Button>
+					<Button Content="Early Access Tickets" HorizontalAlignment="Center" Height="61" VerticalAlignment="Top" Width="291.429" FontSize="29.333" Margin="10,89.7,15.238,0"/>
+					<Button Content="Performance Information" HorizontalAlignment="Center" Height="61" VerticalAlignment="Top" Width="296.667" FontSize="21.333" Margin="10,184.843,10,0"/>
+					<Button Content="Financial Information" HorizontalAlignment="Center" Height="62.429" VerticalAlignment="Top" Width="296.667" FontSize="29.333" Margin="10,290.129,10,0"/>
+					<Button Content="Support Queries" HorizontalAlignment="Center" Height="62.429" VerticalAlignment="Top" Width="296.667" FontSize="29.333" Margin="10,391.129,10,0"/>
 					<Button Content="Export PDF of Tickets to Dispatch" HorizontalAlignment="Center" Height="65.286" VerticalAlignment="Top" Width="296.667" FontSize="18.667" Margin="10,499.272,10,0"/>
 				</Grid>
 			</StackPanel>
