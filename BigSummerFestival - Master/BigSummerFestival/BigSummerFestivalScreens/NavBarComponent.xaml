@@ -30,7 +30,7 @@
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Button>
-			<Button Content="Gallery" HorizontalAlignment="Left" Margin="648,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3" Style="{StaticResource NavButton}">
+			<Button Content="Gallery" HorizontalAlignment="Left" Margin="650.667,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3" Style="{StaticResource NavButton}">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
 						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Josh"/>
@@ -54,10 +54,10 @@
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Label>
-			<Button Content="Camping" HorizontalAlignment="Left" Margin="527,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3_Copy" Style="{StaticResource NavButton}" d:IsHidden="True">
+			<Button Content="Camping" HorizontalAlignment="Left" Margin="523.667,145,0,0" VerticalAlignment="Top" Width="106.5" Height="38" x:Name="btn3_Copy" Style="{StaticResource NavButton}">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
-						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Josh"/>
+						<pi:NavigateToScreenAction TargetScreen="BigSummerFestivalScreens.Camping"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Button>
