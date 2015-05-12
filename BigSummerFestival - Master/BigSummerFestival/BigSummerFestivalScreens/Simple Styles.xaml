@@ -1123,4 +1123,75 @@
 			</Setter.Value>
 		</Setter>
 	</Style>
+	<Style x:Key="ComboBoxStyle2" TargetType="{x:Type ComboBox}">
+			<Setter Property="SnapsToDevicePixels" Value="true"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type ComboBox}">
+						<Grid >
+						<!-- The ToggleButton is databound to the ComboBox itself to toggle IsDropDownOpen -->
+							<ToggleButton Grid.Column="0" Background="Transparent" x:Name="ToggleButton" Focusable="false" IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" ClickMode="Press" BorderThickness="0" Margin="0,0,0,0" >
+							<Polygon Points="0,0 12,0, 6,9" Stroke="White" Fill="White" HorizontalAlignment="Center" VerticalAlignment="Top" Height="11.565" Width="12.244" RenderTransformOrigin="-0.082,0.723" StrokeThickness="0" />
+							</ToggleButton>
+							<ContentPresenter HorizontalAlignment="Left" Margin="3,3,23,3" x:Name="ContentSite" VerticalAlignment="Center" Content="{TemplateBinding SelectionBoxItem}" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}" IsHitTestVisible="False"/>
+						
+						<!-- The TextBox must be named PART_EditableTextBox or ComboBox will not recognize it -->
+							<TextBox Visibility="Hidden" Template="{DynamicResource ComboBoxTextBox}" HorizontalAlignment="Left" Margin="3,3,23,3" x:Name="PART_EditableTextBox" Style="{x:Null}" VerticalAlignment="Center" Focusable="True" Background="Transparent" IsReadOnly="{TemplateBinding IsReadOnly}"/>
+						
+						<!-- The Popup shows the list of items in the ComboBox. IsOpen is databound to IsDropDownOpen which is toggled via the ComboBoxToggleButton -->
+							<Popup IsOpen="{TemplateBinding IsDropDownOpen}" Placement="Bottom" x:Name="Popup" Focusable="False" AllowsTransparency="True" PopupAnimation="Slide">
+								<Grid MaxHeight="{TemplateBinding MaxDropDownHeight}" MinWidth="{TemplateBinding ActualWidth}" x:Name="DropDown" SnapsToDevicePixels="True">
+									<Border x:Name="DropDownBorder" Background="{DynamicResource WindowBackgroundBrush}" BorderBrush="{DynamicResource SolidBorderBrush}" BorderThickness="1"/>
+									<ScrollViewer  Style="{DynamicResource SimpleScrollViewer}" SnapsToDevicePixels="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" CanContentScroll="True">
+
+							
+									<!-- The StackPanel is used to display the children by setting IsItemsHost to be True -->
+										<StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained"/>
+								
+									</ScrollViewer>
+								</Grid>
+							</Popup>
+						</Grid>
+						<ControlTemplate.Triggers>						
+						<!-- This forces the DropDown to have a minimum size if it is empty -->
+							<Trigger Property="HasItems" Value="false">
+								<Setter Property="MinHeight" Value="95" TargetName="DropDownBorder"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+							</Trigger>
+							<Trigger Property="IsGrouping" Value="true">
+								<Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+							</Trigger>
+							<Trigger Property="AllowsTransparency" SourceName="Popup" Value="true">
+								<Setter Property="CornerRadius" Value="4" TargetName="DropDownBorder"/>
+								<Setter Property="Margin" Value="0,2,0,0" TargetName="DropDownBorder"/>
+							</Trigger>
+							<Trigger Property="IsEditable" Value="true">
+								<Setter Property="IsTabStop" Value="false"/>
+								<Setter Property="Visibility" Value="Visible" TargetName="PART_EditableTextBox"/>
+								<Setter Property="Visibility" Value="Hidden" TargetName="ContentSite"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+				<Style TargetType="{x:Type ToggleButton}">
+			<Setter Property="Background" Value="Green"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type ToggleButton}">
+						<Border Background="{TemplateBinding Background}">
+							<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+						</Border>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+			<Style.Triggers>
+				<Trigger Property="IsMouseOver" Value="True">
+					<Setter Property="Background" Value="Red"/>
+				</Trigger>
+			</Style.Triggers>
+		</Style>
 </ResourceDictionary>
